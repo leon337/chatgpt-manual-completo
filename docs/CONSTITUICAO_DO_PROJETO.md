@@ -1,6 +1,6 @@
 # Constituição do Projeto
 
-> **Status:** base operacional aprovada. Identidade, autonomia, padrão editorial e demais pontos continuarão sendo definidos pelas DEC-01 a DEC-10.
+> **Status:** base operacional, identidade e estrutura pedagógica aprovadas. Autonomia, fluxo de aprovação, estrutura documental, padrão editorial e demais pontos continuarão sendo definidos pelas DEC-03 a DEC-10.
 
 ## 1. Missão
 
@@ -14,6 +14,79 @@ Manual
     └── Módulo
         └── Aula
 ```
+
+### 2.1 Formação
+
+Formação é o programa educacional completo dentro do Manual.
+
+Na comunicação pública, uma Formação poderá ser chamada de curso para facilitar o entendimento do público. Nos documentos oficiais, identificadores e sistemas do projeto, o termo utilizado será sempre **Formação**.
+
+Cada Formação contém vários Módulos.
+
+### 2.2 Módulo
+
+Módulo é uma unidade temática e pedagógica dentro de uma Formação. Cada Módulo reúne Aulas relacionadas a um mesmo tema ou etapa de aprendizagem.
+
+Todo Módulo deve possuir:
+
+- objetivo próprio;
+- sequência lógica de Aulas;
+- conhecimentos ou habilidades esperados ao final;
+- pré-requisitos, quando necessários.
+
+O Módulo faz parte da progressão da Formação e não cria um novo nível estrutural.
+
+### 2.3 Aula
+
+Aula é a menor unidade pedagógica oficial da estrutura do Manual.
+
+Cada Aula pertence a um único Módulo e desenvolve um objetivo de aprendizagem específico ou um conjunto pequeno e coerente de objetivos relacionados.
+
+A Aula pode conter explicações, exemplos, demonstrações, atividades e verificações de aprendizagem. O padrão editorial detalhado será definido posteriormente na DEC-07.
+
+A conclusão das Aulas contribui para o cumprimento dos objetivos do Módulo.
+
+### 2.4 Progressão pedagógica
+
+A progressão oficial será sequencial. Cada Formação possuirá uma ordem definida de Módulos, e cada Módulo possuirá uma ordem definida de Aulas.
+
+O estudante deverá seguir essa sequência para completar oficialmente a Formação, especialmente quando houver pré-requisitos.
+
+Como o Manual também funciona como material de referência, uma Aula ou um Módulo poderá ser consultado isoladamente, mas essa consulta não equivale à conclusão da progressão pedagógica.
+
+### 2.5 Identificação oficial
+
+A identificação será numérica e hierárquica:
+
+```text
+Formação: F01, F02, F03...
+Módulo:   M01, M02, M03... dentro de cada Formação
+Aula:     A01, A02, A03... dentro de cada Módulo
+
+Identificador completo:
+F01-M02-A03
+```
+
+O título será separado do identificador.
+
+Exemplo:
+
+```text
+F01-M02-A03 — Criando seu primeiro Projeto no ChatGPT
+```
+
+### 2.6 Expansão futura
+
+Antes da aprovação, elementos em rascunho poderão ser reorganizados e renumerados.
+
+Depois da aprovação ou publicação:
+
+- o identificador não poderá ser reutilizado;
+- o identificador não deverá ser alterado;
+- novos elementos receberão o próximo número disponível dentro do elemento superior;
+- a posição pedagógica será controlada separadamente pela ordem oficial.
+
+Assim, um novo elemento poderá ser inserido na progressão sem renumerar identificadores existentes.
 
 ## 3. Modelo Operacional do Projeto
 
