@@ -40,6 +40,53 @@ O projeto será conduzido pelo estado oficial sincronizado entre GitHub e Linear
 - LEA-115 concluída no Linear.
 - LEA-104 / DEC-01 liberada como único item estrutural em andamento.
 
+## DEC-01 — Identidade e visão do projeto
+
+- **Status:** aprovada
+- **Data de aprovação:** 2026-07-22
+- **Linear:** LEA-104 — concluída
+
+### Nome público
+
+**Manual Completo da Plataforma ChatGPT**
+
+### Relação com a PredixAI Academy
+
+- **Manual Completo da Plataforma ChatGPT:** produto educacional e fonte de conteúdo.
+- **PredixAI Academy:** plataforma onde o conteúdo será estudado, organizado e distribuído.
+
+### Públicos
+
+- **Público principal:** pessoas iniciantes, inclusive sem conhecimento técnico.
+- **Públicos secundários:** estudantes, profissionais, empreendedores, educadores, criadores de conteúdo, desenvolvedores, empresas e sistemas de inteligência artificial.
+
+### Idioma
+
+- Português do Brasil como idioma principal.
+- Termos técnicos originalmente em inglês serão preservados quando necessário, sempre acompanhados de explicação em português.
+- Traduções para outros idiomas poderão ser produzidas futuramente.
+
+### Posicionamento
+
+Projeto educacional independente e não oficial, dedicado a estudar, organizar e explicar a Plataforma ChatGPT do nível iniciante ao especialista.
+
+O projeto funciona como curso progressivo, manual de referência, documentação complementar e base de conhecimento, sem representar a OpenAI.
+
+### Licenciamento
+
+- **Conteúdo educacional e documentação:** Creative Commons Attribution-ShareAlike 4.0 International — CC BY-SA 4.0.
+- **Exemplos de código e componentes de software:** MIT License.
+- Atribuição obrigatória.
+- Adaptações do conteúdo devem permanecer sob a mesma licença.
+- Uso comercial permitido.
+
+As licenças abrangem somente materiais originais do projeto ou materiais que possam legalmente ser licenciados por ele. Marcas, logos, capturas de tela, trechos e outros materiais pertencentes à OpenAI ou a terceiros não são automaticamente incluídos.
+
+### Atribuição e titularidade
+
+- **Conteúdo:** “Manual Completo da Plataforma ChatGPT — produto educacional da PredixAI Academy, coordenado por Leandro Carlos”.
+- **Código:** Copyright © 2026 Leandro Carlos.
+
 ## Mapa oficial da LEA-103
 
 | Ordem | Decisão | Issue |
@@ -66,15 +113,15 @@ Manual
         └── Aula
 ```
 
-## Item estrutural atual
+## Estado estrutural atual
 
-- **LEA-104 — DEC-01: Definir identidade e visão do projeto**
-- **Status:** em andamento
-- **Próximo item:** DEC-02, somente após a conclusão, o registro e a sincronização da DEC-01
+- **Último item concluído:** LEA-104 — DEC-01: Identidade e visão do projeto.
+- **Item em andamento:** nenhum.
+- **Próximo item:** LEA-105 — DEC-02, mantida no Backlog até autorização explícita para início.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-01 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+As decisões DEC-02 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
