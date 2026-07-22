@@ -197,12 +197,14 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-105 — DEC-02: Estrutura pedagógica oficial.
-- **Item em andamento:** nenhum.
-- **Próximo item:** LEA-106 — DEC-03, mantida no Backlog e ainda não iniciada.
+- **Item em andamento:** LEA-106 — DEC-03: Níveis de autonomia das ferramentas.
+- **Próximo item:** LEA-107 — DEC-04, somente após a conclusão, o registro e a sincronização da DEC-03.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-03 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+A DEC-03 está em andamento. As decisões DEC-04 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+
+Nenhuma regra de autonomia da DEC-03 foi aprovada até o momento.
 
 ## Universo Didático
 
