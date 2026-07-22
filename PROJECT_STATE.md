@@ -7,7 +7,7 @@
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
 - **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação e arquitetura documental registrados
-- **Linear:** LEA-104, LEA-105, LEA-106, LEA-107 e LEA-108 concluídas
+- **Linear:** LEA-104, LEA-105, LEA-106, LEA-107 e LEA-108 concluídas; LEA-109 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -21,123 +21,40 @@ Manual
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub
-- **Item estrutural em andamento:** nenhum
-- **Status:** DEC-05 concluída; aguardando comando específico para preparar a transição da DEC-06
-- **Objetivo atual:** preservar o estado sincronizado da DEC-05 e impedir o início automático da decisão seguinte
-- **Próximo item:** LEA-109 — DEC-06: Definir estrutura operacional do Linear
+- **Item estrutural em andamento:** LEA-109 — DEC-06: Definir estrutura operacional do Linear
+- **Status:** em andamento
+- **Objetivo atual:** definir a correspondência entre a estrutura pedagógica e as entidades do Linear, além de estados, prioridades, dependências, subtarefas e critérios de conclusão
+- **Próximo item após a conclusão:** LEA-110 — DEC-07: Definir padrão editorial das aulas
 
 ## Resultado da DEC-01
 
-A identidade e a visão do projeto foram aprovadas com os seguintes elementos:
-
-- nome público: **Manual Completo da Plataforma ChatGPT**;
-- relação com a PredixAI Academy definida como produto educacional e fonte de conteúdo, distribuído pela plataforma;
-- público principal formado por pessoas iniciantes, inclusive sem conhecimento técnico;
-- português do Brasil como idioma principal;
-- posicionamento como projeto educacional independente e não oficial;
-- conteúdo e documentação sob CC BY-SA 4.0;
-- exemplos de código e componentes de software sob licença MIT;
-- coordenação e atribuição definidas para Leandro Carlos.
+A identidade e a visão do projeto foram aprovadas com nome público, relação com a PredixAI Academy, públicos, idioma, posicionamento, licenciamento e atribuição definidos.
 
 ## Resultado da DEC-02
 
-A estrutura pedagógica oficial foi aprovada com os seguintes elementos:
-
-- hierarquia oficial: Manual → Formação → Módulo → Aula;
-- Formação como programa educacional completo, podendo ser chamada de curso apenas na comunicação pública;
-- Módulo como unidade temática e pedagógica com objetivo, sequência, resultados esperados e pré-requisitos quando necessários;
-- Aula como menor unidade pedagógica oficial, pertencente a um único Módulo;
-- progressão oficial sequencial, com consulta isolada permitida apenas como referência;
-- identificação hierárquica no padrão `F01-M02-A03`;
-- identificadores permanentes após aprovação ou publicação;
-- ordem pedagógica controlada separadamente dos identificadores.
+A estrutura pedagógica oficial foi aprovada como Manual → Formação → Módulo → Aula, com progressão sequencial, identificação hierárquica e estabilidade dos identificadores.
 
 ## Resultado da DEC-03
 
-Os níveis de autonomia das ferramentas foram aprovados com os seguintes elementos:
-
-- **Nível 1 — Consulta Automática:** leitura, pesquisa, comparação, análise e resumo em fontes autorizadas, relacionadas ao trabalho atual e no menor escopo necessário;
-- **Nível 2 — Preparação em Rascunho:** produção de textos, documentos, código, análises, planos e propostas sem gravação em sistemas externos;
-- **Nível 3 — Execução Controlada:** qualquer criação, alteração, envio, publicação, arquivamento, exclusão ou mudança de estado em sistema externo exige autorização;
-- o Nível 3 possui categorias internas **Padrão** e **Crítica**, sem criar novos níveis oficiais;
-- autorizações são específicas, delimitadas, consumíveis e não se estendem automaticamente a ações futuras;
-- a classificação considera o contexto e o efeito real da execução;
-- solicitações diretas e claras podem autorizar ações padrão;
-- ações críticas exigem resumo prévio de alvo, efeito, alcance, reversibilidade e riscos, seguido de confirmação explícita.
+Os níveis de autonomia foram aprovados como Consulta Automática, Preparação em Rascunho e Execução Controlada, com classificação proporcional ao risco e autorizações específicas.
 
 ## Resultado da DEC-04
 
-O fluxo e os comandos de aprovação foram aprovados com os seguintes elementos:
-
-- modelo híbrido entre linguagem natural clara e comandos canônicos;
-- comandos escritos em português do Brasil, entre colchetes, em letras maiúsculas e no formato `AÇÃO + OBJETO`;
-- aprovação separada de registro oficial, publicação, conclusão e avanço;
-- correção de materiais separada da reabertura de escolhas;
-- registros oficiais condicionados a resumo prévio e autorização específica;
-- publicação separada das demais execuções críticas;
-- conclusão da etapa condicionada à validação, ao registro e à sincronização;
-- início da próxima decisão condicionado à conclusão oficial da anterior e a nova autorização de transição.
-
-Catálogo aprovado:
-
-```text
-[APROVAR CONTEÚDO]
-[APROVAR DECISÃO]
-[APROVAR ENTREGA]
-[SOLICITAR CORREÇÕES]
-[REABRIR ESCOLHA]
-[AUTORIZAR REGISTRO OFICIAL]
-[AUTORIZAR PUBLICAÇÃO]
-[AUTORIZAR EXECUÇÃO CRÍTICA]
-[CONCLUIR ETAPA]
-[INICIAR PRÓXIMA DECISÃO]
-```
+O fluxo e os comandos de aprovação foram aprovados, separando aprovação, correção, registro, publicação, conclusão e transição.
 
 ## Resultado da DEC-05
 
-A estrutura e as responsabilidades do GitHub foram aprovadas com os seguintes elementos:
-
-- estrutura ativa mínima formada pelos arquivos centrais da raiz e pelo diretório `docs/`;
-- `README.md` como apresentação pública e navegação;
-- `PROJECT_STATE.md` como estado operacional oficial atual;
-- `ROADMAP.md` como sequência e planejamento estrutural;
-- `CHANGELOG.md` como histórico de alterações permanentes;
-- `LICENSE-CONTENT.md` e `LICENSE-CODE.md` com responsabilidades exclusivas sobre seus respectivos termos;
-- `docs/CONSTITUICAO_DO_PROJETO.md` como autoridade normativa superior;
-- `docs/DECISOES.md` como registro das decisões aprovadas;
-- `docs/SKILLS.md` como catálogo dos procedimentos repetíveis aprovados;
-- `docs/MANUAL_DO_PROJETO.md` como explicação operacional das regras;
-- `curriculum/`, `content/`, `research/` e `assets/` reservados como estruturas futuras, sem criação prematura;
-- futuro `curriculum/CURRICULUM.md` como fonte oficial da arquitetura pedagógica global quando a etapa curricular justificar sua criação;
-- `content/` como fonte canônica do conteúdo pedagógico;
-- `research/` como área de pesquisas, fontes e evidências;
-- `assets/` como área de recursos visuais e reutilizáveis;
-- proibição de um diretório `published/` criado apenas para duplicar o conteúdo canônico;
-- critérios obrigatórios de necessidade, responsabilidade, localização, conteúdo mínimo útil e autorização para criar arquivos ou diretórios;
-- análise de impacto para movimentação, renomeação, substituição e remoção;
-- uso do histórico do Git como mecanismo padrão de recuperação de versões;
-- matriz obrigatória de fontes canônicas, resumos referenciais e atualização coordenada;
-- proibição de duplicação de responsabilidade entre documentos.
+A arquitetura documental do GitHub foi aprovada com estrutura mínima, responsabilidades exclusivas, diretórios futuros reservados, ciclo de vida documental e matriz de fontes canônicas.
 
 Nenhum diretório futuro, placeholder ou arquivo adicional foi criado durante o registro da DEC-05.
 
-## Modelo Operacional
-
-A LEA-115 foi concluída após:
-
-- atualização da Constituição;
-- atualização do Manual do Projeto;
-- definição da hierarquia das fontes;
-- documentação dos eventos do projeto;
-- documentação da sincronização GitHub × Linear;
-- aplicação da instrução definitiva nas configurações do Projeto ChatGPT;
-- verificação final do estado oficial.
-
 ## Decisão atual
 
-Nenhuma decisão estrutural está em andamento.
+**LEA-109 — DEC-06**, iniciada formalmente após `[INICIAR PRÓXIMA DECISÃO]` e autorização específica por `[AUTORIZAR REGISTRO OFICIAL]`.
 
-A LEA-108 / DEC-05 foi aprovada, registrada e concluída. A LEA-109 / DEC-06 permanece no Backlog e somente poderá ser iniciada após o comando `[INICIAR PRÓXIMA DECISÃO]`, a validação da transição e nova autorização específica por `[AUTORIZAR REGISTRO OFICIAL]`.
+A decisão deve definir a estrutura operacional do Linear, incluindo a relação entre Manual, Formação, Módulo e Aula e as entidades Project, Milestone, Issue e Sub-issue, além de estados, prioridades, dependências, subtarefas e critérios de conclusão.
+
+Nenhuma escolha da DEC-06 foi aprovada ainda.
 
 ## Sequência obrigatória da LEA-103
 
@@ -152,9 +69,9 @@ DEC-04 — concluída
     ↓
 DEC-05 — concluída
     ↓
-DEC-06 — próxima, ainda não iniciada
+DEC-06 — em andamento
     ↓
-DEC-07
+DEC-07 — próxima após a conclusão da DEC-06
     ↓
 DEC-08
     ↓
@@ -169,16 +86,16 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-06 a DEC-10:** bloqueadas pela conclusão sequencial e pela transição formal da decisão anterior.
+- **DEC-07 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
 
 ## Regra de avanço
 
-A conclusão da DEC-05 não inicia automaticamente a DEC-06. A próxima decisão somente poderá ser preparada após `[INICIAR PRÓXIMA DECISÃO]` e iniciada externamente depois de nova autorização específica de registro.
+Nenhuma etapa pode avançar apenas com base na conversa. A DEC-06 deve ser discutida, aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-07.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-05 registrada como aprovada e concluída; arquitetura documental e fontes canônicas atualizadas.
-- **Linear:** LEA-108 concluída; LEA-103 permanece em andamento; LEA-109 permanece no Backlog.
-- **Estado estrutural:** nenhum item estrutural em andamento; DEC-06 confirmada como próxima e não iniciada.
+- **GitHub:** DEC-06 registrada como decisão em andamento; nenhuma escolha operacional aprovada ainda.
+- **Linear:** LEA-109 iniciada como único item estrutural em andamento.
+- **Estado estrutural:** DEC-06 em andamento; DEC-07 ainda não iniciada.
