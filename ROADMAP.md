@@ -6,7 +6,7 @@
 - [x] DEC-02 — Estrutura pedagógica
 - [x] DEC-03 — Autonomia das ferramentas
 - [x] DEC-04 — Fluxo e comandos de aprovação
-- [ ] DEC-05 — Estrutura do GitHub — em andamento
+- [x] DEC-05 — Estrutura do GitHub
 - [ ] DEC-06 — Estrutura do Linear
 - [ ] DEC-07 — Padrão editorial
 - [ ] DEC-08 — Catálogo de Skills
