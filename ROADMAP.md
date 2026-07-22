@@ -2,7 +2,7 @@
 
 ## Fase 0 — Decisões estruturais
 
-- [ ] DEC-01 — Identidade e visão do projeto
+- [x] DEC-01 — Identidade e visão do projeto
 - [ ] DEC-02 — Estrutura pedagógica
 - [ ] DEC-03 — Autonomia das ferramentas
 - [ ] DEC-04 — Fluxo e comandos de aprovação
