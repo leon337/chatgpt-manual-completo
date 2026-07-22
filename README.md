@@ -27,11 +27,30 @@ Manual
         └── Aula
 ```
 
+- **Formação:** programa educacional completo dentro do Manual. Na comunicação pública, também poderá ser chamada de curso.
+- **Módulo:** unidade temática e pedagógica que reúne Aulas relacionadas.
+- **Aula:** menor unidade pedagógica oficial da estrutura.
+
+A progressão oficial será sequencial, embora Aulas e Módulos possam ser consultados isoladamente como material de referência.
+
+### Identificação
+
+```text
+Formação: F01, F02, F03...
+Módulo:   M01, M02, M03...
+Aula:     A01, A02, A03...
+
+Identificador completo:
+F01-M02-A03
+```
+
+Os identificadores tornam-se permanentes após a aprovação ou publicação. A ordem pedagógica será controlada separadamente para permitir futuras inserções sem renumerar referências existentes.
+
 ## Estado atual
 
 **Fase:** decisões estruturais da LEA-103.
 
-A DEC-01 — Identidade e visão do projeto foi aprovada e registrada. A DEC-02 — Estrutura pedagógica oficial está em andamento na LEA-105.
+As decisões DEC-01 e DEC-02 foram aprovadas e registradas. A LEA-106 / DEC-03 permanece como próximo item no Backlog e ainda não foi iniciada.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
