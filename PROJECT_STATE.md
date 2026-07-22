@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** identidade, licenciamento e estrutura pedagógica registrados; DEC-03 iniciada
-- **Linear:** LEA-104 e LEA-105 concluídas; LEA-106 em andamento
+- **Repositório:** identidade, licenciamento, estrutura pedagógica e níveis de autonomia registrados
+- **Linear:** LEA-104, LEA-105 e LEA-106 concluídas; LEA-107 no Backlog
 
 ## Estrutura pedagógica aprovada
 
@@ -20,11 +20,12 @@ Manual
 
 ## Estado estrutural oficial
 
-- **Último item concluído:** LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial
-- **Item estrutural em andamento:** LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas
-- **Status:** em andamento
-- **Objetivo atual:** classificar ações em consulta automática, preparação em rascunho e execução controlada, definindo permissões para as ferramentas do projeto
-- **Próximo item após a conclusão:** LEA-107 — DEC-04: Definir fluxo e comandos de aprovação
+- **Último item concluído:** LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas
+- **Item estrutural em andamento:** nenhum
+- **Status:** aguardando autorização para iniciar a próxima decisão
+- **Objetivo concluído:** classificar ações em consulta automática, preparação em rascunho e execução controlada, com controle proporcional ao risco
+- **Próximo item:** LEA-107 — DEC-04: Definir fluxo e comandos de aprovação
+- **Status do próximo item:** Backlog; ainda não iniciado
 
 ## Resultado da DEC-01
 
@@ -52,6 +53,20 @@ A estrutura pedagógica oficial foi aprovada com os seguintes elementos:
 - identificadores permanentes após aprovação ou publicação;
 - ordem pedagógica controlada separadamente dos identificadores.
 
+## Resultado da DEC-03
+
+Os níveis de autonomia das ferramentas foram aprovados com os seguintes elementos:
+
+- **Nível 1 — Consulta Automática:** leitura, pesquisa, comparação, análise e resumo em fontes autorizadas, relacionadas ao trabalho atual e no menor escopo necessário;
+- **Nível 2 — Preparação em Rascunho:** produção de textos, documentos, código, análises, planos e propostas sem gravação em sistemas externos;
+- **Nível 3 — Execução Controlada:** qualquer criação, alteração, envio, publicação, arquivamento, exclusão ou mudança de estado em sistema externo exige autorização;
+- o Nível 3 possui categorias internas **Padrão** e **Crítica**, sem criar novos níveis oficiais;
+- autorizações são específicas, delimitadas, consumíveis e não se estendem automaticamente a ações futuras;
+- a classificação considera o contexto e o efeito real da execução;
+- solicitações diretas e claras podem autorizar ações padrão;
+- ações críticas exigem resumo prévio de alvo, efeito, alcance, reversibilidade e riscos, seguido de confirmação explícita;
+- comandos e fluxos exatos serão definidos na DEC-04.
+
 ## Modelo Operacional
 
 A LEA-115 foi concluída após:
@@ -66,9 +81,9 @@ A LEA-115 foi concluída após:
 
 ## Decisão atual
 
-**LEA-106 — DEC-03**, iniciada formalmente após autorização explícita do usuário.
+Nenhuma DEC está em andamento.
 
-A decisão deve definir níveis objetivos de autonomia para as ferramentas sem iniciar a DEC-04 antes da conclusão, do registro e da sincronização da DEC-03.
+A **LEA-107 — DEC-04** é o próximo item confirmado, permanece no Backlog e somente poderá ser iniciada após autorização correspondente.
 
 ## Sequência obrigatória da LEA-103
 
@@ -77,9 +92,9 @@ DEC-01 — concluída
     ↓
 DEC-02 — concluída
     ↓
-DEC-03 — em andamento
+DEC-03 — concluída
     ↓
-DEC-04 — próxima após a conclusão da DEC-03
+DEC-04 — próxima, no Backlog e não iniciada
     ↓
 DEC-05
     ↓
@@ -100,16 +115,16 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-04 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
+- **DEC-05 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
 
 ## Regra de avanço
 
-Nenhuma etapa pode avançar apenas com base na conversa. A DEC-03 deve ser aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-04.
+Nenhuma etapa pode avançar apenas com base na conversa. A LEA-107 / DEC-04 deve ser iniciada formalmente antes de qualquer desenvolvimento de seus comandos e fluxos de aprovação.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-03 registrada como decisão em andamento; nenhuma regra de autonomia aprovada ainda.
-- **Linear:** LEA-106 iniciada como único item estrutural em andamento.
-- **Estado estrutural:** DEC-03 em andamento; DEC-04 ainda não iniciada.
+- **GitHub:** DEC-03 aprovada, registrada e concluída.
+- **Linear:** LEA-106 concluída; LEA-107 permanece no Backlog.
+- **Estado estrutural:** nenhuma DEC em andamento; DEC-04 é a próxima etapa e não foi iniciada.
