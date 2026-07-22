@@ -56,11 +56,30 @@ As ferramentas do projeto utilizam três níveis oficiais:
 
 O Nível 3 distingue ações padrão, normalmente reversíveis e limitadas, de ações críticas, como publicações, envios, commits, sobrescritas, exclusões, alterações de roadmap e operações sensíveis. A classificação considera o contexto e o efeito real da execução.
 
+## Fluxo e comandos de aprovação
+
+O projeto utiliza linguagem natural clara e comandos canônicos. Os comandos são escritos em português do Brasil, entre colchetes, em letras maiúsculas e no formato `AÇÃO + OBJETO`.
+
+```text
+[APROVAR CONTEÚDO]
+[APROVAR DECISÃO]
+[APROVAR ENTREGA]
+[SOLICITAR CORREÇÕES]
+[REABRIR ESCOLHA]
+[AUTORIZAR REGISTRO OFICIAL]
+[AUTORIZAR PUBLICAÇÃO]
+[AUTORIZAR EXECUÇÃO CRÍTICA]
+[CONCLUIR ETAPA]
+[INICIAR PRÓXIMA DECISÃO]
+```
+
+Aprovação não significa registro, publicação, conclusão ou avanço. Ações críticas continuam exigindo resumo prévio e autorização específica.
+
 ## Estado atual
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01, DEC-02 e DEC-03 foram aprovadas e registradas. A LEA-107 / DEC-04 está em andamento para definir o fluxo e os comandos de aprovação. A LEA-108 / DEC-05 permanece no Backlog como próxima etapa após a conclusão da DEC-04.
+As decisões DEC-01, DEC-02, DEC-03 e DEC-04 foram aprovadas, registradas e sincronizadas. Nenhuma DEC está em andamento. A LEA-108 / DEC-05 permanece no Backlog como próxima decisão e não foi iniciada.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
