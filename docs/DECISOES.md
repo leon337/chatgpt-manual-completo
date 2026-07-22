@@ -131,7 +131,7 @@ Aula é a menor unidade pedagógica oficial da estrutura do Manual.
 
 Cada Aula pertence a um único Módulo e desenvolve um objetivo de aprendizagem específico ou um conjunto pequeno e coerente de objetivos relacionados.
 
-A Aula pode conter explicações, exemplos, demonstrações, atividades e verificações de aprendizagem. O padrão editorial detalhado será definido na DEC-07.
+A Aula pode conter explicações, exemplos, demonstrações, atividades e verificações de aprendizagem. O padrão editorial detalhado será definido posteriormente na DEC-07.
 
 A conclusão das Aulas contribui para o cumprimento dos objetivos do Módulo.
 
@@ -305,9 +305,170 @@ Uma ação normalmente padrão será elevada para crítica quando envolver:
 
 Quando houver dúvida razoável sobre a classificação, a ação será tratada como crítica até que o escopo seja esclarecido.
 
-### Relação com a DEC-04
+## DEC-04 — Fluxo e comandos de aprovação
 
-A DEC-03 define os níveis de autonomia, a classificação de risco, o alcance das autorizações e a necessidade de confirmação. A forma exata dos comandos e fluxos de aprovação será definida na DEC-04.
+- **Status:** aprovada
+- **Data de aprovação:** 2026-07-22
+- **Linear:** LEA-107 — concluída
+
+### 1. Modelo híbrido de interação
+
+O projeto aceita solicitações em linguagem natural direta, específica e inequívoca e também comandos canônicos padronizados.
+
+As duas formas poderão representar a mesma intenção. Mensagens ambíguas não serão interpretadas como aprovação ou autorização. O ChatGPT deverá informar qual intenção reconheceu quando isso for relevante para a execução.
+
+### 2. Formato canônico dos comandos
+
+Os comandos oficiais utilizam:
+
+- colchetes;
+- letras maiúsculas;
+- português do Brasil;
+- estrutura `AÇÃO + OBJETO`;
+- uma intenção principal por comando.
+
+O alvo poderá ser informado depois do comando ou estar claramente determinado pelo contexto.
+
+### 3. Aprovação separada de execução
+
+Comandos:
+
+```text
+[APROVAR CONTEÚDO]
+[APROVAR DECISÃO]
+[APROVAR ENTREGA]
+```
+
+A aprovação confirma a versão aceita, encerra a revisão e permite preparar os registros finais.
+
+A aprovação isoladamente não poderá:
+
+- criar commits;
+- alterar documentos oficiais no GitHub;
+- atualizar ou concluir issues no Linear;
+- publicar conteúdo;
+- enviar mensagens;
+- iniciar a próxima decisão.
+
+Aprovação não significa publicação, registro, conclusão ou avanço.
+
+### 4. Correções e reabertura de escolhas
+
+```text
+[SOLICITAR CORREÇÕES]
+[REABRIR ESCOLHA]
+```
+
+`[SOLICITAR CORREÇÕES]` é usado para pedir alterações em textos, documentos, planos, código, propostas ou entregas em preparação ou revisão. A solicitação deve identificar, quando aplicável, alvo, trecho ou aspecto afetado, mudança desejada e condições que devem ser preservadas.
+
+O comando autoriza somente a preparação de uma nova versão. Não aprova, registra, publica nem substitui registros oficiais.
+
+`[REABRIR ESCOLHA]` é usado para reconsiderar uma escolha dentro da decisão atual antes da conclusão e do registro definitivo. O comando suspende provisoriamente apenas o ponto identificado, preserva as demais escolhas e exige nova resposta.
+
+Decisões já concluídas e registradas não podem ser sobrescritas apenas com esse comando. Correções oficiais posteriores exigem análise de impacto, proposta corretiva, autorização específica e histórico preservado.
+
+### 5. Registro oficial
+
+```text
+[AUTORIZAR REGISTRO OFICIAL]
+```
+
+Antes de solicitar esse comando, o ChatGPT deve apresentar resumo contendo:
+
+- sistemas afetados;
+- arquivos, documentos, issues ou registros atingidos;
+- ações previstas;
+- conteúdo ou versão que será registrada;
+- mudanças de status;
+- resultado esperado;
+- possibilidade de reversão;
+- riscos relevantes;
+- estado esperado após a sincronização.
+
+A autorização poderá abranger GitHub e Linear conjuntamente quando os alvos e ações estiverem enumerados. Ela será válida somente para o resumo imediatamente anterior ou explicitamente identificado.
+
+Depois da execução, o ChatGPT deverá informar alterações, commits ou evidências, estados das issues, sincronização e qualquer falha ou divergência.
+
+O comando não autoriza publicação externa, exclusões não descritas, ampliação de escopo, início da próxima decisão ou reutilização futura.
+
+### 6. Publicação e demais execuções críticas
+
+```text
+[AUTORIZAR PUBLICAÇÃO]
+[AUTORIZAR EXECUÇÃO CRÍTICA]
+```
+
+`[AUTORIZAR PUBLICAÇÃO]` é usado para tornar pública uma versão já aprovada. Antes da autorização, devem ser informados conteúdo e versão, canal ou plataforma, público ou destinatários, ação exata, alcance, momento quando aplicável, reversibilidade, riscos e evidência esperada.
+
+A autorização não se estende a alterações adicionais, outros canais, mensagens não descritas, campanhas, gastos ou republicações futuras.
+
+`[AUTORIZAR EXECUÇÃO CRÍTICA]` é usado para ações críticas diferentes de publicação, incluindo exclusão, sobrescrita, merge, envio, alteração de permissões, tratamento de dados sensíveis e operações em massa.
+
+Sem resumo válido, esses comandos iniciam somente a preparação da confirmação. Ações críticas não relacionadas não serão agrupadas implicitamente. Mudanças de escopo exigem novo resumo e nova autorização.
+
+### 7. Conclusão formal da etapa
+
+```text
+[CONCLUIR ETAPA]
+```
+
+O comando solicita validação final e não produz conclusão automática.
+
+Ao reconhecê-lo, o ChatGPT deve verificar:
+
+- aprovação da versão final;
+- conclusão de todas as escolhas necessárias;
+- ausência de correções ou escolhas reabertas;
+- atendimento dos critérios de aceitação;
+- identificação dos registros oficiais necessários;
+- bloqueios ou divergências;
+- próximo item previsto.
+
+Quando o registro oficial estiver pendente, o ChatGPT deve informar a pendência, apresentar o checklist, preparar o resumo e solicitar `[AUTORIZAR REGISTRO OFICIAL]`.
+
+Somente depois de verificar documentos, commits ou evidências, estado no Linear, sincronização, histórico e próximo item confirmado poderá declarar `ETAPA CONCLUÍDA`.
+
+O comando não autoriza publicação, exclusões, mudanças não descritas ou início da próxima decisão.
+
+### 8. Início da próxima decisão
+
+```text
+[INICIAR PRÓXIMA DECISÃO]
+```
+
+O comando solicita a preparação e a validação da transição. Somente poderá ser reconhecido quando a etapa anterior já tiver sido declarada `ETAPA CONCLUÍDA`.
+
+O ChatGPT deverá:
+
+- reconstruir o contexto oficial;
+- confirmar a sincronização entre GitHub e Linear;
+- confirmar que nenhum item estrutural permanece em andamento;
+- identificar a próxima decisão obrigatória;
+- verificar dependências e bloqueios;
+- apresentar resumo da transição.
+
+O resumo deve informar item concluído, próximo item, sistemas afetados, issue que será iniciada, mudanças previstas, resultado esperado, reversibilidade, riscos de sincronização e primeiro objetivo decisório.
+
+A alteração do estado oficial dependerá de nova autorização por `[AUTORIZAR REGISTRO OFICIAL]`.
+
+Somente após essa autorização será permitido mover a próxima issue para `In Progress`, atualizar os documentos oficiais, confirmar que existe apenas um item estrutural em andamento, verificar a sincronização e apresentar a primeira pergunta da nova decisão.
+
+O comando não poderá ignorar decisões intermediárias, iniciar uma issue fora da sequência, reutilizar uma autorização anterior ou iniciar duas decisões simultaneamente.
+
+### Catálogo consolidado
+
+```text
+[APROVAR CONTEÚDO]
+[APROVAR DECISÃO]
+[APROVAR ENTREGA]
+[SOLICITAR CORREÇÕES]
+[REABRIR ESCOLHA]
+[AUTORIZAR REGISTRO OFICIAL]
+[AUTORIZAR PUBLICAÇÃO]
+[AUTORIZAR EXECUÇÃO CRÍTICA]
+[CONCLUIR ETAPA]
+[INICIAR PRÓXIMA DECISÃO]
+```
 
 ## Mapa oficial da LEA-103
 
@@ -328,15 +489,15 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 
 ## Estado estrutural atual
 
-- **Último item concluído:** LEA-106 — DEC-03: Níveis de autonomia das ferramentas.
-- **Item em andamento:** LEA-107 — DEC-04: Fluxo e comandos de aprovação.
-- **Próximo item:** LEA-108 — DEC-05, somente após a conclusão, o registro e a sincronização da DEC-04.
+- **Último item concluído:** LEA-107 — DEC-04: Fluxo e comandos de aprovação.
+- **Item em andamento:** nenhum.
+- **Próximo item:** LEA-108 — DEC-05, ainda no Backlog e não iniciada.
 
 ## Decisões ainda não concluídas
 
-A DEC-04 está em andamento. As decisões DEC-05 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+As decisões DEC-05 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
-Nenhum comando ou fluxo da DEC-04 foi aprovado até o momento.
+A DEC-05 somente poderá ser iniciada após reconstrução do contexto oficial, confirmação de que nenhum item estrutural permanece em andamento, apresentação do resumo da transição e autorização específica.
 
 ## Universo Didático
 
