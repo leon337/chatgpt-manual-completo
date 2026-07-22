@@ -5,7 +5,7 @@
 - [x] DEC-01 — Identidade e visão do projeto
 - [x] DEC-02 — Estrutura pedagógica
 - [x] DEC-03 — Autonomia das ferramentas
-- [ ] DEC-04 — Fluxo e comandos de aprovação
+- [ ] DEC-04 — Fluxo e comandos de aprovação — em andamento
 - [ ] DEC-05 — Estrutura do GitHub
 - [ ] DEC-06 — Estrutura do Linear
 - [ ] DEC-07 — Padrão editorial
