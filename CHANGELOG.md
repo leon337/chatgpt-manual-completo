@@ -2,6 +2,32 @@
 
 Todas as alterações permanentes relevantes do projeto devem ser registradas neste arquivo.
 
+## 2026-07-22
+
+### Adicionado
+
+- Registro oficial da DEC-01 — Identidade e visão do projeto.
+- Aviso de licenciamento do conteúdo sob CC BY-SA 4.0.
+- Aviso de licenciamento dos exemplos de código e componentes de software sob MIT License.
+- Política oficial de atribuição do conteúdo e titularidade do código.
+
+### Alterado
+
+- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento e as licenças do projeto.
+- `PROJECT_STATE.md` passou a registrar a conclusão da LEA-104 e a LEA-105 como próximo item no Backlog.
+- `docs/DECISOES.md` passou a conter o resultado aprovado da DEC-01.
+
+### Concluído
+
+- LEA-104 — DEC-01: Definir identidade e visão do projeto.
+- Sincronização da conclusão da DEC-01 entre GitHub e Linear.
+
+### Preservado
+
+- A LEA-105 / DEC-02 não foi iniciada.
+- A sequência DEC-01 a DEC-10 permanece inalterada.
+- A LEA-114 permanece no Backlog e bloqueada pela conclusão da LEA-103.
+
 ## 2026-07-21
 
 ### Adicionado
