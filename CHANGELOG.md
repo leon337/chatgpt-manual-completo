@@ -11,6 +11,7 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Registro oficial da DEC-03 — Níveis de autonomia das ferramentas.
 - Registro oficial da DEC-04 — Fluxo e comandos de aprovação.
 - Registro oficial da DEC-05 — Estrutura e responsabilidades do GitHub.
+- Registro oficial da DEC-06 — Estrutura operacional do Linear.
 - Aviso de licenciamento do conteúdo sob CC BY-SA 4.0.
 - Aviso de licenciamento dos exemplos de código e componentes de software sob MIT License.
 - Política oficial de atribuição do conteúdo e titularidade do código.
@@ -32,14 +33,19 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Critérios de necessidade, responsabilidade, localização, conteúdo mínimo útil e autorização para novos arquivos e diretórios.
 - Regras de movimentação, renomeação, substituição, arquivamento e remoção com análise de impacto.
 - Matriz de fontes canônicas, resumos referenciais e atualização coordenada.
+- Correspondência operacional Manual = Project, Formação = Milestone, Módulo = Issue e Aula = Sub-issue.
+- Regras de criação progressiva, estados, prioridades, relações, critérios de conclusão, evidências e controle de volume no Linear.
+- Separação canônica entre conteúdo pedagógico no GitHub e execução operacional no Linear.
 
 ### Alterado
 
-- `README.md` passou a registrar a DEC-06 como decisão em andamento e a DEC-07 como próxima etapa.
-- `PROJECT_STATE.md` passou a registrar a LEA-109 / DEC-06 como único item estrutural em andamento.
-- `docs/DECISOES.md` passou a registrar o estado da DEC-06 como decisão em desenvolvimento, sem escolhas aprovadas.
-- `ROADMAP.md` passou a marcar a DEC-06 como em andamento.
-- A descrição da LEA-103 passou a indicar a DEC-06 como em andamento e a DEC-07 como próxima decisão.
+- `README.md` passou a registrar as decisões DEC-01 a DEC-06 como concluídas e a DEC-07 como próxima decisão ainda não iniciada.
+- `PROJECT_STATE.md` passou a registrar a LEA-109 / DEC-06 como concluída e nenhum item estrutural em andamento.
+- `docs/DECISOES.md` passou a registrar integralmente as escolhas 1A a 9A da DEC-06.
+- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária da estrutura operacional do Linear.
+- `ROADMAP.md` passou a marcar a DEC-06 como concluída e a DEC-07 como próxima decisão ainda não iniciada.
+- A descrição da LEA-103 passou a indicar a DEC-06 como concluída e a DEC-07 como próxima decisão.
+- A descrição da LEA-109 passou a registrar o resultado aprovado e os critérios atendidos da DEC-06.
 
 ### Iniciado
 
@@ -59,17 +65,19 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas.
 - LEA-107 — DEC-04: Definir fluxo e comandos de aprovação.
 - LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub.
+- LEA-109 — DEC-06: Definir estrutura operacional do Linear.
 - Sincronização da conclusão da DEC-01 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-02 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-03 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-04 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-05 entre GitHub e Linear.
+- Sincronização da conclusão da DEC-06 entre GitHub e Linear.
 
 ### Preservado
 
-- A LEA-109 / DEC-06 é o único item estrutural em andamento.
+- A LEA-103 permanece em andamento porque DEC-07 a DEC-10 continuam pendentes.
 - A LEA-110 / DEC-07 permanece no Backlog e não foi iniciada.
-- Nenhuma escolha operacional da DEC-06 foi aprovada ainda.
+- Nenhuma Milestone de Formação, Issue de Módulo, Sub-issue de Aula, label ou estado novo foi criado durante o registro da DEC-06.
 - Os diretórios `curriculum/`, `content/`, `research/` e `assets/` permanecem apenas planejados e não foram criados.
 - Nenhum diretório `published/`, placeholder ou arquivo vazio foi criado.
 - A sequência DEC-01 a DEC-10 permanece inalterada.
