@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** identidade e licenciamento da DEC-01 registrados
-- **Linear:** LEA-104 concluída; LEA-105 no Backlog
+- **Repositório:** identidade e licenciamento da DEC-01 registrados; DEC-02 iniciada
+- **Linear:** LEA-104 concluída; LEA-105 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -21,10 +21,10 @@ Manual
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-104 — DEC-01: Definir identidade e visão do projeto
-- **Status:** concluído
-- **Item estrutural em andamento:** nenhum
-- **Próximo item confirmado:** LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial
-- **Status do próximo item:** Backlog; ainda não iniciado
+- **Item estrutural em andamento:** LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial
+- **Status:** em andamento
+- **Objetivo atual:** formalizar a hierarquia Manual → Formação → Módulo → Aula, incluindo regras para divisão, identificação e expansão futura
+- **Próximo item após a conclusão:** LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas
 
 ## Resultado da DEC-01
 
@@ -51,20 +51,20 @@ A LEA-115 foi concluída após:
 - aplicação da instrução definitiva nas configurações do Projeto ChatGPT;
 - verificação final do estado oficial.
 
-## Próxima decisão
+## Decisão atual
 
-**LEA-105 — DEC-02**, mantida no Backlog até autorização explícita para início.
+**LEA-105 — DEC-02**, iniciada formalmente após autorização explícita do usuário.
 
-A DEC-02 não foi iniciada nesta atualização.
+A decisão deve confirmar e detalhar a estrutura pedagógica oficial sem iniciar a DEC-03 antes de sua conclusão, registro e sincronização.
 
 ## Sequência obrigatória da LEA-103
 
 ```text
 DEC-01 — concluída
     ↓
-DEC-02 — próxima, não iniciada
+DEC-02 — em andamento
     ↓
-DEC-03
+DEC-03 — próxima após a conclusão da DEC-02
     ↓
 DEC-04
     ↓
@@ -92,11 +92,11 @@ Retomar LEA-114 — Universo Didático
 
 ## Regra de avanço
 
-Nenhuma etapa pode avançar apenas com base na conversa. A próxima decisão deve ser iniciada somente após autorização explícita e confirmação do estado sincronizado entre GitHub e Linear.
+Nenhuma etapa pode avançar apenas com base na conversa. A DEC-02 deve ser aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-03.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-01 registrada em `docs/DECISOES.md`; README e estado do projeto atualizados; avisos de licença CC BY-SA 4.0 e MIT adicionados; histórico permanente atualizado.
-- **Linear:** LEA-104 concluída; LEA-105 confirmada como próximo item e mantida no Backlog.
-- **Estado estrutural:** nenhum item em andamento; DEC-02 ainda não iniciada.
+- **GitHub:** DEC-01 registrada e concluída; estado atualizado para o início formal da DEC-02.
+- **Linear:** LEA-104 concluída; LEA-105 iniciada como único item estrutural em andamento.
+- **Estado estrutural:** DEC-02 em andamento; DEC-03 ainda não iniciada.
