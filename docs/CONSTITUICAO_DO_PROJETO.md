@@ -1,6 +1,6 @@
 # Constituição do Projeto
 
-> **Status:** base operacional, identidade, estrutura pedagógica e níveis de autonomia aprovados. Fluxo de aprovação, estrutura documental, padrão editorial e demais pontos continuarão sendo definidos pelas DEC-04 a DEC-10.
+> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia e fluxo de aprovação aprovados. Estrutura documental, padrão editorial e demais pontos continuarão sendo definidos pelas DEC-05 a DEC-10.
 
 ## 1. Missão
 
@@ -297,8 +297,104 @@ Quando houver dúvida razoável sobre a classificação, a ação será tratada 
 
 ### 8.6 Relação com a DEC-04
 
-A DEC-03 define os níveis de autonomia, a classificação de risco e a necessidade de autorização. A forma exata dos comandos, resumos de confirmação e fluxos de aprovação será definida na DEC-04.
+A DEC-03 define os níveis de autonomia, a classificação de risco e a necessidade de autorização. A DEC-04 define os comandos canônicos, os resumos de confirmação e os fluxos de aprovação, registro, publicação, conclusão e transição, sem permitir que esses comandos contornem a classificação de risco.
 
-## 9. Alteração desta Constituição
+## 9. Fluxo e comandos de aprovação
+
+### 9.1 Modelo híbrido
+
+Solicitações em linguagem natural, quando diretas, específicas e inequívocas, poderão produzir o mesmo efeito dos comandos canônicos. Mensagens ambíguas não serão tratadas como aprovação ou autorização.
+
+Os comandos oficiais serão escritos em português do Brasil, entre colchetes, em letras maiúsculas e no formato `AÇÃO + OBJETO`.
+
+### 9.2 Aprovação
+
+Comandos:
+
+```text
+[APROVAR CONTEÚDO]
+[APROVAR DECISÃO]
+[APROVAR ENTREGA]
+```
+
+A aprovação confirma a versão aceita, encerra sua revisão e permite preparar os registros finais. A aprovação isoladamente não autoriza commits, atualizações em documentos oficiais, alterações no Linear, publicação, conclusão ou avanço.
+
+### 9.3 Correção e reabertura
+
+```text
+[SOLICITAR CORREÇÕES]
+[REABRIR ESCOLHA]
+```
+
+`[SOLICITAR CORREÇÕES]` autoriza preparar uma nova versão de material em revisão, sem alterar sistemas externos.
+
+`[REABRIR ESCOLHA]` suspende provisoriamente apenas a escolha identificada dentro da decisão atual, preserva as demais escolhas e exige nova resposta antes da consolidação final. Decisões já concluídas e registradas não podem ser sobrescritas por esse comando.
+
+### 9.4 Registro oficial
+
+```text
+[AUTORIZAR REGISTRO OFICIAL]
+```
+
+Antes de solicitar esse comando, o ChatGPT deve apresentar resumo contendo:
+
+- sistemas afetados;
+- arquivos, documentos, issues ou registros atingidos;
+- ações previstas;
+- conteúdo ou versão que será registrada;
+- mudanças de status;
+- resultado esperado;
+- possibilidade de reversão;
+- riscos relevantes;
+- estado esperado após a sincronização.
+
+A autorização abrange somente as ações enumeradas no resumo imediatamente anterior ou explicitamente identificado. Não autoriza publicação, exclusões não descritas, ampliação de escopo, início da próxima decisão ou reutilização futura.
+
+### 9.5 Publicação e execução crítica
+
+```text
+[AUTORIZAR PUBLICAÇÃO]
+[AUTORIZAR EXECUÇÃO CRÍTICA]
+```
+
+`[AUTORIZAR PUBLICAÇÃO]` aplica-se somente a uma versão já aprovada e ao canal, público, alcance e momento descritos no resumo.
+
+`[AUTORIZAR EXECUÇÃO CRÍTICA]` aplica-se a ações críticas diferentes de publicação, incluindo exclusão, sobrescrita, merge, envio, alteração de permissões, tratamento de dados sensíveis e operações em massa.
+
+Sem resumo válido, esses comandos iniciam apenas a preparação da confirmação. Qualquer mudança relevante exige novo resumo e nova autorização.
+
+### 9.6 Conclusão da etapa
+
+```text
+[CONCLUIR ETAPA]
+```
+
+Esse comando solicita validação final e não conclui automaticamente o item.
+
+A declaração `ETAPA CONCLUÍDA` somente poderá ocorrer depois de verificar:
+
+- aprovação da versão final;
+- conclusão das escolhas necessárias;
+- ausência de correções ou escolhas reabertas;
+- atendimento dos critérios de aceitação;
+- atualização dos documentos aplicáveis;
+- atualização do Linear;
+- evidências disponíveis;
+- sincronização entre GitHub e Linear;
+- próximo item confirmado, mas não iniciado.
+
+### 9.7 Início da próxima decisão
+
+```text
+[INICIAR PRÓXIMA DECISÃO]
+```
+
+Esse comando solicita a preparação e a validação da transição. Somente poderá ser reconhecido depois que a etapa anterior tiver sido declarada `ETAPA CONCLUÍDA`.
+
+Antes da execução, o ChatGPT deve reconstruir o contexto oficial, confirmar a sincronização, verificar que nenhum item estrutural permanece em andamento, identificar a próxima decisão obrigatória, verificar bloqueios e apresentar o resumo da transição.
+
+A alteração do estado oficial depende de nova autorização por meio de `[AUTORIZAR REGISTRO OFICIAL]`. O comando não pode ignorar decisões intermediárias, iniciar uma issue fora da sequência, reutilizar autorização anterior ou iniciar duas decisões simultaneamente.
+
+## 10. Alteração desta Constituição
 
 Esta Constituição somente poderá ser alterada por decisão ou tarefa operacional registrada no Linear, autorização correspondente e atualização sincronizada no GitHub.
