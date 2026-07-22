@@ -46,11 +46,21 @@ F01-M02-A03
 
 Os identificadores tornam-se permanentes após a aprovação ou publicação. A ordem pedagógica será controlada separadamente para permitir futuras inserções sem renumerar referências existentes.
 
+## Níveis de autonomia
+
+As ferramentas do projeto utilizam três níveis oficiais:
+
+- **Nível 1 — Consulta Automática:** leitura, pesquisa, comparação, análise e resumo em fontes autorizadas, relacionadas ao trabalho atual e no menor escopo necessário.
+- **Nível 2 — Preparação em Rascunho:** produção de materiais para revisão sem gravação em sistemas externos.
+- **Nível 3 — Execução Controlada:** qualquer ação que altere sistemas, registros ou o estado oficial exige autorização proporcional ao risco.
+
+O Nível 3 distingue ações padrão, normalmente reversíveis e limitadas, de ações críticas, como publicações, envios, commits, sobrescritas, exclusões, alterações de roadmap e operações sensíveis. A classificação considera o contexto e o efeito real da execução.
+
 ## Estado atual
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01 e DEC-02 foram aprovadas e registradas. A LEA-106 / DEC-03 está em andamento para definir os níveis de autonomia das ferramentas. A DEC-04 ainda não foi iniciada.
+As decisões DEC-01, DEC-02 e DEC-03 foram aprovadas e registradas. Nenhuma DEC está em andamento. A LEA-107 / DEC-04 permanece no Backlog como próximo item e ainda não foi iniciada.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
