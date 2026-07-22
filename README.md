@@ -50,7 +50,7 @@ Os identificadores tornam-se permanentes após a aprovação ou publicação. A 
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01 e DEC-02 foram aprovadas e registradas. A LEA-106 / DEC-03 permanece como próximo item no Backlog e ainda não foi iniciada.
+As decisões DEC-01 e DEC-02 foram aprovadas e registradas. A LEA-106 / DEC-03 está em andamento para definir os níveis de autonomia das ferramentas. A DEC-04 ainda não foi iniciada.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
