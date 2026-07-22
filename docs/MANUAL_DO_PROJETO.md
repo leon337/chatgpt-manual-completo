@@ -1,6 +1,6 @@
 # Manual do Projeto
 
-> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação e arquitetura documental aprovados. Os demais padrões serão complementados pelas DEC-06 a DEC-10.
+> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental e estrutura operacional do Linear aprovados. Os demais padrões serão complementados pelas DEC-07 a DEC-10.
 
 ## 1. Finalidade
 
@@ -522,3 +522,191 @@ Arquivos técnicos de distribuição somente devem existir quando uma plataforma
 ### 12.10 Regra operacional final
 
 Currículo define a arquitetura. Conteúdo contém o material pedagógico. Pesquisa sustenta o conteúdo. Assets fornecem recursos reutilizáveis. Publicação distribui uma versão aprovada sem criar uma segunda fonte oficial.
+
+## 13. Aplicação diária da estrutura operacional do Linear da DEC-06
+
+### 13.1 Correspondência oficial
+
+```text
+Manual = Project
+Formação = Milestone
+Módulo = Issue
+Aula = Sub-issue
+```
+
+O Project principal já representa o Manual. Não criar outro Project para cada Formação.
+
+### 13.2 Criar uma Milestone de Formação
+
+Criar uma Milestone somente quando:
+
+1. a Formação estiver aprovada para planejamento;
+2. existir objetivo educacional definido;
+3. houver conteúdo mínimo para decomposição em Módulos;
+4. pelo menos uma Issue de Módulo estiver pronta;
+5. existir autorização aplicável.
+
+Usar o padrão `F01 — Título da Formação`.
+
+Não criar Milestones vazias para Formações apenas previstas. A Milestone controla progresso e conclusão, mas não armazena o conteúdo canônico.
+
+### 13.3 Criar uma Issue de Módulo
+
+Antes de criar:
+
+1. confirmar a Milestone da Formação;
+2. pesquisar pelo identificador e pelo título;
+3. verificar se já existe Issue canônica;
+4. definir objetivo, escopo e critérios;
+5. identificar a fonte canônica ou registrar que ainda não foi criada;
+6. confirmar autorização.
+
+Usar o padrão `F01-M01 — Título do Módulo`.
+
+A descrição deve conter resumo operacional, objetivo, Formação, pré-requisitos, Aulas previstas, critérios, fonte canônica, bloqueios e relações.
+
+### 13.4 Criar uma Sub-issue de Aula
+
+Antes de criar:
+
+1. confirmar a Issue do Módulo;
+2. confirmar identificador e objetivo mínimo;
+3. pesquisar duplicidade;
+4. definir critérios e evidências esperadas;
+5. confirmar que existe trabalho concreto;
+6. confirmar autorização.
+
+Usar o padrão `F01-M01-A01 — Título da Aula`.
+
+A Sub-issue não substitui o arquivo canônico da Aula.
+
+### 13.5 Decidir entre checklist e Issue operacional
+
+Usar checklist quando a atividade for pequena e inseparável da entrega principal.
+
+Criar Issue operacional própria somente quando houver:
+
+- entrega independente;
+- estado próprio;
+- critérios próprios;
+- responsável, prazo ou bloqueio próprio;
+- impacto transversal;
+- necessidade real de evidência separada.
+
+Não criar Issues para simples lembretes, mensagens ou cada pequena atividade.
+
+### 13.6 Aplicar estados
+
+- `Backlog`: trabalho futuro ainda não liberado ou sem condições.
+- `Todo`: item definido, priorizado e liberado, sem trabalho ativo.
+- `In Progress`: trabalho efetivamente iniciado.
+- `Done`: critérios, entrega, evidências, aprovações, registros e sincronização atendidos.
+- `Canceled`: uso excepcional com justificativa e autorização aplicável.
+- `Duplicate`: uso excepcional com registro canônico identificado.
+
+Não usar `Blocked` como estado principal. Registrar a dependência com `blockedBy`, motivo e condição de desbloqueio.
+
+Não mover item para `In Progress` apenas para indicar prioridade. Não usar `Done` como sinônimo de publicado.
+
+### 13.7 Aplicar prioridades
+
+- `Urgent`: incidente, risco ou divergência crítica imediata.
+- `High`: bloqueio relevante, impacto amplo ou prazo externo.
+- `Medium`: prioridade padrão para trabalho normal.
+- `Low`: melhoria opcional ou trabalho adiável.
+- `No Priority`: entrada ainda não triada ou sem escopo suficiente.
+
+Prioridade não autoriza início, não remove bloqueio e não representa ordem pedagógica.
+
+### 13.8 Registrar relações
+
+- `parent` e `sub-issue`: hierarquia Módulo → Aula.
+- `blockedBy` e `blocks`: dependência obrigatória real.
+- `relatedTo`: vínculo contextual sem bloquear avanço.
+- `duplicateOf`: registro duplicado do mesmo trabalho.
+
+Não encadear automaticamente todas as Aulas ou Módulos. Usar bloqueio somente quando existir pré-requisito ou dependência real.
+
+Interromper o avanço ao identificar dependência circular.
+
+### 13.9 Definir critérios de conclusão
+
+Os critérios devem ser objetivos, verificáveis e definidos antes de `In Progress`, salvo correção justificada.
+
+A conclusão exige:
+
+- entrega verificável;
+- critérios atendidos;
+- revisão e aprovação aplicáveis;
+- bloqueios resolvidos;
+- fonte canônica atualizada;
+- evidência vinculada;
+- sincronização entre GitHub e Linear.
+
+A conclusão de uma Aula não conclui automaticamente o Módulo. A conclusão do Módulo não conclui automaticamente a Formação. A conclusão da Formação não conclui automaticamente o Manual.
+
+### 13.10 Vincular evidências
+
+Evidências possíveis:
+
+- arquivo ou diretório no GitHub;
+- commit;
+- pull request;
+- relatório;
+- teste;
+- checklist concluído;
+- comentário de aprovação;
+- Issue relacionada concluída.
+
+A evidência deve comprovar o resultado, não apenas que uma atividade ocorreu.
+
+### 13.11 Separar GitHub e Linear
+
+No GitHub ficam currículo, conteúdo, fontes, recursos, histórico e versões aprovadas.
+
+No Linear ficam resumo, estado, prioridade, responsável, hierarquia, bloqueios, critérios, checklist, prazo, evidências e links.
+
+Quando a fonte canônica ainda não existir, registrar:
+
+```text
+Fonte canônica ainda não criada — conteúdo em planejamento.
+```
+
+Essa frase não autoriza placeholder ou arquivo vazio.
+
+### 13.12 Controlar volume e duplicidade
+
+Antes de criar qualquer registro:
+
+1. pesquisar identificador;
+2. pesquisar título e termos equivalentes;
+3. verificar Milestone e Issue pai;
+4. consultar concluídos, cancelados e duplicados;
+5. confirmar a unidade canônica;
+6. definir onde ficará o resultado permanente;
+7. confirmar autorização.
+
+Criar somente registros necessários para o trabalho atual ou para o próximo trabalho já liberado.
+
+Labels serão usadas apenas para classificações transversais recorrentes que não sejam cobertas por estado, prioridade, Milestone, hierarquia, dependência ou identificador.
+
+### 13.13 Revisar a estrutura do Linear
+
+Revisar antes de nova Formação, antes da conclusão de Milestone, diante de duplicidade, falta de avanço, divergência ou dificuldade de localizar o item atual.
+
+Verificar:
+
+- duplicidades;
+- ausência de critérios;
+- registros fora do Project;
+- Sub-issues sem pai;
+- itens em `In Progress` sem atividade;
+- bloqueios sem causa;
+- links canônicos inválidos;
+- registros futuros criados prematuramente.
+
+Corrigir sem exclusão silenciosa e preservar o histórico.
+
+### 13.14 Regra operacional final
+
+GitHub registra o que o projeto é e o conteúdo que permanece. Linear controla o trabalho necessário para produzir, revisar, aprovar e concluir esse conteúdo. A conversa prepara e discute, mas não substitui nenhuma das duas fontes.
