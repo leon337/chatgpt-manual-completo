@@ -3,13 +3,13 @@
 ## Situação
 
 - **Projeto:** Manual Completo da Plataforma ChatGPT
-- **Fase:** governança inicial
+- **Fase:** implantação do Modelo Operacional do Projeto
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** estrutura inicial criada
-- **Linear:** projeto criado e decisões estruturais registradas
+- **Repositório:** estrutura operacional em atualização
+- **Linear:** projeto criado; LEA-115 em andamento
 
-## Estrutura aprovada
+## Estrutura pedagógica aprovada
 
 ```text
 Manual
@@ -18,29 +18,72 @@ Manual
         └── Aula
 ```
 
-## Trabalho atual
+## Item atual oficial
 
-Issue principal no Linear: **LEA-103 — Definir as decisões estruturais do Manual Completo do ChatGPT**.
+- **Issue:** LEA-115 — Implementar o Modelo Operacional do Projeto
+- **Status:** Em andamento
+- **Natureza:** tarefa corretiva de infraestrutura; não é uma nova DEC
+- **Objetivo:** implementar o comportamento obrigatório dos chats, o fluxo de trabalho, os eventos do projeto e a sincronização GitHub × Linear
 
-Subtarefas DEC-01 a DEC-10 cobrem:
+## Estado da implantação
 
-- identidade e visão;
-- estrutura pedagógica;
-- autonomia das ferramentas;
-- fluxo de aprovação;
-- estrutura do GitHub;
-- estrutura do Linear;
-- padrão editorial;
-- catálogo de skills;
-- instrução definitiva do Projeto ChatGPT;
-- revisão final da governança.
+- [x] Constituição atualizada com o Modelo Operacional
+- [x] Manual do Projeto atualizado
+- [x] Hierarquia das fontes definida
+- [x] Eventos do projeto documentados
+- [x] Processo de sincronização documentado
+- [x] `docs/DECISOES.md` criado
+- [ ] Nova instrução aplicada nas configurações do Projeto ChatGPT pelo usuário
+- [ ] Verificação final de sincronização
+- [ ] Conclusão da LEA-115
 
 ## Próxima decisão
 
-**DEC-01 — Definir identidade e visão do projeto.**
+**LEA-104 — DEC-01: Definir identidade e visão do projeto.**
 
-## Regra de publicação
+A DEC-01 permanece no Backlog e bloqueada pela LEA-115. Ela será retomada somente depois da implantação e conclusão do Modelo Operacional.
 
-Nenhum conteúdo didático deve ser considerado publicado antes de aprovação explícita e registro no GitHub.
+## Sequência obrigatória da LEA-103
 
-_Última atualização: 2026-07-21._
+```text
+Concluir LEA-115
+        ↓
+DEC-01
+        ↓
+DEC-02
+        ↓
+DEC-03
+        ↓
+DEC-04
+        ↓
+DEC-05
+        ↓
+DEC-06
+        ↓
+DEC-07
+        ↓
+DEC-08
+        ↓
+DEC-09
+        ↓
+DEC-10
+        ↓
+Concluir LEA-103
+        ↓
+Retomar LEA-114 — Universo Didático
+```
+
+## Bloqueios
+
+- **LEA-104 / DEC-01:** bloqueada pela LEA-115.
+- **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
+
+## Regra de avanço
+
+Nenhuma etapa pode avançar apenas com base na conversa. A etapa atual deve ser aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada.
+
+## Última sincronização
+
+- **Data:** 2026-07-21
+- **GitHub:** atualizado durante a implantação da LEA-115
+- **Linear:** LEA-115 em andamento; LEA-104 no Backlog
