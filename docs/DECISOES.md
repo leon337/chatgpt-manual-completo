@@ -490,14 +490,14 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-107 — DEC-04: Fluxo e comandos de aprovação.
-- **Item em andamento:** nenhum.
-- **Próximo item:** LEA-108 — DEC-05, ainda no Backlog e não iniciada.
+- **Item em andamento:** LEA-108 — DEC-05: Estrutura e responsabilidades do GitHub.
+- **Próximo item:** LEA-109 — DEC-06, somente após a conclusão, o registro e a sincronização da DEC-05.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-05 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+A DEC-05 está em andamento. Nenhuma escolha estrutural da DEC-05 foi aprovada até o momento.
 
-A DEC-05 somente poderá ser iniciada após reconstrução do contexto oficial, confirmação de que nenhum item estrutural permanece em andamento, apresentação do resumo da transição e autorização específica.
+As decisões DEC-06 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
