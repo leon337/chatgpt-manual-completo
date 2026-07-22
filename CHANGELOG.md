@@ -10,6 +10,7 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Registro oficial da DEC-02 — Estrutura pedagógica oficial.
 - Registro oficial da DEC-03 — Níveis de autonomia das ferramentas.
 - Registro oficial da DEC-04 — Fluxo e comandos de aprovação.
+- Registro oficial da DEC-05 — Estrutura e responsabilidades do GitHub.
 - Aviso de licenciamento do conteúdo sob CC BY-SA 4.0.
 - Aviso de licenciamento dos exemplos de código e componentes de software sob MIT License.
 - Política oficial de atribuição do conteúdo e titularidade do código.
@@ -24,17 +25,24 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Catálogo oficial de comandos da DEC-04.
 - Separação formal entre aprovação, registro, publicação, conclusão e avanço.
 - Fluxos específicos para correção, reabertura de escolha, registro oficial, publicação, execução crítica, conclusão e transição.
+- Estrutura documental mínima e progressiva do repositório.
+- Matriz oficial de responsabilidades dos arquivos da raiz e de `docs/`.
+- Reserva conceitual dos diretórios futuros `curriculum/`, `content/`, `research/` e `assets/`.
+- Definição futura de `curriculum/CURRICULUM.md` como fonte da arquitetura pedagógica global.
+- Critérios de necessidade, responsabilidade, localização, conteúdo mínimo útil e autorização para novos arquivos e diretórios.
+- Regras de movimentação, renomeação, substituição, arquivamento e remoção com análise de impacto.
+- Matriz de fontes canônicas, resumos referenciais e atualização coordenada.
 
 ### Alterado
 
-- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças, a estrutura pedagógica, os níveis de autonomia, o catálogo de comandos e a DEC-05 como decisão em andamento.
-- `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula, suas regras de progressão, identificação e expansão futura, os níveis de autonomia e o fluxo oficial de aprovação.
-- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária dos níveis de autonomia e dos comandos aprovados.
-- `PROJECT_STATE.md` passou a registrar a LEA-108 / DEC-05 como único item estrutural em andamento e a LEA-109 / DEC-06 como próxima etapa.
-- `docs/DECISOES.md` passou a registrar o estado da DEC-05 como decisão em desenvolvimento, sem escolhas aprovadas.
+- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças, a estrutura pedagógica, os níveis de autonomia, o catálogo de comandos e a arquitetura documental aprovada na DEC-05.
+- `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula, suas regras de progressão, identificação e expansão futura, os níveis de autonomia, o fluxo oficial de aprovação e as regras superiores da arquitetura documental.
+- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária dos níveis de autonomia, dos comandos aprovados e da arquitetura documental da DEC-05.
+- `PROJECT_STATE.md` passou a registrar a LEA-108 / DEC-05 como concluída, nenhum item estrutural em andamento e a LEA-109 / DEC-06 como próxima decisão não iniciada.
+- `docs/DECISOES.md` passou a registrar integralmente a DEC-05 como aprovada e concluída.
 - `docs/SKILLS.md` passou a registrar o catálogo de comandos operacionais aprovado, preservando as Skills como propostas até a DEC-08.
-- `ROADMAP.md` passou a marcar DEC-01 a DEC-04 como concluídas e a DEC-05 como em andamento.
-- A descrição da LEA-103 passou a indicar a DEC-05 como em andamento e a DEC-06 como próxima decisão.
+- `ROADMAP.md` passou a marcar DEC-01 a DEC-05 como concluídas e a DEC-06 como próxima decisão pendente.
+- A descrição da LEA-103 passou a indicar DEC-01 a DEC-05 concluídas, nenhuma DEC em andamento e DEC-06 como próxima decisão.
 
 ### Iniciado
 
@@ -51,16 +59,19 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial.
 - LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas.
 - LEA-107 — DEC-04: Definir fluxo e comandos de aprovação.
+- LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub.
 - Sincronização da conclusão da DEC-01 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-02 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-03 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-04 entre GitHub e Linear.
+- Sincronização da conclusão da DEC-05 entre GitHub e Linear.
 
 ### Preservado
 
-- A LEA-108 / DEC-05 é o único item estrutural em andamento.
+- Nenhum item estrutural permanece em andamento após a conclusão da DEC-05.
 - A LEA-109 / DEC-06 permanece no Backlog e não foi iniciada.
-- Nenhuma escolha estrutural da DEC-05 foi aprovada ainda.
+- Os diretórios `curriculum/`, `content/`, `research/` e `assets/` permanecem apenas planejados e não foram criados.
+- Nenhum diretório `published/`, placeholder ou arquivo vazio foi criado.
 - A sequência DEC-01 a DEC-10 permanece inalterada.
 - A LEA-114 permanece no Backlog e bloqueada pela conclusão da LEA-103.
 - Nenhuma publicação externa foi realizada.
