@@ -38,7 +38,7 @@ O projeto será conduzido pelo estado oficial sincronizado entre GitHub e Linear
 - Instrução definitiva aplicada nas configurações do Projeto ChatGPT.
 - Verificação funcional realizada em um novo chat.
 - LEA-115 concluída no Linear.
-- LEA-104 / DEC-01 liberada como único item estrutural em andamento.
+- LEA-104 / DEC-01 liberada como primeiro item estrutural.
 
 ## DEC-01 — Identidade e visão do projeto
 
@@ -87,6 +87,96 @@ As licenças abrangem somente materiais originais do projeto ou materiais que po
 - **Conteúdo:** “Manual Completo da Plataforma ChatGPT — produto educacional da PredixAI Academy, coordenado por Leandro Carlos”.
 - **Código:** Copyright © 2026 Leandro Carlos.
 
+## DEC-02 — Estrutura pedagógica oficial
+
+- **Status:** aprovada
+- **Data de aprovação:** 2026-07-22
+- **Linear:** LEA-105 — concluída
+
+### Hierarquia oficial
+
+```text
+Manual
+└── Formação
+    └── Módulo
+        └── Aula
+```
+
+Nenhum nível adicional integra a estrutura pedagógica oficial neste momento.
+
+### Formação
+
+Formação é o programa educacional completo dentro do Manual.
+
+Na comunicação pública, uma Formação poderá ser chamada de curso para facilitar o entendimento do público. Nos documentos oficiais, identificadores e sistemas do projeto, o termo utilizado será sempre **Formação**.
+
+Cada Formação contém vários Módulos.
+
+### Módulo
+
+Módulo é uma unidade temática e pedagógica dentro de uma Formação. Cada Módulo reúne Aulas relacionadas a um mesmo tema ou etapa de aprendizagem.
+
+Todo Módulo deve possuir:
+
+- objetivo próprio;
+- sequência lógica de Aulas;
+- conhecimentos ou habilidades esperados ao final;
+- pré-requisitos, quando necessários.
+
+O Módulo faz parte da progressão da Formação e não cria um novo nível estrutural.
+
+### Aula
+
+Aula é a menor unidade pedagógica oficial da estrutura do Manual.
+
+Cada Aula pertence a um único Módulo e desenvolve um objetivo de aprendizagem específico ou um conjunto pequeno e coerente de objetivos relacionados.
+
+A Aula pode conter explicações, exemplos, demonstrações, atividades e verificações de aprendizagem. O padrão editorial detalhado será definido na DEC-07.
+
+A conclusão das Aulas contribui para o cumprimento dos objetivos do Módulo.
+
+### Progressão pedagógica
+
+A progressão oficial será sequencial. Cada Formação possuirá uma ordem definida de Módulos, e cada Módulo possuirá uma ordem definida de Aulas.
+
+O estudante deverá seguir essa sequência para completar oficialmente a Formação, especialmente quando houver pré-requisitos.
+
+Uma Aula ou um Módulo poderá ser consultado isoladamente como material de referência, mas essa consulta não equivale à conclusão da progressão pedagógica.
+
+### Identificação oficial
+
+A identificação será numérica e hierárquica:
+
+```text
+Formação: F01, F02, F03...
+Módulo:   M01, M02, M03... dentro de cada Formação
+Aula:     A01, A02, A03... dentro de cada Módulo
+
+Identificador completo:
+F01-M02-A03
+```
+
+O título será separado do identificador.
+
+Exemplo:
+
+```text
+F01-M02-A03 — Criando seu primeiro Projeto no ChatGPT
+```
+
+### Expansão futura e estabilidade
+
+Antes da aprovação, elementos em rascunho poderão ser reorganizados e renumerados.
+
+Depois da aprovação ou publicação:
+
+- o identificador não poderá ser reutilizado;
+- o identificador não deverá ser alterado;
+- novos elementos receberão o próximo número disponível dentro do elemento superior;
+- a posição pedagógica será controlada separadamente pela ordem oficial.
+
+Um novo elemento poderá ser inserido na progressão sem renumerar identificadores existentes.
+
 ## Mapa oficial da LEA-103
 
 | Ordem | Decisão | Issue |
@@ -104,24 +194,15 @@ As licenças abrangem somente materiais originais do projeto ou materiais que po
 
 A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numeração DEC-01 a DEC-10.
 
-## Estrutura pedagógica aprovada
-
-```text
-Manual
-└── Formação
-    └── Módulo
-        └── Aula
-```
-
 ## Estado estrutural atual
 
-- **Último item concluído:** LEA-104 — DEC-01: Identidade e visão do projeto.
-- **Item em andamento:** LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial.
-- **Próximo item:** LEA-106 — DEC-03, somente após a conclusão, o registro e a sincronização da DEC-02.
+- **Último item concluído:** LEA-105 — DEC-02: Estrutura pedagógica oficial.
+- **Item em andamento:** nenhum.
+- **Próximo item:** LEA-106 — DEC-03, mantida no Backlog e ainda não iniciada.
 
 ## Decisões ainda não concluídas
 
-A DEC-02 está em andamento. As decisões DEC-03 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+As decisões DEC-03 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
