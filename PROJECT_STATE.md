@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia e fluxo de aprovação registrados
-- **Linear:** LEA-104, LEA-105, LEA-106 e LEA-107 concluídas; nenhuma DEC em andamento
+- **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia e fluxo de aprovação registrados; DEC-05 iniciada
+- **Linear:** LEA-104, LEA-105, LEA-106 e LEA-107 concluídas; LEA-108 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -21,10 +21,10 @@ Manual
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-107 — DEC-04: Definir fluxo e comandos de aprovação
-- **Item estrutural em andamento:** nenhum
-- **Status:** aguardando autorização específica para iniciar a próxima decisão
-- **Objetivo atual:** preservar a sincronização da conclusão da DEC-04 e manter a DEC-05 não iniciada
-- **Próximo item:** LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub
+- **Item estrutural em andamento:** LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub
+- **Status:** em andamento
+- **Objetivo atual:** definir a árvore oficial do repositório, a função de cada documento central, a separação entre governança, conteúdo pedagógico e operação, e as regras para criação de novos arquivos sem duplicidade
+- **Próximo item após a conclusão:** LEA-109 — DEC-06: Definir estrutura operacional do Linear
 
 ## Resultado da DEC-01
 
@@ -107,9 +107,11 @@ A LEA-115 foi concluída após:
 
 ## Decisão atual
 
-Nenhuma DEC está em andamento.
+**LEA-108 — DEC-05**, iniciada formalmente após autorização específica do usuário.
 
-A LEA-108 / DEC-05 permanece no Backlog e somente poderá ser iniciada depois de uma solicitação de transição, verificação do estado oficial, apresentação do resumo e nova autorização específica.
+A decisão deve definir a estrutura e as responsabilidades do GitHub, incluindo a árvore oficial do repositório, a finalidade de cada documento central, a organização dos conteúdos pedagógicos e operacionais e os critérios para criar ou evitar novos arquivos.
+
+Nenhuma escolha da DEC-05 foi aprovada ainda.
 
 ## Sequência obrigatória da LEA-103
 
@@ -122,9 +124,9 @@ DEC-03 — concluída
     ↓
 DEC-04 — concluída
     ↓
-DEC-05 — próxima, ainda não iniciada
+DEC-05 — em andamento
     ↓
-DEC-06
+DEC-06 — próxima após a conclusão da DEC-05
     ↓
 DEC-07
     ↓
@@ -141,16 +143,16 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-05 a DEC-10:** bloqueadas pela conclusão sequencial e pela autorização específica de início de cada decisão.
+- **DEC-06 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
 
 ## Regra de avanço
 
-A conclusão da DEC-04 não inicia automaticamente a DEC-05. A próxima decisão somente poderá começar após reconstrução do contexto oficial, confirmação de que não existe item estrutural em andamento, apresentação do resumo da transição e autorização específica para o registro inicial.
+Nenhuma etapa pode avançar apenas com base na conversa. A DEC-05 deve ser discutida, aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-06.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-04 registrada como aprovada e concluída; catálogo de comandos incorporado.
-- **Linear:** LEA-107 concluída; LEA-103 permanece em andamento; LEA-108 permanece no Backlog.
-- **Estado estrutural:** nenhuma DEC em andamento; DEC-05 confirmada como próxima e ainda não iniciada.
+- **GitHub:** DEC-05 registrada como decisão em andamento; nenhuma escolha estrutural aprovada ainda.
+- **Linear:** LEA-108 iniciada como único item estrutural em andamento.
+- **Estado estrutural:** DEC-05 em andamento; DEC-06 ainda não iniciada.
