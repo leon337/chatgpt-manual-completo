@@ -1,6 +1,6 @@
 # Manual do Projeto
 
-> **Status:** Modelo Operacional aprovado e implantado pela LEA-115. Os demais padrões serão complementados pelas DEC-01 a DEC-10.
+> **Status:** Modelo Operacional, identidade, estrutura pedagógica e níveis de autonomia aprovados. Os demais padrões serão complementados pelas DEC-04 a DEC-10.
 
 ## 1. Finalidade
 
@@ -159,7 +159,76 @@ Exemplo de resposta compacta:
 
 Textos explicativos, relatórios e análises não precisam ficar integralmente em caixas. As caixas devem ser usadas nos trechos que o usuário provavelmente copiará e enviará como resposta ou comando.
 
-## 8. Critério de conclusão
+## 8. Aplicação diária dos níveis de autonomia
+
+### Nível 1 — Consulta Automática
+
+Pode ser usado sem confirmação para ler, pesquisar, comparar, analisar e resumir fontes autorizadas diretamente relacionadas ao trabalho atual.
+
+Regras práticas:
+
+- usar somente leitura;
+- limitar a consulta ao escopo necessário;
+- não acessar e-mails, calendários, contatos, arquivos pessoais, outros repositórios ou serviços não relacionados sem solicitação ou autorização específica;
+- tratar a documentação oficial da OpenAI como fonte primária para informações atuais da plataforma.
+
+### Nível 2 — Preparação em Rascunho
+
+Pode ser usado sem confirmação para preparar materiais na conversa ou em arquivos temporários de revisão.
+
+Inclui textos, documentos, código, análises, planos, propostas, descrições de issues, mensagens, e-mails ainda não criados em sistemas externos, comandos, diffs e mensagens de commit.
+
+Quando houver risco de confusão, o material deve ser marcado como **RASCUNHO**.
+
+A preparação não autoriza gravação em sistemas externos.
+
+### Nível 3 — Execução Controlada
+
+É aplicado sempre que uma ação cria, altera, envia, publica, arquiva, exclui ou muda o estado de um sistema externo.
+
+#### Execução Controlada Padrão
+
+Uma solicitação direta, específica e clara pode funcionar como autorização quando a ação for privada ou interna, reversível, limitada, sem dados sensíveis, sem comunicação externa e sem alteração relevante do estado oficial.
+
+Exemplos possíveis, conforme o contexto:
+
+- criar um rascunho em sistema externo;
+- criar issue interna;
+- adicionar comentário operacional interno;
+- criar branch ou arquivo em área de rascunho;
+- criar evento;
+- aplicar rótulo;
+- arquivar mensagem.
+
+#### Execução Controlada Crítica
+
+Exige resumo prévio e confirmação explícita adicional quando a ação envolver publicação, envio a terceiros, commit ou merge, sobrescrita de arquivo oficial, exclusão, fechamento ou cancelamento de tarefa, alteração de roadmap, permissões, dados sensíveis, produção, execução em massa ou efeito de difícil reversão.
+
+O resumo deve informar:
+
+- sistema afetado;
+- alvo;
+- ação;
+- efeito esperado;
+- alcance;
+- possibilidade de reversão;
+- riscos relevantes.
+
+### Escopo da autorização
+
+Toda autorização é específica, delimitada e consumível. Ela termina quando a ação autorizada é concluída, cancelada ou quando houver mudança relevante de alvo, conteúdo, quantidade, contexto ou efeito.
+
+Uma autorização não se estende automaticamente a ações futuras semelhantes.
+
+### Regra de classificação
+
+A classificação depende do contexto e do efeito real. Uma operação normalmente padrão deve ser tratada como crítica quando ocorrer em ambiente oficial ou público, envolver terceiros, dados sensíveis, produção, segurança, permissões, credenciais, impacto jurídico, financeiro ou reputacional, execução em massa ou difícil reversão.
+
+Na dúvida razoável, classificar como crítica até que o escopo seja esclarecido.
+
+Os comandos e formatos exatos de aprovação serão definidos na DEC-04.
+
+## 9. Critério de conclusão
 
 Uma tarefa não está concluída apenas porque foi discutida ou aprovada no chat.
 
@@ -171,7 +240,7 @@ Ela somente pode ser concluída quando:
 - GitHub e Linear indicam o mesmo estado;
 - o próximo item foi confirmado.
 
-## 9. Estrutura documental enxuta
+## 10. Estrutura documental enxuta
 
 Documentos centrais:
 
