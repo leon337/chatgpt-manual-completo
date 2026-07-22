@@ -79,7 +79,7 @@ Aprovação não significa registro, publicação, conclusão ou avanço. Açõe
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01, DEC-02, DEC-03 e DEC-04 foram aprovadas, registradas e sincronizadas. Nenhuma DEC está em andamento. A LEA-108 / DEC-05 permanece no Backlog como próxima decisão e não foi iniciada.
+As decisões DEC-01, DEC-02, DEC-03 e DEC-04 foram aprovadas, registradas e sincronizadas. A LEA-108 / DEC-05 está em andamento para definir a estrutura e as responsabilidades do GitHub. A LEA-109 / DEC-06 permanece no Backlog como próxima etapa após a conclusão da DEC-05.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
