@@ -1,6 +1,6 @@
 # Manual do Projeto
 
-> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia e fluxo de aprovação aprovados. Os demais padrões serão complementados pelas DEC-05 a DEC-10.
+> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação e arquitetura documental aprovados. Os demais padrões serão complementados pelas DEC-06 a DEC-10.
 
 ## 1. Finalidade
 
@@ -336,8 +336,8 @@ Sem resumo válido, o comando solicita apenas a preparação da confirmação.
 Procedimento:
 
 1. verificar a aprovação final;
-2. verificar todas as escolhas e correções;
-3. verificar critérios de aceitação;
+2. verificar todas as escolhas e critérios de aceitação;
+3. confirmar ausência de correções ou escolhas reabertas;
 4. identificar registros necessários;
 5. verificar bloqueios e divergências;
 6. confirmar o próximo item;
@@ -381,13 +381,15 @@ Ela somente pode ser concluída quando:
 
 ## 11. Estrutura documental enxuta
 
-Documentos centrais:
+A estrutura ativa é:
 
 ```text
 README.md
 PROJECT_STATE.md
 ROADMAP.md
 CHANGELOG.md
+LICENSE-CONTENT.md
+LICENSE-CODE.md
 
 docs/
 ├── CONSTITUICAO_DO_PROJETO.md
@@ -396,4 +398,127 @@ docs/
 └── MANUAL_DO_PROJETO.md
 ```
 
-Não criar novos documentos por conveniência. Um novo documento somente deve existir quando os documentos centrais não comportarem claramente a informação e houver aprovação explícita.
+Estruturas futuras reservadas, mas ainda não criadas:
+
+```text
+curriculum/
+content/
+research/
+assets/
+```
+
+Não criar novos documentos por conveniência. Um novo documento somente deve existir quando os documentos centrais não comportarem claramente a informação, houver conteúdo mínimo útil, a responsabilidade estiver definida e existir aprovação e autorização aplicáveis.
+
+## 12. Aplicação diária da arquitetura documental da DEC-05
+
+### 12.1 Identificar a fonte canônica
+
+Antes de criar ou alterar informação, identificar primeiro sua fonte oficial principal:
+
+| Tipo de informação | Fonte canônica |
+|---|---|
+| Apresentação pública e navegação | `README.md` |
+| Estado operacional atual | `PROJECT_STATE.md` |
+| Sequência e planejamento estrutural | `ROADMAP.md` |
+| Histórico de alterações permanentes | `CHANGELOG.md` |
+| Regras superiores de governança | `docs/CONSTITUICAO_DO_PROJETO.md` |
+| Decisões aprovadas | `docs/DECISOES.md` |
+| Procedimentos repetíveis aprovados | `docs/SKILLS.md` |
+| Explicações operacionais | `docs/MANUAL_DO_PROJETO.md` |
+| Arquitetura pedagógica global | `curriculum/CURRICULUM.md`, quando criado |
+| Conteúdo pedagógico canônico | `content/` |
+| Pesquisas e evidências | `research/` |
+| Recursos reutilizáveis | `assets/` |
+
+A alteração semântica deve começar pela fonte canônica. Outros documentos podem manter resumo breve e link relativo.
+
+### 12.2 Decidir se um novo arquivo é necessário
+
+Aplicar este checklist:
+
+1. existe necessidade concreta e atual?
+2. a informação não cabe adequadamente em arquivo existente?
+3. a responsabilidade do novo arquivo é exclusiva e clara?
+4. o caminho proposto corresponde ao tipo de informação?
+5. existe conteúdo mínimo útil para a primeira versão?
+6. a criação pertence à etapa atual?
+7. os riscos de duplicidade e navegação foram avaliados?
+8. existe aprovação e autorização aplicável?
+
+Se qualquer ponto essencial estiver ausente, não criar o arquivo.
+
+### 12.3 Preparar o resumo de criação
+
+Antes de solicitar registro, informar:
+
+- caminho e nome;
+- finalidade;
+- tipo de informação;
+- fonte oficial correspondente;
+- relação com arquivos existentes;
+- motivo da insuficiência das fontes atuais;
+- momento e responsável lógico pela atualização;
+- riscos de duplicidade;
+- impacto em links, índices e navegação;
+- possibilidade de reversão.
+
+### 12.4 Escolher a localização
+
+- **Raiz:** apresentação, estado, planejamento, histórico, licenças e arquivos essenciais de navegação.
+- **`docs/`:** governança, decisões, procedimentos e funcionamento do projeto.
+- **`curriculum/`:** arquitetura curricular, mapas, objetivos, sequências e pré-requisitos.
+- **`content/`:** Formações, Módulos, Aulas e conteúdo pedagógico canônico.
+- **`research/`:** fontes, evidências, comparações e notas técnicas.
+- **`assets/`:** imagens, diagramas, ilustrações, capturas autorizadas e recursos reutilizáveis.
+
+### 12.5 Atualizar sem duplicar
+
+1. alterar primeiro a fonte canônica;
+2. localizar resumos, links e índices afetados;
+3. incluir as atualizações coordenadas no mesmo resumo de execução;
+4. evitar copiar o conteúdo integral para documentos secundários;
+5. verificar que nenhum resumo contradiz a fonte principal;
+6. revisar links relativos depois da alteração.
+
+### 12.6 Mover ou renomear
+
+Antes da mudança:
+
+1. justificar a necessidade;
+2. identificar todas as referências afetadas;
+3. definir o novo caminho;
+4. preparar o plano de atualização de links e índices;
+5. confirmar que não ficará cópia concorrente;
+6. preservar o histórico do Git;
+7. solicitar autorização específica.
+
+### 12.7 Substituir ou remover
+
+Uma substituição exige destino para todo conteúdo válido, responsabilidade equivalente ou superior do sucessor, atualização das referências e registro histórico.
+
+O histórico do Git é o mecanismo padrão para recuperar versões. Não criar diretório genérico de arquivos antigos por conveniência.
+
+Exclusões não podem ser silenciosas. Exigem análise de impacto, resumo prévio e autorização de execução crítica.
+
+### 12.8 Tratar conflitos documentais
+
+Quando houver versões incompatíveis:
+
+1. interromper o avanço;
+2. identificar a fonte canônica aplicável;
+3. verificar a hierarquia documental;
+4. preparar a correção dos documentos secundários;
+5. solicitar autorização para alterações externas;
+6. verificar novamente GitHub, Linear, links e estado oficial.
+
+Não manter duas versões concorrentes como solução.
+
+### 12.9 Publicação
+
+A versão canônica do conteúdo permanecerá em `content/`. Não criar `published/` apenas para duplicar material.
+
+Arquivos técnicos de distribuição somente devem existir quando uma plataforma exigir e não substituem a fonte canônica.
+
+### 12.10 Regra operacional final
+
+Currículo define a arquitetura. Conteúdo contém o material pedagógico. Pesquisa sustenta o conteúdo. Assets fornecem recursos reutilizáveis. Publicação distribui uma versão aprovada sem criar uma segunda fonte oficial.
