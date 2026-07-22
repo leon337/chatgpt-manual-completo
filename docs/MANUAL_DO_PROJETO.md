@@ -1,6 +1,6 @@
 # Manual do Projeto
 
-> **Status:** Modelo Operacional, identidade, estrutura pedagógica e níveis de autonomia aprovados. Os demais padrões serão complementados pelas DEC-04 a DEC-10.
+> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia e fluxo de aprovação aprovados. Os demais padrões serão complementados pelas DEC-05 a DEC-10.
 
 ## 1. Finalidade
 
@@ -226,9 +226,148 @@ A classificação depende do contexto e do efeito real. Uma operação normalmen
 
 Na dúvida razoável, classificar como crítica até que o escopo seja esclarecido.
 
-Os comandos e formatos exatos de aprovação serão definidos na DEC-04.
+## 9. Aplicação diária dos comandos da DEC-04
 
-## 9. Critério de conclusão
+### 9.1 Reconhecimento da intenção
+
+O projeto utiliza um modelo híbrido. Uma solicitação em linguagem natural direta, específica e inequívoca pode produzir o mesmo efeito de um comando canônico. O ChatGPT deve informar qual intenção reconheceu quando isso for relevante para a execução.
+
+Mensagens ambíguas não devem ser tratadas como aprovação ou autorização.
+
+Os comandos canônicos utilizam colchetes, letras maiúsculas, português do Brasil e a estrutura `AÇÃO + OBJETO`.
+
+### 9.2 Aprovar um material
+
+Comandos:
+
+```text
+[APROVAR CONTEÚDO]
+[APROVAR DECISÃO]
+[APROVAR ENTREGA]
+```
+
+Procedimento:
+
+1. identificar a versão aprovada;
+2. encerrar a revisão daquela versão;
+3. registrar na conversa que a aprovação não autoriza gravação externa;
+4. identificar os registros oficiais necessários;
+5. preparar o resumo da execução quando o registro for necessário.
+
+A aprovação não cria commit, não altera o Linear, não publica, não conclui e não inicia outra etapa.
+
+### 9.3 Solicitar correções
+
+```text
+[SOLICITAR CORREÇÕES]
+```
+
+A solicitação deve indicar, quando aplicável:
+
+- alvo;
+- trecho ou aspecto afetado;
+- mudança desejada;
+- condições que devem ser preservadas.
+
+O ChatGPT prepara uma nova versão e mantém o item em revisão. A nova versão não é considerada aprovada automaticamente.
+
+### 9.4 Reabrir uma escolha
+
+```text
+[REABRIR ESCOLHA]
+```
+
+Procedimento:
+
+1. identificar a pergunta ou escolha reaberta;
+2. suspender provisoriamente somente a resposta anterior daquele ponto;
+3. preservar as demais escolhas;
+4. apresentar novamente o ponto necessário;
+5. exigir nova resposta antes da consolidação final.
+
+Uma decisão já concluída e registrada exige análise de impacto, proposta corretiva, autorização específica e histórico preservado.
+
+### 9.5 Autorizar registro oficial
+
+```text
+[AUTORIZAR REGISTRO OFICIAL]
+```
+
+Antes de solicitar esse comando, apresentar:
+
+- sistemas afetados;
+- arquivos, documentos, issues ou registros atingidos;
+- ações previstas;
+- versão que será registrada;
+- mudanças de status;
+- resultado esperado;
+- reversibilidade;
+- riscos;
+- estado esperado após a sincronização.
+
+O comando autoriza somente o resumo imediatamente anterior ou explicitamente identificado. Depois da execução, informar alterações, commits ou evidências, estados no Linear, sincronização e falhas.
+
+### 9.6 Autorizar publicação
+
+```text
+[AUTORIZAR PUBLICAÇÃO]
+```
+
+Antes da autorização, informar conteúdo e versão, canal, público ou destinatários, ação, alcance, momento quando aplicável, reversibilidade, riscos e evidência esperada.
+
+A autorização não se estende a outros canais, versões, republicações, campanhas, gastos ou envios não descritos.
+
+### 9.7 Autorizar outra execução crítica
+
+```text
+[AUTORIZAR EXECUÇÃO CRÍTICA]
+```
+
+Usar para exclusão, sobrescrita, merge, envio, alteração de permissões, dados sensíveis, operações em massa e outras ações críticas não classificadas como publicação.
+
+Sem resumo válido, o comando solicita apenas a preparação da confirmação.
+
+### 9.8 Validar a conclusão
+
+```text
+[CONCLUIR ETAPA]
+```
+
+Procedimento:
+
+1. verificar a aprovação final;
+2. verificar todas as escolhas e correções;
+3. verificar critérios de aceitação;
+4. identificar registros necessários;
+5. verificar bloqueios e divergências;
+6. confirmar o próximo item;
+7. quando o registro estiver pendente, preparar o resumo e solicitar `[AUTORIZAR REGISTRO OFICIAL]`;
+8. depois da execução, verificar GitHub, Linear, evidências e sincronização.
+
+Somente declarar `ETAPA CONCLUÍDA` quando todas as condições forem satisfeitas. A conclusão não inicia automaticamente o próximo item.
+
+### 9.9 Preparar a próxima decisão
+
+```text
+[INICIAR PRÓXIMA DECISÃO]
+```
+
+O comando somente poderá ser reconhecido depois da declaração `ETAPA CONCLUÍDA` da etapa anterior.
+
+Procedimento:
+
+1. reconstruir o contexto oficial;
+2. confirmar sincronização;
+3. verificar que nenhum item estrutural permanece em andamento;
+4. identificar a próxima decisão obrigatória;
+5. verificar dependências e bloqueios;
+6. apresentar o resumo da transição;
+7. solicitar nova autorização por `[AUTORIZAR REGISTRO OFICIAL]`;
+8. somente depois da autorização, alterar GitHub e Linear, verificar a sincronização e apresentar a primeira pergunta da nova decisão.
+
+O comando não ignora a sequência, não reutiliza autorização anterior e não inicia duas decisões simultaneamente.
+
+## 10. Critério de conclusão
 
 Uma tarefa não está concluída apenas porque foi discutida ou aprovada no chat.
 
@@ -240,7 +379,7 @@ Ela somente pode ser concluída quando:
 - GitHub e Linear indicam o mesmo estado;
 - o próximo item foi confirmado.
 
-## 10. Estrutura documental enxuta
+## 11. Estrutura documental enxuta
 
 Documentos centrais:
 
