@@ -9,6 +9,7 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Registro oficial da DEC-01 — Identidade e visão do projeto.
 - Registro oficial da DEC-02 — Estrutura pedagógica oficial.
 - Registro oficial da DEC-03 — Níveis de autonomia das ferramentas.
+- Registro oficial da DEC-04 — Fluxo e comandos de aprovação.
 - Aviso de licenciamento do conteúdo sob CC BY-SA 4.0.
 - Aviso de licenciamento dos exemplos de código e componentes de software sob MIT License.
 - Política oficial de atribuição do conteúdo e titularidade do código.
@@ -19,16 +20,21 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Regras de validade, consumo e delimitação das autorizações.
 - Regra de classificação pelo contexto e efeito real da execução.
 - Confirmação proporcional ao risco para ações externas.
+- Modelo híbrido entre linguagem natural e comandos canônicos.
+- Catálogo oficial de comandos da DEC-04.
+- Separação formal entre aprovação, registro, publicação, conclusão e avanço.
+- Fluxos específicos para correção, reabertura de escolha, registro oficial, publicação, execução crítica, conclusão e transição.
 
 ### Alterado
 
-- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças, a estrutura pedagógica aprovada, os níveis de autonomia e a DEC-04 como decisão em andamento.
-- `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula, suas regras de progressão, identificação e expansão futura, e os níveis de autonomia das ferramentas.
-- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária dos níveis de autonomia, a classificação de risco e o alcance das autorizações.
-- `PROJECT_STATE.md` passou a registrar a LEA-107 / DEC-04 como único item estrutural em andamento e a LEA-108 / DEC-05 como próxima etapa.
-- `docs/DECISOES.md` passou a conter os resultados aprovados das DEC-01, DEC-02 e DEC-03 e o estado inicial da DEC-04.
-- `ROADMAP.md` passou a marcar DEC-01, DEC-02 e DEC-03 como concluídas e a DEC-04 como em andamento.
-- A descrição da LEA-103 passou a indicar a DEC-04 como em andamento e a DEC-05 como próxima decisão.
+- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças, a estrutura pedagógica, os níveis de autonomia, o catálogo de comandos e a DEC-04 como concluída.
+- `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula, suas regras de progressão, identificação e expansão futura, os níveis de autonomia e o fluxo oficial de aprovação.
+- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária dos níveis de autonomia e dos comandos aprovados.
+- `PROJECT_STATE.md` passou a registrar a LEA-107 / DEC-04 como concluída, nenhuma DEC em andamento e a LEA-108 / DEC-05 como próxima etapa não iniciada.
+- `docs/DECISOES.md` passou a conter os resultados aprovados das DEC-01 a DEC-04.
+- `docs/SKILLS.md` passou a registrar o catálogo de comandos operacionais aprovado, preservando as Skills como propostas até a DEC-08.
+- `ROADMAP.md` passou a marcar DEC-01, DEC-02, DEC-03 e DEC-04 como concluídas.
+- A descrição da LEA-103 passou a indicar a DEC-04 como concluída e a DEC-05 como próxima decisão.
 
 ### Iniciado
 
@@ -42,17 +48,19 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - LEA-104 — DEC-01: Definir identidade e visão do projeto.
 - LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial.
 - LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas.
+- LEA-107 — DEC-04: Definir fluxo e comandos de aprovação.
 - Sincronização da conclusão da DEC-01 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-02 entre GitHub e Linear.
 - Sincronização da conclusão da DEC-03 entre GitHub e Linear.
+- Sincronização da conclusão da DEC-04 entre GitHub e Linear.
 
 ### Preservado
 
-- A LEA-107 / DEC-04 é o único item estrutural em andamento.
+- Nenhuma DEC está em andamento após a conclusão da DEC-04.
 - A LEA-108 / DEC-05 permanece no Backlog e não foi iniciada.
-- Nenhum comando ou fluxo da DEC-04 foi aprovado ainda.
 - A sequência DEC-01 a DEC-10 permanece inalterada.
 - A LEA-114 permanece no Backlog e bloqueada pela conclusão da LEA-103.
+- Nenhuma publicação externa foi realizada.
 
 ## 2026-07-21
 
