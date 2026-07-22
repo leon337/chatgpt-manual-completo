@@ -1,6 +1,6 @@
 # Roadmap
 
-## Fase 0 — Governança inicial
+## Fase 0 — Decisões estruturais
 
 - [ ] DEC-01 — Identidade e visão do projeto
 - [ ] DEC-02 — Estrutura pedagógica
@@ -11,11 +11,17 @@
 - [ ] DEC-07 — Padrão editorial
 - [ ] DEC-08 — Catálogo de Skills
 - [ ] DEC-09 — Instrução definitiva do Projeto ChatGPT
-- [ ] DEC-10 — Revisão final da governança
+- [ ] DEC-10 — Revisão e aprovação final
+
+## Etapa posterior — Universo Didático
+
+- [ ] LEA-114 — Definir o Universo Didático Permanente
+
+A LEA-114 não integra a numeração DEC-01 a DEC-10. Ela permanece no Backlog e somente poderá ser iniciada após a conclusão e a sincronização completa da LEA-103.
 
 ## Fase 1 — Formação Iniciante
 
-Planejar formações, módulos e aulas somente após aprovação da governança inicial.
+Planejar formações, módulos e aulas somente após a conclusão da LEA-103 e da definição inicial do Universo Didático na LEA-114.
 
 ## Fases futuras
 
