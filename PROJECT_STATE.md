@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia e fluxo de aprovação registrados; DEC-05 iniciada
-- **Linear:** LEA-104, LEA-105, LEA-106 e LEA-107 concluídas; LEA-108 em andamento
+- **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação e arquitetura documental registrados
+- **Linear:** LEA-104, LEA-105, LEA-106, LEA-107 e LEA-108 concluídas
 
 ## Estrutura pedagógica aprovada
 
@@ -20,11 +20,11 @@ Manual
 
 ## Estado estrutural oficial
 
-- **Último item concluído:** LEA-107 — DEC-04: Definir fluxo e comandos de aprovação
-- **Item estrutural em andamento:** LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub
-- **Status:** em andamento
-- **Objetivo atual:** definir a árvore oficial do repositório, a função de cada documento central, a separação entre governança, conteúdo pedagógico e operação, e as regras para criação de novos arquivos sem duplicidade
-- **Próximo item após a conclusão:** LEA-109 — DEC-06: Definir estrutura operacional do Linear
+- **Último item concluído:** LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub
+- **Item estrutural em andamento:** nenhum
+- **Status:** DEC-05 concluída; aguardando comando específico para preparar a transição da DEC-06
+- **Objetivo atual:** preservar o estado sincronizado da DEC-05 e impedir o início automático da decisão seguinte
+- **Próximo item:** LEA-109 — DEC-06: Definir estrutura operacional do Linear
 
 ## Resultado da DEC-01
 
@@ -93,6 +93,34 @@ Catálogo aprovado:
 [INICIAR PRÓXIMA DECISÃO]
 ```
 
+## Resultado da DEC-05
+
+A estrutura e as responsabilidades do GitHub foram aprovadas com os seguintes elementos:
+
+- estrutura ativa mínima formada pelos arquivos centrais da raiz e pelo diretório `docs/`;
+- `README.md` como apresentação pública e navegação;
+- `PROJECT_STATE.md` como estado operacional oficial atual;
+- `ROADMAP.md` como sequência e planejamento estrutural;
+- `CHANGELOG.md` como histórico de alterações permanentes;
+- `LICENSE-CONTENT.md` e `LICENSE-CODE.md` com responsabilidades exclusivas sobre seus respectivos termos;
+- `docs/CONSTITUICAO_DO_PROJETO.md` como autoridade normativa superior;
+- `docs/DECISOES.md` como registro das decisões aprovadas;
+- `docs/SKILLS.md` como catálogo dos procedimentos repetíveis aprovados;
+- `docs/MANUAL_DO_PROJETO.md` como explicação operacional das regras;
+- `curriculum/`, `content/`, `research/` e `assets/` reservados como estruturas futuras, sem criação prematura;
+- futuro `curriculum/CURRICULUM.md` como fonte oficial da arquitetura pedagógica global quando a etapa curricular justificar sua criação;
+- `content/` como fonte canônica do conteúdo pedagógico;
+- `research/` como área de pesquisas, fontes e evidências;
+- `assets/` como área de recursos visuais e reutilizáveis;
+- proibição de um diretório `published/` criado apenas para duplicar o conteúdo canônico;
+- critérios obrigatórios de necessidade, responsabilidade, localização, conteúdo mínimo útil e autorização para criar arquivos ou diretórios;
+- análise de impacto para movimentação, renomeação, substituição e remoção;
+- uso do histórico do Git como mecanismo padrão de recuperação de versões;
+- matriz obrigatória de fontes canônicas, resumos referenciais e atualização coordenada;
+- proibição de duplicação de responsabilidade entre documentos.
+
+Nenhum diretório futuro, placeholder ou arquivo adicional foi criado durante o registro da DEC-05.
+
 ## Modelo Operacional
 
 A LEA-115 foi concluída após:
@@ -107,11 +135,9 @@ A LEA-115 foi concluída após:
 
 ## Decisão atual
 
-**LEA-108 — DEC-05**, iniciada formalmente após autorização específica do usuário.
+Nenhuma decisão estrutural está em andamento.
 
-A decisão deve definir a estrutura e as responsabilidades do GitHub, incluindo a árvore oficial do repositório, a finalidade de cada documento central, a organização dos conteúdos pedagógicos e operacionais e os critérios para criar ou evitar novos arquivos.
-
-Nenhuma escolha da DEC-05 foi aprovada ainda.
+A LEA-108 / DEC-05 foi aprovada, registrada e concluída. A LEA-109 / DEC-06 permanece no Backlog e somente poderá ser iniciada após o comando `[INICIAR PRÓXIMA DECISÃO]`, a validação da transição e nova autorização específica por `[AUTORIZAR REGISTRO OFICIAL]`.
 
 ## Sequência obrigatória da LEA-103
 
@@ -124,9 +150,9 @@ DEC-03 — concluída
     ↓
 DEC-04 — concluída
     ↓
-DEC-05 — em andamento
+DEC-05 — concluída
     ↓
-DEC-06 — próxima após a conclusão da DEC-05
+DEC-06 — próxima, ainda não iniciada
     ↓
 DEC-07
     ↓
@@ -143,16 +169,16 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-06 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
+- **DEC-06 a DEC-10:** bloqueadas pela conclusão sequencial e pela transição formal da decisão anterior.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
 
 ## Regra de avanço
 
-Nenhuma etapa pode avançar apenas com base na conversa. A DEC-05 deve ser discutida, aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-06.
+A conclusão da DEC-05 não inicia automaticamente a DEC-06. A próxima decisão somente poderá ser preparada após `[INICIAR PRÓXIMA DECISÃO]` e iniciada externamente depois de nova autorização específica de registro.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-05 registrada como decisão em andamento; nenhuma escolha estrutural aprovada ainda.
-- **Linear:** LEA-108 iniciada como único item estrutural em andamento.
-- **Estado estrutural:** DEC-05 em andamento; DEC-06 ainda não iniciada.
+- **GitHub:** DEC-05 registrada como aprovada e concluída; arquitetura documental e fontes canônicas atualizadas.
+- **Linear:** LEA-108 concluída; LEA-103 permanece em andamento; LEA-109 permanece no Backlog.
+- **Estado estrutural:** nenhum item estrutural em andamento; DEC-06 confirmada como próxima e não iniciada.
