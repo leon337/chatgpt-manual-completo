@@ -1,10 +1,10 @@
 # Constituição do Projeto
 
-> **Status:** rascunho inicial sujeito à aprovação.
+> **Status:** base operacional aprovada. Identidade, autonomia, padrão editorial e demais pontos continuarão sendo definidos pelas DEC-01 a DEC-10.
 
 ## 1. Missão
 
-Construir o Manual Completo da Plataforma ChatGPT em português do Brasil, organizado como curso progressivo, manual de referência e base de conhecimento viva.
+Construir o Manual Completo da Plataforma ChatGPT em português do Brasil, organizado como curso progressivo, manual de referência e base de conhecimento viva para humanos e inteligências artificiais.
 
 ## 2. Estrutura pedagógica
 
@@ -15,33 +15,96 @@ Manual
         └── Aula
 ```
 
-## 3. Fontes oficiais
+## 3. Modelo Operacional do Projeto
 
-1. Constituição do Projeto
-2. Manual do Projeto
-3. Decisões aprovadas
-4. Catálogo de Skills
-5. Workflow
-6. Estado do Projeto
-7. Roadmap
-8. Linear
-9. Conversa atual
+O projeto deve ser conduzido pelo estado oficial registrado no GitHub e no Linear, e não apenas pela memória da conversa.
 
-Quando houver conflito, deve prevalecer a fonte oficial mais recente e de maior prioridade.
+Antes de responder a qualquer solicitação relacionada ao projeto, o ChatGPT deve reconstruir o contexto oficial, confirmar o item de trabalho atual e executar somente a etapa correspondente.
 
-## 4. Regra de reconstrução de contexto
+### 3.1 Hierarquia das fontes
 
-Antes de responder ou executar uma solicitação relacionada à estrutura, conteúdo, roadmap, documentação, publicação ou progresso do projeto, o ChatGPT deve:
+1. `docs/CONSTITUICAO_DO_PROJETO.md`
+2. `PROJECT_STATE.md`
+3. `docs/DECISOES.md`
+4. `docs/SKILLS.md`
+5. `ROADMAP.md`
+6. Linear
+7. Conversa atual
 
-1. consultar a documentação oficial relevante no GitHub;
-2. consultar o estado correspondente no Linear;
-3. verificar decisões já aprovadas;
-4. identificar a skill aplicável;
-5. somente então responder ou executar.
+O `docs/MANUAL_DO_PROJETO.md` explica o funcionamento diário, mas não substitui as fontes oficiais acima.
 
-Perguntas casuais que não alterem o projeto podem usar um fluxo simplificado.
+Quando houver divergência, o trabalho deve parar até GitHub e Linear serem sincronizados. Não é permitido escolher silenciosamente uma das versões.
 
-## 5. Separação de estados
+### 3.2 Fluxo obrigatório dos chats
+
+```text
+Receber solicitação
+        ↓
+Identificar se pertence ao projeto
+        ↓
+Consultar a documentação oficial relevante
+        ↓
+Consultar o Linear
+        ↓
+Confirmar o item de trabalho atual
+        ↓
+Executar somente a etapa correspondente
+        ↓
+Registrar a decisão ou entrega aprovada no GitHub
+        ↓
+Atualizar o Linear
+        ↓
+Confirmar sincronização
+        ↓
+Liberar a próxima etapa
+```
+
+Perguntas casuais e sem efeito sobre o projeto podem usar fluxo simplificado.
+
+### 3.3 Controle de foco e sequência
+
+- Apenas um item estrutural pode permanecer em andamento por vez.
+- Nenhuma decisão posterior pode iniciar antes da conclusão e do registro da decisão atual.
+- As decisões da LEA-103 devem seguir a ordem DEC-01 → DEC-02 → DEC-03 → DEC-04 → DEC-05 → DEC-06 → DEC-07 → DEC-08 → DEC-09 → DEC-10.
+- Uma tarefa corretiva de infraestrutura pode bloquear temporariamente a decisão atual sem alterar a numeração das DEC.
+- Ideias fora da etapa atual devem ser registradas no Backlog e não desenvolvidas naquele momento.
+- O ChatGPT não deve criar novas decisões, documentos ou mudanças de estrutura por iniciativa própria durante a execução de uma etapa.
+
+### 3.4 Comportamento das respostas
+
+- Informar de forma breve o item de trabalho atual quando a resposta envolver gerenciamento do projeto.
+- Não avançar para a próxima decisão na mesma resposta em que a atual está sendo discutida.
+- Não acrescentar novas propostas estruturais fora do escopo solicitado.
+- Quando houver escolhas, apresentar perguntas numeradas e alternativas de `A` a `E`.
+- Fornecer uma caixa de texto copiável com o formato de resposta, por exemplo: `1A 2C 3B`.
+- Ações apresentadas ao final devem corresponder apenas à etapa atual.
+
+## 4. Eventos do Projeto
+
+Cada evento aprovado possui um fluxo obrigatório.
+
+| Evento | GitHub | Linear | Condição para avançar |
+|---|---|---|---|
+| Ideia ainda não aprovada | Não altera documentação oficial | Registrar no Backlog quando necessário | Aguardar análise futura |
+| Decisão aprovada | Atualizar `docs/DECISOES.md`, `PROJECT_STATE.md` e `CHANGELOG.md` quando houver mudança permanente | Registrar resultado e concluir a tarefa | GitHub e Linear sincronizados |
+| Skill aprovada | Atualizar `docs/SKILLS.md` e os registros de estado aplicáveis | Atualizar ou concluir a tarefa correspondente | Skill documentada e sincronizada |
+| Formação, módulo ou aula aprovados | Atualizar os arquivos pedagógicos e índices aplicáveis | Atualizar estado e critérios de conclusão | Registro oficial consistente |
+| Publicação autorizada | Publicar o conteúdo e atualizar estado e histórico | Marcar como publicado somente após confirmação | Evidência de publicação |
+| Correção editorial | Atualizar o arquivo afetado; usar `CHANGELOG.md` quando a alteração for relevante | Atualizar somente quando houver tarefa correspondente | Revisão concluída |
+
+## 5. Sincronização obrigatória
+
+Uma decisão ou entrega somente é considerada concluída quando:
+
+1. foi aprovada pelo usuário;
+2. foi registrada nos documentos oficiais aplicáveis;
+3. foi atualizada no Linear;
+4. `PROJECT_STATE.md` e Linear indicam o mesmo item atual e o mesmo próximo passo;
+5. alterações permanentes relevantes foram registradas em `CHANGELOG.md`.
+
+Se qualquer etapa estiver pendente, o item permanece em andamento.
+
+## 6. Separação de estados
 
 Todo conteúdo deve ser classificado como:
 
@@ -55,10 +118,19 @@ Todo conteúdo deve ser classificado como:
 
 Aprovação não significa publicação.
 
-## 6. Controle humano
+## 7. Responsabilidades das ferramentas
 
-Publicação, exclusão, sobrescrita, alteração de roadmap, fechamento de tarefas e outras ações oficiais devem obedecer aos níveis de autonomia que serão definidos em DEC-03.
+- **GitHub:** fonte permanente de decisões, documentação, estado e conteúdo aprovado ou publicado.
+- **Linear:** controle de execução, prioridades, dependências, bloqueios, critérios de aceitação e próxima etapa.
+- **ChatGPT:** consulta as fontes, verifica sincronização, conduz a etapa atual e prepara registros.
+- **Conversa:** ambiente temporário de discussão; não substitui GitHub nem Linear.
 
-## 7. Atualização
+## 8. Controle humano
 
-Esta Constituição somente poderá ser alterada por decisão registrada no Linear e atualização correspondente no GitHub.
+- Consultas às fontes podem ocorrer automaticamente.
+- Publicação, exclusão, sobrescrita, alteração de roadmap, fechamento de tarefas e outras ações oficiais obedecerão aos níveis de autonomia definidos na DEC-03.
+- Até a conclusão da DEC-03, alterações oficiais exigem autorização explícita do usuário.
+
+## 9. Alteração desta Constituição
+
+Esta Constituição somente poderá ser alterada por decisão ou tarefa operacional registrada no Linear, autorização correspondente e atualização sincronizada no GitHub.
