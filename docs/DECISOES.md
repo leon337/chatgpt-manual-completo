@@ -24,7 +24,10 @@ O projeto será conduzido pelo estado oficial sincronizado entre GitHub e Linear
 7. Uma etapa somente é concluída quando GitHub e Linear estiverem sincronizados.
 8. Ideias fora da etapa atual devem permanecer no Backlog sem mudar o foco.
 9. O ChatGPT não deve criar novas decisões, documentos ou alterações estruturais por iniciativa própria durante a execução de uma etapa.
-10. Perguntas decisórias devem usar numeração, alternativas de A a E e uma caixa de resposta copiável.
+10. Perguntas decisórias devem usar numeração e alternativas de A a E.
+11. Cada alternativa utilizável como resposta direta deve aparecer em uma caixa copiável separada.
+12. Autorizações, confirmações e comandos operacionais devem ser apresentados em caixas copiáveis.
+13. Ao final das escolhas, deve existir uma caixa com a resposta compacta, como `1A 2C 3B`.
 
 ### Implantação concluída
 
@@ -36,6 +39,23 @@ O projeto será conduzido pelo estado oficial sincronizado entre GitHub e Linear
 - Verificação funcional realizada em um novo chat.
 - LEA-115 concluída no Linear.
 - LEA-104 / DEC-01 liberada como único item estrutural em andamento.
+
+## Mapa oficial da LEA-103
+
+| Ordem | Decisão | Issue |
+|---|---|---|
+| 1 | DEC-01 — Identidade e visão do projeto | LEA-104 |
+| 2 | DEC-02 — Estrutura pedagógica oficial | LEA-105 |
+| 3 | DEC-03 — Níveis de autonomia das ferramentas | LEA-106 |
+| 4 | DEC-04 — Fluxo e comandos de aprovação | LEA-107 |
+| 5 | DEC-05 — Estrutura e responsabilidades do GitHub | LEA-108 |
+| 6 | DEC-06 — Estrutura operacional do Linear | LEA-109 |
+| 7 | DEC-07 — Padrão editorial das aulas | LEA-110 |
+| 8 | DEC-08 — Catálogo de Skills do projeto | LEA-111 |
+| 9 | DEC-09 — Instrução definitiva do Projeto ChatGPT | LEA-112 |
+| 10 | DEC-10 — Revisão e aprovação final | LEA-113 |
+
+A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numeração DEC-01 a DEC-10.
 
 ## Estrutura pedagógica aprovada
 
