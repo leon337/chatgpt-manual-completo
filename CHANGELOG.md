@@ -30,11 +30,14 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - O título da LEA-114 foi corrigido de `DEC-11 — Definir o Universo Didático Permanente` para `Definir o Universo Didático Permanente`.
 - `ROADMAP.md` passou a registrar explicitamente a LEA-114 como etapa posterior à LEA-103 e anterior ao planejamento da Formação Iniciante.
 - A nomenclatura da Fase 0 no roadmap foi ajustada para `Decisões estruturais`.
+- `PROJECT_STATE.md` passou a registrar a sincronização posterior à terceira auditoria independente.
+- A referência interna da LEA-114 na descrição da LEA-103 foi atualizada para o endereço atual da issue.
 
 ### Concluído
 
 - LEA-115 — Modelo Operacional do Projeto implantado e sincronizado entre GitHub, Linear e instruções do Projeto ChatGPT.
 - Correção das inconsistências residuais identificadas no segundo teste de reconstrução do contexto.
+- Correção das inconsistências residuais identificadas no terceiro teste independente.
 
 ### Preservado
 
