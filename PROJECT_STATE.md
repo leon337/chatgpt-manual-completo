@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** identidade, licenciamento, estrutura pedagógica e níveis de autonomia registrados
-- **Linear:** LEA-104, LEA-105 e LEA-106 concluídas; LEA-107 no Backlog
+- **Repositório:** identidade, licenciamento, estrutura pedagógica e níveis de autonomia registrados; DEC-04 iniciada
+- **Linear:** LEA-104, LEA-105 e LEA-106 concluídas; LEA-107 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -21,11 +21,10 @@ Manual
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas
-- **Item estrutural em andamento:** nenhum
-- **Status:** aguardando autorização para iniciar a próxima decisão
-- **Objetivo concluído:** classificar ações em consulta automática, preparação em rascunho e execução controlada, com controle proporcional ao risco
-- **Próximo item:** LEA-107 — DEC-04: Definir fluxo e comandos de aprovação
-- **Status do próximo item:** Backlog; ainda não iniciado
+- **Item estrutural em andamento:** LEA-107 — DEC-04: Definir fluxo e comandos de aprovação
+- **Status:** em andamento
+- **Objetivo atual:** definir comandos e fluxos claros para aprovação, correção, publicação, atualização e avanço, sem ambiguidades e sem contornar os níveis de autonomia
+- **Próximo item após a conclusão:** LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub
 
 ## Resultado da DEC-01
 
@@ -81,9 +80,11 @@ A LEA-115 foi concluída após:
 
 ## Decisão atual
 
-Nenhuma DEC está em andamento.
+**LEA-107 — DEC-04**, iniciada formalmente após autorização explícita do usuário.
 
-A **LEA-107 — DEC-04** é o próximo item confirmado, permanece no Backlog e somente poderá ser iniciada após autorização correspondente.
+A decisão deve definir o fluxo e os comandos de aprovação, correção, publicação, atualização e avanço, preservando as regras de risco e confirmação aprovadas na DEC-03.
+
+Nenhum comando ou fluxo da DEC-04 foi aprovado ainda.
 
 ## Sequência obrigatória da LEA-103
 
@@ -94,9 +95,9 @@ DEC-02 — concluída
     ↓
 DEC-03 — concluída
     ↓
-DEC-04 — próxima, no Backlog e não iniciada
+DEC-04 — em andamento
     ↓
-DEC-05
+DEC-05 — próxima após a conclusão da DEC-04
     ↓
 DEC-06
     ↓
@@ -120,11 +121,11 @@ Retomar LEA-114 — Universo Didático
 
 ## Regra de avanço
 
-Nenhuma etapa pode avançar apenas com base na conversa. A LEA-107 / DEC-04 deve ser iniciada formalmente antes de qualquer desenvolvimento de seus comandos e fluxos de aprovação.
+Nenhuma etapa pode avançar apenas com base na conversa. A DEC-04 deve ser aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-05.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-03 aprovada, registrada e concluída.
-- **Linear:** LEA-106 concluída; LEA-107 permanece no Backlog.
-- **Estado estrutural:** nenhuma DEC em andamento; DEC-04 é a próxima etapa e não foi iniciada.
+- **GitHub:** DEC-04 registrada como decisão em andamento; nenhum comando aprovado ainda.
+- **Linear:** LEA-107 iniciada como único item estrutural em andamento.
+- **Estado estrutural:** DEC-04 em andamento; DEC-05 ainda não iniciada.
