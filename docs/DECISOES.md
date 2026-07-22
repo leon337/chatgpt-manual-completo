@@ -24,7 +24,7 @@ O projeto será conduzido pelo estado oficial sincronizado entre GitHub e Linear
 7. Uma etapa somente é concluída quando GitHub e Linear estiverem sincronizados.
 8. Ideias fora da etapa atual devem permanecer no Backlog sem mudar o foco.
 9. O ChatGPT não deve criar novas decisões, documentos ou alterações estruturais por iniciativa própria durante a execução de uma etapa.
-10. Perguntas decisórias devem usar numeração e alternativas de A a E.
+10. Perguntas decisórias devem usar numeração e alternativas de `A` a `E`.
 11. Cada alternativa utilizável como resposta direta deve aparecer em uma caixa copiável separada.
 12. Autorizações, confirmações e comandos operacionais devem ser apresentados em caixas copiáveis.
 13. Ao final das escolhas, deve existir uma caixa com a resposta compacta, como `1A 2C 3B`.
@@ -116,12 +116,12 @@ Manual
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-104 — DEC-01: Identidade e visão do projeto.
-- **Item em andamento:** nenhum.
-- **Próximo item:** LEA-105 — DEC-02, mantida no Backlog até autorização explícita para início.
+- **Item em andamento:** LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial.
+- **Próximo item:** LEA-106 — DEC-03, somente após a conclusão, o registro e a sincronização da DEC-02.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-02 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+A DEC-02 está em andamento. As decisões DEC-03 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
