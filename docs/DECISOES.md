@@ -177,6 +177,138 @@ Depois da aprovação ou publicação:
 
 Um novo elemento poderá ser inserido na progressão sem renumerar identificadores existentes.
 
+## DEC-03 — Níveis de autonomia das ferramentas
+
+- **Status:** aprovada
+- **Data de aprovação:** 2026-07-22
+- **Linear:** LEA-106 — concluída
+
+### Três níveis oficiais
+
+#### Nível 1 — Consulta Automática
+
+A ferramenta pode consultar, pesquisar, ler, comparar, analisar e resumir fontes autorizadas sem solicitar confirmação, desde que não altere sistemas, arquivos, registros ou estados.
+
+As consultas automáticas serão permitidas somente em fontes autorizadas e diretamente relacionadas à solicitação atual:
+
+- documentos oficiais do repositório do projeto;
+- issues, projetos e documentos correspondentes no Linear;
+- documentação oficial da OpenAI;
+- arquivos fornecidos pelo usuário ou vinculados ao projeto;
+- outras fontes autorizadas pelas instruções ou pela solicitação atual.
+
+A consulta deve utilizar somente o escopo necessário e permanecer exclusivamente em modo de leitura.
+
+E-mails, calendários, contatos, arquivos pessoais, outros repositórios e serviços não relacionados somente poderão ser consultados quando o usuário solicitar ou quando existir autorização específica aplicável.
+
+#### Nível 2 — Preparação em Rascunho
+
+A ferramenta pode preparar automaticamente, na conversa ou em arquivos temporários de revisão:
+
+- textos;
+- documentos;
+- código;
+- análises;
+- planos;
+- propostas de alteração;
+- descrições de issues;
+- mensagens;
+- e-mails ainda não criados no Gmail;
+- comandos, diffs e mensagens de commit;
+- versões completas de arquivos para revisão.
+
+O material deve ser identificado como **RASCUNHO** quando houver risco de ser confundido com conteúdo aprovado ou publicado.
+
+Sem autorização explícita, a ferramenta não poderá salvar o rascunho em sistemas externos, criar ou alterar issues, criar comentários, branches, commits ou pull requests, criar rascunhos no Gmail, enviar mensagens, criar eventos, substituir arquivos oficiais ou registrar o conteúdo como decisão ou estado do projeto.
+
+Qualquer criação ou gravação em sistema externo pertence ao Nível 3.
+
+#### Nível 3 — Execução Controlada
+
+Qualquer ação que altere um sistema externo ou o estado oficial do projeto exige autorização do usuário.
+
+O Nível 3 possui duas categorias internas, sem criar novos níveis oficiais.
+
+### Execução Controlada Padrão
+
+Abrange alterações externas normalmente reversíveis, internas ou privadas, de alcance limitado, sem dados sensíveis, sem comunicação externa e sem alteração relevante do estado oficial.
+
+Uma solicitação direta, específica e suficientemente clara do usuário já poderá funcionar como autorização, desde que o sistema, o alvo, a ação e o resultado estejam claros.
+
+### Execução Controlada Crítica
+
+Abrange ações destrutivas, irreversíveis, públicas, comunicacionais, sensíveis ou com impacto relevante sobre o estado oficial.
+
+Exemplos, conforme o contexto:
+
+- enviar e-mail ou mensagem;
+- publicar conteúdo;
+- realizar commit ou merge;
+- sobrescrever arquivo oficial;
+- excluir arquivos ou registros;
+- fechar ou cancelar tarefas;
+- alterar roadmap;
+- mudar permissões;
+- modificar dados sensíveis;
+- executar ações em massa.
+
+Antes da execução, a ferramenta deverá apresentar uma confirmação prévia contendo:
+
+- sistema afetado;
+- alvo;
+- ação;
+- efeito esperado;
+- alcance;
+- possibilidade de reversão;
+- riscos relevantes.
+
+A execução somente poderá ocorrer depois de confirmação explícita do usuário sobre esse resumo.
+
+### Alcance e validade das autorizações
+
+A autorização será específica, delimitada e consumível. Ela será válida somente para a ação ou para o conjunto de ações claramente descrito e diretamente relacionado ao objetivo atual.
+
+Uma única autorização poderá abranger várias ações quando estiverem claramente definidos:
+
+- o sistema afetado;
+- os alvos;
+- as ações;
+- o resultado esperado;
+- os limites da execução.
+
+A autorização será considerada encerrada quando:
+
+- as ações autorizadas forem concluídas;
+- o usuário cancelar a execução;
+- houver mudança relevante de alvo, conteúdo, quantidade ou efeito;
+- surgir uma condição diferente da apresentada ao usuário.
+
+A autorização não se estende automaticamente a ações futuras semelhantes. Para execuções críticas, qualquer mudança relevante de escopo exigirá nova autorização.
+
+Autorizações permanentes somente poderão existir quando forem aprovadas como regra oficial do projeto.
+
+### Classificação pelo contexto e efeito real
+
+A classificação dependerá do contexto e do efeito real, e não apenas do nome da ação ou da ferramenta utilizada.
+
+Uma ação normalmente padrão será elevada para crítica quando envolver:
+
+- publicação ou exposição pública;
+- comunicação com destinatários externos;
+- repositório, branch, documento ou ambiente oficial;
+- dados pessoais, confidenciais ou sensíveis;
+- produção, segurança, permissões ou credenciais;
+- impacto jurídico, financeiro ou reputacional;
+- execução em massa;
+- efeito irreversível ou de difícil reversão;
+- alteração relevante do estado oficial do projeto.
+
+Quando houver dúvida razoável sobre a classificação, a ação será tratada como crítica até que o escopo seja esclarecido.
+
+### Relação com a DEC-04
+
+A DEC-03 define os níveis de autonomia, a classificação de risco, o alcance das autorizações e a necessidade de confirmação. A forma exata dos comandos e fluxos de aprovação será definida na DEC-04.
+
 ## Mapa oficial da LEA-103
 
 | Ordem | Decisão | Issue |
@@ -196,15 +328,13 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 
 ## Estado estrutural atual
 
-- **Último item concluído:** LEA-105 — DEC-02: Estrutura pedagógica oficial.
-- **Item em andamento:** LEA-106 — DEC-03: Níveis de autonomia das ferramentas.
-- **Próximo item:** LEA-107 — DEC-04, somente após a conclusão, o registro e a sincronização da DEC-03.
+- **Último item concluído:** LEA-106 — DEC-03: Níveis de autonomia das ferramentas.
+- **Item em andamento:** nenhum.
+- **Próximo item:** LEA-107 — DEC-04, no Backlog e ainda não iniciado.
 
 ## Decisões ainda não concluídas
 
-A DEC-03 está em andamento. As decisões DEC-04 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
-
-Nenhuma regra de autonomia da DEC-03 foi aprovada até o momento.
+As decisões DEC-04 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
