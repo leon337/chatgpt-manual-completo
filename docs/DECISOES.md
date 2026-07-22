@@ -619,24 +619,225 @@ Duplicação de responsabilidade é proibida. Resumo referencial é permitido. A
 
 ## DEC-06 — Estrutura operacional do Linear
 
-- **Status:** em desenvolvimento
-- **Linear:** LEA-109 — em andamento
+- **Status:** aprovada, registrada e concluída
+- **Data de aprovação:** 2026-07-22
+- **Data de registro:** 2026-07-22
+- **Linear:** LEA-109 — concluída
 
-### Escopo inicial
+### 1. Correspondência hierárquica
 
-A decisão deverá definir:
+A correspondência oficial será:
 
-- a correspondência entre Manual, Formação, Módulo e Aula e as entidades Project, Milestone, Issue e Sub-issue;
-- o uso de projetos e marcos;
-- o nível adequado de issues e subtarefas;
-- estados e critérios de transição;
-- prioridades;
-- dependências, bloqueios e relações;
+```text
+Manual
+└── Project do Linear
+    └── Formação
+        └── Milestone
+            └── Módulo
+                └── Issue
+                    └── Aula
+                        └── Sub-issue
+```
+
+Existirá um único Project principal para o Manual. Nenhuma entidade pedagógica real será criada antes da etapa aplicável e da autorização exigida.
+
+### 2. Milestones de Formação
+
+Cada Formação que entrar efetivamente em planejamento ou produção poderá receber uma Milestone identificada pelo código e pelo título da Formação, como `F01 — Formação Inicial sobre ChatGPT`.
+
+A Milestone somente será criada quando:
+
+- a Formação estiver oficialmente aprovada para planejamento;
+- existir objetivo educacional definido;
+- houver conteúdo mínimo para iniciar sua decomposição em Módulos;
+- pelo menos uma Issue de Módulo estiver pronta para criação;
+- existir autorização aplicável para alterar o Linear.
+
+Não serão criadas Milestones vazias para Formações apenas previstas.
+
+A Milestone agrupará Issues dos Módulos, Sub-issues das Aulas e tarefas exclusivamente relacionadas àquela Formação. Tarefas gerais do Manual permanecerão diretamente no Project.
+
+A Milestone controlará execução, progresso e conclusão, mas não armazenará o conteúdo pedagógico canônico.
+
+Uma Milestone somente poderá ser concluída quando todos os Módulos e Aulas obrigatórios estiverem concluídos, os objetivos da Formação forem atendidos, os registros aplicáveis estiverem atualizados e GitHub e Linear estiverem sincronizados. Concluir a Milestone não significará publicar a Formação.
+
+### 3. Issues de Módulo, Sub-issues de Aula e tarefas operacionais
+
+Cada Módulo será uma Issue vinculada ao Project e à Milestone da Formação. O título seguirá o padrão `F01-M01 — Título do Módulo`.
+
+A descrição da Issue de Módulo deverá conter, conforme aplicável:
+
+- identificador e título;
+- Formação;
+- objetivo pedagógico;
+- escopo resumido;
+- pré-requisitos;
+- relação prevista de Aulas;
 - critérios objetivos de conclusão;
-- a separação entre conteúdo pedagógico e tarefas operacionais;
-- mecanismos para evitar excesso de issues e perda de rastreabilidade.
+- link para a fonte canônica no GitHub;
+- bloqueios e relações operacionais.
 
-Nenhuma escolha operacional da DEC-06 foi aprovada ainda.
+Cada Aula será uma Sub-issue da Issue do Módulo. O título seguirá o padrão `F01-M01-A01 — Título da Aula`.
+
+A descrição da Sub-issue deverá conter, conforme aplicável:
+
+- identificador e título;
+- objetivo de aprendizagem;
+- escopo resumido;
+- critérios objetivos de conclusão;
+- link para o conteúdo canônico;
+- evidências e referências operacionais;
+- bloqueios e relações.
+
+A criação será progressiva. Não serão criadas antecipadamente todas as Issues e Sub-issues de Formações futuras.
+
+Atividades pequenas e inseparáveis permanecerão como checklist. Uma tarefa operacional receberá Issue própria somente quando possuir entrega independente, responsável, prazo, bloqueio, critérios de aceitação ou rastreabilidade próprios, ou quando afetar vários Módulos ou Aulas.
+
+Cada Módulo e cada Aula terão um único registro operacional principal. Planejamento, pesquisa, produção, revisão e publicação não gerarão registros paralelos para o mesmo elemento.
+
+### 4. Estados e transições
+
+Os estados operacionais serão:
+
+- `Backlog`: trabalho futuro ainda não liberado ou sem condições de início;
+- `Todo`: item definido, priorizado e liberado, mas ainda sem trabalho ativo;
+- `In Progress`: trabalho efetivamente iniciado e verificável;
+- `Done`: entrega concluída com critérios, aprovações, registros e sincronização atendidos;
+- `Canceled`: uso excepcional mediante decisão explícita, justificativa e autorização aplicável;
+- `Duplicate`: uso excepcional quando outro registro canônico representar o mesmo trabalho.
+
+`Blocked` não será um estado principal. O bloqueio será registrado por relação `blockedBy`, motivo, condição de desbloqueio e identificação visual quando aplicável.
+
+Os estados pedagógicos, como planejado, em pesquisa, em produção, em revisão, aprovado, publicado e bloqueado, não substituirão os estados operacionais do Linear. A situação pedagógica permanecerá canônica nos registros aplicáveis do GitHub.
+
+Transições principais:
+
+- `Backlog → Todo`: escopo, critérios, dependências e autorização atendidos;
+- `Todo → In Progress`: trabalho efetivamente iniciado e sem bloqueio impeditivo desconhecido;
+- `In Progress → Done`: entrega, critérios, revisões, aprovações, registros oficiais e sincronização concluídos;
+- `Done → Todo` ou `In Progress`: somente com erro ou trabalho adicional concreto, justificativa, novo escopo, autorização e histórico preservado.
+
+Não se utilizará `In Progress` apenas para indicar prioridade, nem `Done` apenas porque um texto foi produzido.
+
+### 5. Prioridades
+
+As prioridades representarão urgência, impacto operacional e bloqueio, sem substituir estado ou ordem pedagógica:
+
+- `Urgent`: risco ou incidente imediato, divergência crítica, segurança, perda de dados, publicação incorreta ou bloqueio que não possa aguardar;
+- `High`: bloqueio da etapa atual, impacto amplo, prazo externo relevante ou falha que impeça critérios de aceitação;
+- `Medium`: prioridade padrão para decisões, Módulos, Aulas, pesquisas, revisões e tarefas operacionais normais;
+- `Low`: melhoria opcional, pesquisa futura ou trabalho adiável sem perda estrutural;
+- `No Priority`: uso temporário para entrada ainda não triada ou sem escopo suficiente.
+
+Um item não avançará para `Todo` ou `In Progress` sem avaliação de prioridade.
+
+A prioridade não autoriza iniciar trabalho, não remove dependências, não altera a sequência pedagógica e não permite ignorar a ordem DEC-01 a DEC-10.
+
+### 6. Dependências, bloqueios e relações
+
+As relações serão objetivas e mínimas:
+
+- `parent` e `sub-issue`: hierarquia pedagógica;
+- `blockedBy` e `blocks`: dependência obrigatória real;
+- `relatedTo`: vínculo contextual sem impedir avanço independente;
+- `duplicateOf`: identificação do registro canônico quando dois registros representarem o mesmo trabalho.
+
+A sequência pedagógica normal não produzirá automaticamente bloqueios entre todas as Aulas e Módulos. `blockedBy` será usado somente quando existir pré-requisito pedagógico ou dependência operacional real.
+
+Uma Issue bloqueada deverá identificar a Issue bloqueadora, o motivo, a condição de desbloqueio, o impacto e a origem da resolução quando aplicável.
+
+Não será criada Issue apenas para condição vaga, espera informal ou observação. A condição deverá possuir trabalho concreto, entrega verificável, origem identificável e critérios próprios para justificar um registro separado.
+
+Dependências circulares são proibidas. Ao identificá-las, o avanço deverá parar até revisão do escopo e correção das relações.
+
+Não será permitido concluir item com bloqueio obrigatório pendente.
+
+### 7. Critérios objetivos de conclusão
+
+Nenhuma Issue, Sub-issue ou Milestone será concluída apenas porque o texto foi produzido ou porque não existe trabalho ativo.
+
+A conclusão exigirá critérios previamente definidos, entrega verificável, revisão aplicável, aprovações obrigatórias, bloqueios resolvidos, fonte canônica atualizada, evidência registrada e sincronização entre GitHub e Linear.
+
+#### Aula — Sub-issue
+
+Uma Aula poderá ser movida para `Done` quando seu objetivo de aprendizagem e critérios estiverem atendidos, o conteúdo canônico estiver no local correto, recursos obrigatórios tiverem sido incluídos, revisões e fontes estiverem validadas, a aprovação exigida estiver registrada e não houver bloqueio obrigatório.
+
+`Done` não significa automaticamente publicação.
+
+#### Módulo — Issue
+
+Um Módulo poderá ser concluído quando todas as Aulas obrigatórias estiverem em `Done`, os critérios próprios do Módulo forem atendidos, sequência, pré-requisitos, resultados e índice aplicável estiverem atualizados, e não houver bloqueios.
+
+A conclusão das Sub-issues não concluirá automaticamente a Issue do Módulo.
+
+#### Formação — Milestone
+
+Uma Formação poderá ser concluída quando Módulos e Aulas obrigatórios estiverem em `Done`, objetivos, progressão, resultados, currículo e índices estiverem validados, pendências resolvidas, revisão global e aprovação concluídas, e GitHub e Linear sincronizados.
+
+A conclusão da Milestone não significará publicação.
+
+#### Manual — Project
+
+O Project principal não será concluído por uma única Formação. Seu encerramento dependerá do escopo oficial da versão, das Formações previstas, da publicação aplicável e de decisão específica de encerramento.
+
+#### Tarefa operacional
+
+Uma tarefa operacional será concluída quando sua entrega independente, critérios, evidências, bloqueios, registros afetados e aprovações aplicáveis estiverem atendidos.
+
+A conclusão de um nível inferior não concluirá automaticamente o nível superior. Reabertura exigirá erro ou trabalho adicional concreto, justificativa, novo escopo, autorização e histórico preservado.
+
+### 8. Separação entre GitHub e Linear
+
+O GitHub armazenará o conteúdo canônico e a memória permanente, incluindo currículo, objetivos completos, conteúdos, explicações, exemplos, exercícios, fontes, recursos, histórico e versões aprovadas.
+
+O Linear armazenará controle operacional: identificador, título, resumo, estado, prioridade, responsável, Milestone, hierarquia, dependências, bloqueios, critérios, checklist, prazo, evidências, aprovações e links para a fonte canônica.
+
+A descrição da Issue deverá ser suficiente para executar e verificar o trabalho, mas não substituirá o documento pedagógico.
+
+Quando o arquivo canônico ainda não existir, a Issue poderá registrar `Fonte canônica ainda não criada — conteúdo em planejamento.` Isso não autoriza arquivos vazios ou placeholders.
+
+Comentários servirão para evidências, revisões, justificativas, bloqueios e aprovações operacionais. Não armazenarão conteúdo pedagógico completo nem decisões permanentes isoladas.
+
+Checklists representarão passos de execução e não substituirão a estrutura pedagógica ou os critérios de aceitação.
+
+Quando houver divergência entre GitHub e Linear, o avanço será interrompido até identificação da fonte canônica, preparação da correção, autorização aplicável e nova verificação de sincronização.
+
+### 9. Controle de volume, duplicidade e rastreabilidade
+
+Uma Issue operacional somente será criada quando existir trabalho concreto, entrega independente, necessidade de estado e critérios próprios, origem identificável e necessidade real de rastreabilidade separada.
+
+Antes de criar Issue ou Sub-issue será obrigatório:
+
+1. pesquisar o identificador;
+2. pesquisar título e termos equivalentes;
+3. verificar Milestone e Issue pai;
+4. consultar registros concluídos, cancelados e duplicados;
+5. confirmar que não existe registro canônico;
+6. definir onde ficará o resultado permanente;
+7. confirmar a autorização aplicável.
+
+Serão criados apenas registros necessários para o trabalho atual ou para o próximo trabalho já liberado. Não serão criados registros vazios, todas as estruturas futuras antecipadamente, Issues por fase ou tarefas genéricas sem entrega.
+
+Cada elemento terá uma unidade operacional canônica: uma Issue por Módulo, uma Sub-issue por Aula e uma Issue por tarefa operacional independente.
+
+Toda Issue deverá permitir identificar entrega, elemento pedagógico, fonte canônica, estado, prioridade, critérios, dependências, evidência e elemento superior afetado.
+
+Labels somente serão usadas para classificações transversais recorrentes não cobertas por estado, prioridade, Milestone, hierarquia, dependência ou identificador. Não duplicarão estados, prioridades, níveis pedagógicos, Milestones ou responsáveis.
+
+A estrutura será revisada antes de nova Formação, antes da conclusão de Milestone, diante de duplicidade, falta de avanço, divergência ou dificuldade de localizar o item atual.
+
+A revisão identificará duplicidades, ausência de critérios, vínculos incorretos, itens em `In Progress` sem trabalho ativo, bloqueios sem causa, links inválidos e registros futuros prematuros.
+
+Registros inadequados poderão ser corrigidos, vinculados, devolvidos ao Backlog, marcados como Duplicate, cancelados mediante autorização, incorporados ao registro canônico ou preservados como histórico. Não haverá exclusão silenciosa.
+
+### 10. Resultado do registro
+
+- As escolhas 1A a 9A foram aprovadas e registradas.
+- Nenhuma Milestone de Formação, Issue de Módulo, Sub-issue de Aula, label ou estado novo foi criado.
+- Nenhum diretório pedagógico, placeholder ou arquivo vazio foi criado.
+- A LEA-109 foi concluída.
+- A LEA-110 permaneceu no Backlog e não foi iniciada.
+- GitHub e Linear foram sincronizados.
 
 ## Mapa oficial da LEA-103
 
@@ -657,15 +858,15 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 
 ## Estado estrutural atual
 
-- **Último item concluído:** LEA-108 — DEC-05: Estrutura e responsabilidades do GitHub.
-- **Item em andamento:** LEA-109 — DEC-06: Estrutura operacional do Linear.
-- **Próximo item:** LEA-110 — DEC-07, somente após a conclusão, o registro e a sincronização da DEC-06.
+- **Último item concluído:** LEA-109 — DEC-06: Estrutura operacional do Linear.
+- **Item em andamento:** nenhum.
+- **Próximo item:** LEA-110 — DEC-07, ainda no Backlog e não iniciada.
 
 ## Decisões ainda não concluídas
 
-A DEC-06 está em andamento. Nenhuma escolha operacional da DEC-06 foi aprovada até o momento.
-
 As decisões DEC-07 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+
+A conclusão da DEC-06 não inicia automaticamente a DEC-07. A transição exige `[INICIAR PRÓXIMA DECISÃO]` e nova autorização específica antes de alterar GitHub ou Linear.
 
 ## Universo Didático
 
