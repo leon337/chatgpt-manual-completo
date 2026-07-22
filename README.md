@@ -60,7 +60,7 @@ O Nível 3 distingue ações padrão, normalmente reversíveis e limitadas, de a
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01, DEC-02 e DEC-03 foram aprovadas e registradas. Nenhuma DEC está em andamento. A LEA-107 / DEC-04 permanece no Backlog como próximo item e ainda não foi iniciada.
+As decisões DEC-01, DEC-02 e DEC-03 foram aprovadas e registradas. A LEA-107 / DEC-04 está em andamento para definir o fluxo e os comandos de aprovação. A LEA-108 / DEC-05 permanece no Backlog como próxima etapa após a conclusão da DEC-04.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
