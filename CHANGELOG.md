@@ -16,12 +16,17 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Alterado
 
-- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças e a estrutura pedagógica aprovada.
+- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças, a estrutura pedagógica aprovada e a DEC-03 como decisão em andamento.
 - `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula e suas regras de progressão, identificação e expansão futura.
-- `PROJECT_STATE.md` passou a registrar a conclusão da LEA-105 e a LEA-106 como próximo item no Backlog.
-- `docs/DECISOES.md` passou a conter os resultados aprovados da DEC-01 e da DEC-02.
+- `PROJECT_STATE.md` passou a registrar a LEA-106 / DEC-03 como único item estrutural em andamento e a LEA-107 / DEC-04 como próxima etapa.
+- `docs/DECISOES.md` passou a conter os resultados aprovados da DEC-01 e da DEC-02 e o estado inicial da DEC-03.
 - `ROADMAP.md` passou a marcar a DEC-01 e a DEC-02 como concluídas.
-- A descrição da LEA-103 passou a indicar a DEC-02 como concluída e a DEC-03 como próxima decisão.
+- A descrição da LEA-103 passou a indicar a DEC-02 como concluída, a DEC-03 como em andamento e a DEC-04 como próxima decisão.
+
+### Iniciado
+
+- LEA-106 — DEC-03: Definir níveis de autonomia das ferramentas.
+- Sincronização do estado inicial da DEC-03 entre GitHub e Linear.
 
 ### Concluído
 
@@ -32,7 +37,8 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Preservado
 
-- A LEA-106 / DEC-03 não foi iniciada.
+- Nenhuma regra de autonomia da DEC-03 foi aprovada ainda.
+- A LEA-107 / DEC-04 não foi iniciada.
 - A sequência DEC-01 a DEC-10 permanece inalterada.
 - A LEA-114 permanece no Backlog e bloqueada pela conclusão da LEA-103.
 
