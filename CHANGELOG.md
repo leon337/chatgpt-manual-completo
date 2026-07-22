@@ -19,8 +19,13 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 - `docs/CONSTITUICAO_DO_PROJETO.md` passou a conter o Modelo Operacional do Projeto.
 - `docs/MANUAL_DO_PROJETO.md` passou a explicar o fluxo diário, eventos e critérios de conclusão.
-- `PROJECT_STATE.md` foi sincronizado com a LEA-115.
-- LEA-104 / DEC-01 retornou ao Backlog e ficou bloqueada pela LEA-115.
+- `PROJECT_STATE.md` foi sincronizado com a conclusão da LEA-115 e o início da DEC-01.
+- A instrução definitiva foi aplicada nas configurações do Projeto ChatGPT.
+- LEA-104 / DEC-01 foi liberada como único item estrutural em andamento.
+
+### Concluído
+
+- LEA-115 — Modelo Operacional do Projeto implantado e sincronizado entre GitHub, Linear e instruções do Projeto ChatGPT.
 
 ### Preservado
 
