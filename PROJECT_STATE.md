@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** Modelo Operacional implantado
-- **Linear:** LEA-115 concluída; LEA-104 em andamento
+- **Repositório:** identidade e licenciamento da DEC-01 registrados
+- **Linear:** LEA-104 concluída; LEA-105 no Backlog
 
 ## Estrutura pedagógica aprovada
 
@@ -18,11 +18,26 @@ Manual
         └── Aula
 ```
 
-## Item atual oficial
+## Estado estrutural oficial
 
-- **Issue:** LEA-104 — DEC-01: Definir identidade e visão do projeto
-- **Status:** Em andamento
-- **Objetivo:** definir nome público, relação com a PredixAI Academy, públicos, idioma, posicionamento e licença
+- **Último item concluído:** LEA-104 — DEC-01: Definir identidade e visão do projeto
+- **Status:** concluído
+- **Item estrutural em andamento:** nenhum
+- **Próximo item confirmado:** LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial
+- **Status do próximo item:** Backlog; ainda não iniciado
+
+## Resultado da DEC-01
+
+A identidade e a visão do projeto foram aprovadas com os seguintes elementos:
+
+- nome público: **Manual Completo da Plataforma ChatGPT**;
+- relação com a PredixAI Academy definida como produto educacional e fonte de conteúdo, distribuído pela plataforma;
+- público principal formado por pessoas iniciantes, inclusive sem conhecimento técnico;
+- português do Brasil como idioma principal;
+- posicionamento como projeto educacional independente e não oficial;
+- conteúdo e documentação sob CC BY-SA 4.0;
+- exemplos de código e componentes de software sob licença MIT;
+- coordenação e atribuição definidas para Leandro Carlos.
 
 ## Modelo Operacional
 
@@ -38,14 +53,16 @@ A LEA-115 foi concluída após:
 
 ## Próxima decisão
 
-**DEC-02**, somente após a aprovação, o registro e a sincronização completa da DEC-01.
+**LEA-105 — DEC-02**, mantida no Backlog até autorização explícita para início.
+
+A DEC-02 não foi iniciada nesta atualização.
 
 ## Sequência obrigatória da LEA-103
 
 ```text
-DEC-01
+DEC-01 — concluída
     ↓
-DEC-02
+DEC-02 — próxima, não iniciada
     ↓
 DEC-03
     ↓
@@ -70,17 +87,16 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-02 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
+- **DEC-03 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
 
 ## Regra de avanço
 
-Nenhuma etapa pode avançar apenas com base na conversa. A etapa atual deve ser aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada.
+Nenhuma etapa pode avançar apenas com base na conversa. A próxima decisão deve ser iniciada somente após autorização explícita e confirmação do estado sincronizado entre GitHub e Linear.
 
 ## Última sincronização
 
-- **Data:** 2026-07-21
-- **GitHub:** Modelo Operacional registrado; mapa DEC-01 a DEC-10 sincronizado; padrão de caixas copiáveis registrado; `ROADMAP.md` atualizado com a LEA-114; `PROJECT_STATE.md` revisado após a terceira auditoria independente.
-- **Linear:** LEA-103 mantida como índice mestre; LEA-104 / DEC-01 em andamento; LEA-114 no Backlog e bloqueada pela LEA-103; referência interna da LEA-114 na LEA-103 corrigida para o endereço atual.
-- **Projeto ChatGPT:** instrução definitiva aplicada pelo usuário.
-- **Auditoria:** terceiro teste independente aprovado; inconsistências residuais de metadados corrigidas.
+- **Data:** 2026-07-22
+- **GitHub:** DEC-01 registrada em `docs/DECISOES.md`; README e estado do projeto atualizados; avisos de licença CC BY-SA 4.0 e MIT adicionados; histórico permanente atualizado.
+- **Linear:** LEA-104 concluída; LEA-105 confirmada como próximo item e mantida no Backlog.
+- **Estado estrutural:** nenhum item em andamento; DEC-02 ainda não iniciada.
