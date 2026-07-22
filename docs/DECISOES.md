@@ -617,6 +617,27 @@ Duplicação de responsabilidade é proibida. Resumo referencial é permitido. A
 - A LEA-108 foi concluída.
 - A LEA-109 permaneceu no Backlog como próxima decisão não iniciada.
 
+## DEC-06 — Estrutura operacional do Linear
+
+- **Status:** em desenvolvimento
+- **Linear:** LEA-109 — em andamento
+
+### Escopo inicial
+
+A decisão deverá definir:
+
+- a correspondência entre Manual, Formação, Módulo e Aula e as entidades Project, Milestone, Issue e Sub-issue;
+- o uso de projetos e marcos;
+- o nível adequado de issues e subtarefas;
+- estados e critérios de transição;
+- prioridades;
+- dependências, bloqueios e relações;
+- critérios objetivos de conclusão;
+- a separação entre conteúdo pedagógico e tarefas operacionais;
+- mecanismos para evitar excesso de issues e perda de rastreabilidade.
+
+Nenhuma escolha operacional da DEC-06 foi aprovada ainda.
+
 ## Mapa oficial da LEA-103
 
 | Ordem | Decisão | Issue |
@@ -637,14 +658,14 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-108 — DEC-05: Estrutura e responsabilidades do GitHub.
-- **Item em andamento:** nenhum.
-- **Próximo item:** LEA-109 — DEC-06, ainda no Backlog e não iniciada.
+- **Item em andamento:** LEA-109 — DEC-06: Estrutura operacional do Linear.
+- **Próximo item:** LEA-110 — DEC-07, somente após a conclusão, o registro e a sincronização da DEC-06.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-06 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+A DEC-06 está em andamento. Nenhuma escolha operacional da DEC-06 foi aprovada até o momento.
 
-A DEC-06 não foi iniciada automaticamente pela conclusão da DEC-05.
+As decisões DEC-07 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
