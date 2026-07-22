@@ -1,6 +1,6 @@
 # Constituição do Projeto
 
-> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia e fluxo de aprovação aprovados. Estrutura documental, padrão editorial e demais pontos continuarão sendo definidos pelas DEC-05 a DEC-10.
+> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação e arquitetura documental aprovados. Padrão editorial e demais pontos continuarão sendo definidos pelas DEC-06 a DEC-10.
 
 ## 1. Missão
 
@@ -395,6 +395,132 @@ Antes da execução, o ChatGPT deve reconstruir o contexto oficial, confirmar a 
 
 A alteração do estado oficial depende de nova autorização por meio de `[AUTORIZAR REGISTRO OFICIAL]`. O comando não pode ignorar decisões intermediárias, iniciar uma issue fora da sequência, reutilizar autorização anterior ou iniciar duas decisões simultaneamente.
 
-## 10. Alteração desta Constituição
+## 10. Arquitetura documental do GitHub
+
+### 10.1 Estrutura ativa
+
+A estrutura ativa do repositório será mínima, progressiva e separada por responsabilidade:
+
+```text
+/
+├── README.md
+├── PROJECT_STATE.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── LICENSE-CONTENT.md
+├── LICENSE-CODE.md
+└── docs/
+    ├── CONSTITUICAO_DO_PROJETO.md
+    ├── DECISOES.md
+    ├── SKILLS.md
+    └── MANUAL_DO_PROJETO.md
+```
+
+### 10.2 Estruturas futuras reservadas
+
+Os diretórios abaixo permanecem planejados e não devem ser criados antes da etapa correspondente:
+
+```text
+curriculum/
+content/
+research/
+assets/
+```
+
+- `curriculum/` armazenará a arquitetura pedagógica global, mapas de Formações, objetivos, sequências e pré-requisitos.
+- `content/` armazenará o conteúdo pedagógico canônico de Formações, Módulos e Aulas.
+- `research/` armazenará pesquisas, fontes, evidências, comparações e notas técnicas de apoio.
+- `assets/` armazenará imagens, diagramas, ilustrações, capturas autorizadas e recursos reutilizáveis.
+
+O futuro `curriculum/CURRICULUM.md` será criado somente quando a etapa curricular estiver oficialmente iniciada, houver conteúdo suficiente, existir primeira versão útil e for concedida autorização específica.
+
+Não será criado um diretório `published/` apenas para duplicar conteúdo. Saídas técnicas de publicação não substituem a fonte canônica em `content/`.
+
+### 10.3 Responsabilidade dos arquivos da raiz
+
+- `README.md`: apresentação pública, identidade, navegação e resumo breve do estado.
+- `PROJECT_STATE.md`: estado operacional oficial atual, item em andamento, último item concluído, próximo item, objetivo, bloqueios e sincronização.
+- `ROADMAP.md`: fases, sequência, dependências e planejamento estrutural.
+- `CHANGELOG.md`: histórico cronológico de alterações permanentes relevantes.
+- `LICENSE-CONTENT.md`: termos aplicáveis ao conteúdo educacional e à documentação.
+- `LICENSE-CODE.md`: termos aplicáveis aos exemplos de código e componentes de software.
+
+### 10.4 Responsabilidade dos documentos em `docs/`
+
+A hierarquia documental interna será:
+
+1. `docs/CONSTITUICAO_DO_PROJETO.md` — regras permanentes e autoridade normativa superior;
+2. `docs/DECISOES.md` — decisões aprovadas e mapa oficial das decisões estruturais;
+3. `docs/SKILLS.md` — procedimentos repetíveis aprovados, quando aplicáveis;
+4. `docs/MANUAL_DO_PROJETO.md` — explicação prática das regras e dos fluxos.
+
+Em caso de divergência, o documento inferior deverá ser corrigido para respeitar o documento superior.
+
+### 10.5 Critérios para criação
+
+Um novo arquivo ou diretório somente poderá ser criado quando:
+
+1. existir necessidade concreta e atual;
+2. a informação não couber adequadamente em uma fonte oficial existente;
+3. sua responsabilidade estiver claramente definida;
+4. sua localização correta estiver identificada;
+5. existir conteúdo mínimo útil para a primeira versão;
+6. não for apenas um arquivo vazio ou marcador de intenção futura;
+7. a criação pertencer à etapa estrutural ou pedagógica aplicável;
+8. houver aprovação e autorização exigidas pelas regras do projeto.
+
+Antes da criação, o resumo deve informar caminho, nome, finalidade, tipo de informação, fonte oficial correspondente, relação com documentos existentes, motivo da insuficiência das fontes atuais, momento de atualização, riscos de duplicidade, impacto na navegação e reversibilidade.
+
+### 10.6 Atualização, movimentação e substituição
+
+- Cada informação será alterada primeiro em sua fonte canônica.
+- Documentos secundários poderão manter somente resumos e links.
+- Referências afetadas deverão ser atualizadas na mesma execução autorizada quando estiverem incluídas no escopo.
+- Movimentações e renomeações exigem justificativa, análise de referências, novo caminho, plano de atualização de links, preservação do histórico e autorização específica.
+- Substituições exigem responsabilidade equivalente ou superior, destino para todo conteúdo válido, atualização das referências e eliminação da fonte concorrente.
+
+### 10.7 Arquivamento e remoção
+
+O histórico do Git será o mecanismo padrão para recuperar versões anteriores. Não será criado um diretório genérico de arquivos antigos sem necessidade comprovada.
+
+Arquivos obsoletos não poderão ser apagados silenciosamente. Exclusões exigem análise de impacto, resumo prévio e autorização de execução crítica. Registros históricos relevantes devem permanecer nos documentos apropriados.
+
+### 10.8 Fontes canônicas e resumos referenciais
+
+Cada tipo de informação terá uma única fonte oficial principal:
+
+- apresentação pública e navegação: `README.md`;
+- estado operacional atual: `PROJECT_STATE.md`;
+- sequência e planejamento estrutural: `ROADMAP.md`;
+- histórico de alterações permanentes: `CHANGELOG.md`;
+- regras superiores de governança: `docs/CONSTITUICAO_DO_PROJETO.md`;
+- decisões aprovadas: `docs/DECISOES.md`;
+- procedimentos repetíveis aprovados: `docs/SKILLS.md`;
+- explicações operacionais: `docs/MANUAL_DO_PROJETO.md`;
+- arquitetura pedagógica global: `curriculum/CURRICULUM.md`, quando criado;
+- conteúdo pedagógico canônico: `content/`;
+- pesquisas e evidências: `research/`;
+- recursos reutilizáveis: `assets/`.
+
+Um documento secundário poderá apresentar resumo breve, identificadores, títulos, comandos necessários e links para a fonte canônica. Não poderá manter versão completa concorrente, alterar o significado da fonte principal ou conservar resumo desatualizado.
+
+Trechos operacionais curtos poderão ser repetidos quando necessários para compreensão ou uso imediato, desde que a fonte canônica seja identificada e o trecho não adquira responsabilidade independente.
+
+### 10.9 Conflitos e navegação
+
+Quando duas fontes apresentarem versões incompatíveis:
+
+1. interromper o avanço;
+2. identificar a fonte canônica aplicável;
+3. verificar a hierarquia documental;
+4. preparar a correção dos documentos secundários;
+5. solicitar autorização quando houver alteração externa;
+6. confirmar novamente a sincronização.
+
+Links relativos serão preferidos dentro do repositório. Movimentações e renomeações devem atualizar links e índices afetados.
+
+Duplicação de responsabilidade é proibida. Resumo referencial é permitido. A fonte canônica preserva a autoridade.
+
+## 11. Alteração desta Constituição
 
 Esta Constituição somente poderá ser alterada por decisão ou tarefa operacional registrada no Linear, autorização correspondente e atualização sincronizada no GitHub.
