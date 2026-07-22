@@ -7,24 +7,32 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 ### Adicionado
 
 - Registro oficial da DEC-01 — Identidade e visão do projeto.
+- Registro oficial da DEC-02 — Estrutura pedagógica oficial.
 - Aviso de licenciamento do conteúdo sob CC BY-SA 4.0.
 - Aviso de licenciamento dos exemplos de código e componentes de software sob MIT License.
 - Política oficial de atribuição do conteúdo e titularidade do código.
+- Definições oficiais de Formação, Módulo e Aula.
+- Regras oficiais de progressão pedagógica, identificação hierárquica e estabilidade dos identificadores.
 
 ### Alterado
 
-- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento e as licenças do projeto.
-- `PROJECT_STATE.md` passou a registrar a conclusão da LEA-104 e a LEA-105 como próximo item no Backlog.
-- `docs/DECISOES.md` passou a conter o resultado aprovado da DEC-01.
+- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças e a estrutura pedagógica aprovada.
+- `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula e suas regras de progressão, identificação e expansão futura.
+- `PROJECT_STATE.md` passou a registrar a conclusão da LEA-105 e a LEA-106 como próximo item no Backlog.
+- `docs/DECISOES.md` passou a conter os resultados aprovados da DEC-01 e da DEC-02.
+- `ROADMAP.md` passou a marcar a DEC-01 e a DEC-02 como concluídas.
+- A descrição da LEA-103 passou a indicar a DEC-02 como concluída e a DEC-03 como próxima decisão.
 
 ### Concluído
 
 - LEA-104 — DEC-01: Definir identidade e visão do projeto.
+- LEA-105 — DEC-02: Confirmar estrutura pedagógica oficial.
 - Sincronização da conclusão da DEC-01 entre GitHub e Linear.
+- Sincronização da conclusão da DEC-02 entre GitHub e Linear.
 
 ### Preservado
 
-- A LEA-105 / DEC-02 não foi iniciada.
+- A LEA-106 / DEC-03 não foi iniciada.
 - A sequência DEC-01 a DEC-10 permanece inalterada.
 - A LEA-114 permanece no Backlog e bloqueada pela conclusão da LEA-103.
 
