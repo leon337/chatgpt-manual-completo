@@ -75,11 +75,63 @@ O projeto utiliza linguagem natural clara e comandos canônicos. Os comandos sã
 
 Aprovação não significa registro, publicação, conclusão ou avanço. Ações críticas continuam exigindo resumo prévio e autorização específica.
 
+## Arquitetura documental
+
+A DEC-05 definiu uma estrutura mínima, progressiva e separada por responsabilidade.
+
+### Estrutura ativa
+
+```text
+/
+├── README.md
+├── PROJECT_STATE.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── LICENSE-CONTENT.md
+├── LICENSE-CODE.md
+└── docs/
+    ├── CONSTITUICAO_DO_PROJETO.md
+    ├── DECISOES.md
+    ├── SKILLS.md
+    └── MANUAL_DO_PROJETO.md
+```
+
+### Estruturas futuras reservadas
+
+Os diretórios abaixo permanecem apenas planejados e somente serão criados quando houver necessidade concreta, conteúdo mínimo útil e autorização aplicável:
+
+```text
+curriculum/
+content/
+research/
+assets/
+```
+
+- `curriculum/`: arquitetura pedagógica global e mapas curriculares.
+- `content/`: conteúdo pedagógico canônico de Formações, Módulos e Aulas.
+- `research/`: pesquisas, fontes, evidências e notas técnicas de apoio.
+- `assets/`: imagens, diagramas, ilustrações e recursos reutilizáveis.
+
+A versão canônica do conteúdo permanecerá em `content/`. Não será criado um diretório `published/` apenas para duplicar materiais publicados.
+
+### Responsabilidade dos documentos centrais
+
+- [`README.md`](README.md): apresentação pública e navegação.
+- [`PROJECT_STATE.md`](PROJECT_STATE.md): estado operacional oficial atual.
+- [`ROADMAP.md`](ROADMAP.md): sequência e planejamento estrutural.
+- [`CHANGELOG.md`](CHANGELOG.md): histórico de alterações permanentes.
+- [`docs/CONSTITUICAO_DO_PROJETO.md`](docs/CONSTITUICAO_DO_PROJETO.md): regras superiores de governança.
+- [`docs/DECISOES.md`](docs/DECISOES.md): decisões aprovadas.
+- [`docs/SKILLS.md`](docs/SKILLS.md): procedimentos repetíveis aprovados.
+- [`docs/MANUAL_DO_PROJETO.md`](docs/MANUAL_DO_PROJETO.md): aplicação prática das regras.
+
+Cada tipo de informação possui uma única fonte canônica. Documentos secundários podem apresentar resumos e links, mas não versões completas concorrentes.
+
 ## Estado atual
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01, DEC-02, DEC-03 e DEC-04 foram aprovadas, registradas e sincronizadas. A LEA-108 / DEC-05 está em andamento para definir a estrutura e as responsabilidades do GitHub. A LEA-109 / DEC-06 permanece no Backlog como próxima etapa após a conclusão da DEC-05.
+As decisões DEC-01 a DEC-05 foram aprovadas, registradas e sincronizadas. A LEA-108 / DEC-05 foi concluída. Nenhum item estrutural está em andamento. A LEA-109 / DEC-06 permanece no Backlog como próxima decisão obrigatória e ainda não foi iniciada.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
