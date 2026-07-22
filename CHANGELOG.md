@@ -14,14 +14,19 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Processo obrigatório de sincronização entre GitHub e Linear.
 - Critérios objetivos para avançar de etapa.
 - `docs/DECISOES.md`.
+- Mapa oficial entre DEC-01 a DEC-10 e LEA-104 a LEA-113.
+- Regra permanente de caixas copiáveis para alternativas, autorizações, confirmações e comandos operacionais.
 
 ### Alterado
 
-- `docs/CONSTITUICAO_DO_PROJETO.md` passou a conter o Modelo Operacional do Projeto.
-- `docs/MANUAL_DO_PROJETO.md` passou a explicar o fluxo diário, eventos e critérios de conclusão.
+- `docs/CONSTITUICAO_DO_PROJETO.md` passou a conter o Modelo Operacional do Projeto e o padrão detalhado de caixas copiáveis.
+- `docs/MANUAL_DO_PROJETO.md` passou a explicar o fluxo diário, eventos, critérios de conclusão e uso das caixas copiáveis.
+- `docs/DECISOES.md` passou a registrar o mapa oficial da LEA-103.
 - `PROJECT_STATE.md` foi sincronizado com a conclusão da LEA-115 e o início da DEC-01.
 - A instrução definitiva foi aplicada nas configurações do Projeto ChatGPT.
 - LEA-104 / DEC-01 foi liberada como único item estrutural em andamento.
+- A descrição da LEA-103 foi reorganizada como índice mestre das decisões.
+- A LEA-115 foi esclarecida como tarefa corretiva concluída, fora da numeração DEC-01 a DEC-10.
 
 ### Concluído
 
@@ -29,5 +34,6 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Preservado
 
-- A sequência DEC-01 a DEC-10 não foi renumerada nem reestruturada.
+- A sequência DEC-01 a DEC-10 não foi renumerada.
+- A correspondência oficial permanece DEC-01/LEA-104 até DEC-10/LEA-113.
 - A LEA-114 — Universo Didático permanece no Backlog e será retomada somente após a conclusão da LEA-103.
