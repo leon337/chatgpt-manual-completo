@@ -80,6 +80,7 @@ Nenhuma etapa pode avançar apenas com base na conversa. A etapa atual deve ser 
 ## Última sincronização
 
 - **Data:** 2026-07-21
-- **GitHub:** Modelo Operacional registrado; DEC-01 indicada como item atual
-- **Linear:** LEA-115 concluída; LEA-104 em andamento
-- **Projeto ChatGPT:** instrução definitiva aplicada pelo usuário
+- **GitHub:** Modelo Operacional registrado; mapa DEC-01 a DEC-10 sincronizado; padrão de caixas copiáveis registrado; `ROADMAP.md` atualizado com a LEA-114; `PROJECT_STATE.md` revisado após a terceira auditoria independente.
+- **Linear:** LEA-103 mantida como índice mestre; LEA-104 / DEC-01 em andamento; LEA-114 no Backlog e bloqueada pela LEA-103; referência interna da LEA-114 na LEA-103 corrigida para o endereço atual.
+- **Projeto ChatGPT:** instrução definitiva aplicada pelo usuário.
+- **Auditoria:** terceiro teste independente aprovado; inconsistências residuais de metadados corrigidas.
