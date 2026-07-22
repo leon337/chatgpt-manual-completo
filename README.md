@@ -31,7 +31,7 @@ Manual
 
 **Fase:** decisões estruturais da LEA-103.
 
-A DEC-01 — Identidade e visão do projeto foi aprovada e registrada. A DEC-02 permanece como próxima decisão, ainda não iniciada.
+A DEC-01 — Identidade e visão do projeto foi aprovada e registrada. A DEC-02 — Estrutura pedagógica oficial está em andamento na LEA-105.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
