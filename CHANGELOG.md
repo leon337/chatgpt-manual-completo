@@ -35,14 +35,11 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Alterado
 
-- `README.md` passou a registrar a identidade pública, a relação com a PredixAI Academy, os públicos, o idioma, o posicionamento, as licenças, a estrutura pedagógica, os níveis de autonomia, o catálogo de comandos e a arquitetura documental aprovada na DEC-05.
-- `docs/CONSTITUICAO_DO_PROJETO.md` passou a detalhar a estrutura Manual → Formação → Módulo → Aula, suas regras de progressão, identificação e expansão futura, os níveis de autonomia, o fluxo oficial de aprovação e as regras superiores da arquitetura documental.
-- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária dos níveis de autonomia, dos comandos aprovados e da arquitetura documental da DEC-05.
-- `PROJECT_STATE.md` passou a registrar a LEA-108 / DEC-05 como concluída, nenhum item estrutural em andamento e a LEA-109 / DEC-06 como próxima decisão não iniciada.
-- `docs/DECISOES.md` passou a registrar integralmente a DEC-05 como aprovada e concluída.
-- `docs/SKILLS.md` passou a registrar o catálogo de comandos operacionais aprovado, preservando as Skills como propostas até a DEC-08.
-- `ROADMAP.md` passou a marcar DEC-01 a DEC-05 como concluídas e a DEC-06 como próxima decisão pendente.
-- A descrição da LEA-103 passou a indicar DEC-01 a DEC-05 concluídas, nenhuma DEC em andamento e DEC-06 como próxima decisão.
+- `README.md` passou a registrar a DEC-06 como decisão em andamento e a DEC-07 como próxima etapa.
+- `PROJECT_STATE.md` passou a registrar a LEA-109 / DEC-06 como único item estrutural em andamento.
+- `docs/DECISOES.md` passou a registrar o estado da DEC-06 como decisão em desenvolvimento, sem escolhas aprovadas.
+- `ROADMAP.md` passou a marcar a DEC-06 como em andamento.
+- A descrição da LEA-103 passou a indicar a DEC-06 como em andamento e a DEC-07 como próxima decisão.
 
 ### Iniciado
 
@@ -52,6 +49,8 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 - Sincronização do estado inicial da DEC-04 entre GitHub e Linear.
 - LEA-108 — DEC-05: Definir estrutura e responsabilidades do GitHub.
 - Sincronização do estado inicial da DEC-05 entre GitHub e Linear.
+- LEA-109 — DEC-06: Definir estrutura operacional do Linear.
+- Sincronização do estado inicial da DEC-06 entre GitHub e Linear.
 
 ### Concluído
 
@@ -68,8 +67,9 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Preservado
 
-- Nenhum item estrutural permanece em andamento após a conclusão da DEC-05.
-- A LEA-109 / DEC-06 permanece no Backlog e não foi iniciada.
+- A LEA-109 / DEC-06 é o único item estrutural em andamento.
+- A LEA-110 / DEC-07 permanece no Backlog e não foi iniciada.
+- Nenhuma escolha operacional da DEC-06 foi aprovada ainda.
 - Os diretórios `curriculum/`, `content/`, `research/` e `assets/` permanecem apenas planejados e não foram criados.
 - Nenhum diretório `published/`, placeholder ou arquivo vazio foi criado.
 - A sequência DEC-01 a DEC-10 permanece inalterada.
