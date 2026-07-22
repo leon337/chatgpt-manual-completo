@@ -76,7 +76,9 @@ Perguntas casuais e sem efeito sobre o projeto podem usar fluxo simplificado.
 - Não avançar para a próxima decisão na mesma resposta em que a atual está sendo discutida.
 - Não acrescentar novas propostas estruturais fora do escopo solicitado.
 - Quando houver escolhas, apresentar perguntas numeradas e alternativas de `A` a `E`.
-- Fornecer uma caixa de texto copiável com o formato de resposta, por exemplo: `1A 2C 3B`.
+- Apresentar cada alternativa em uma caixa de texto copiável separada quando a alternativa puder ser usada como resposta direta.
+- Ao final, fornecer uma caixa copiável apenas com o formato compacto da resposta, por exemplo: `1A 2C 3B`.
+- Autorizações, confirmações e comandos operacionais também devem ser apresentados em caixas copiáveis.
 - Ações apresentadas ao final devem corresponder apenas à etapa atual.
 
 ## 4. Eventos do Projeto
