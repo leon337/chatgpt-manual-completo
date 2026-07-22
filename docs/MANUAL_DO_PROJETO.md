@@ -1,6 +1,6 @@
 # Manual do Projeto
 
-> **Status:** Modelo Operacional aprovado e em implantação pela LEA-115. Os demais padrões serão complementados pelas DEC-01 a DEC-10.
+> **Status:** Modelo Operacional aprovado e implantado pela LEA-115. Os demais padrões serão complementados pelas DEC-01 a DEC-10.
 
 ## 1. Finalidade
 
@@ -134,16 +134,30 @@ Quando uma decisão exigir escolhas:
 - usar perguntas numeradas;
 - apresentar até cinco alternativas identificadas por `A`, `B`, `C`, `D` e `E`;
 - explicar apenas o necessário para decidir;
-- fornecer uma caixa copiável com o formato de resposta;
+- colocar cada alternativa que possa ser enviada diretamente em uma caixa copiável separada;
+- fornecer ao final uma caixa copiável com a resposta compacta;
+- usar caixas copiáveis também para autorizações, confirmações e comandos operacionais;
 - não introduzir uma nova decisão na mesma resposta.
 
-Exemplo:
+Exemplo de alternativas:
+
+```text
+1A — Aprovar a opção A.
+```
+
+```text
+1B — Aprovar a opção B.
+```
+
+Exemplo de resposta compacta:
 
 ```text
 1A
 2C
 3B
 ```
+
+Textos explicativos, relatórios e análises não precisam ficar integralmente em caixas. As caixas devem ser usadas nos trechos que o usuário provavelmente copiará e enviará como resposta ou comando.
 
 ## 8. Critério de conclusão
 
