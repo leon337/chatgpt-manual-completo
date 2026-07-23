@@ -836,8 +836,42 @@ Registros inadequados poderão ser corrigidos, vinculados, devolvidos ao Backlog
 - Nenhuma Milestone de Formação, Issue de Módulo, Sub-issue de Aula, label ou estado novo foi criado.
 - Nenhum diretório pedagógico, placeholder ou arquivo vazio foi criado.
 - A LEA-109 foi concluída.
-- A LEA-110 permaneceu no Backlog e não foi iniciada.
+- A LEA-110 permaneceu no Backlog e não foi iniciada durante o registro da DEC-06.
 - GitHub e Linear foram sincronizados.
+
+## DEC-07 — Padrão editorial das aulas
+
+- **Status:** em desenvolvimento
+- **Data de início:** 2026-07-22
+- **Linear:** LEA-110 — em andamento
+
+### Escopo inicial
+
+A decisão deverá definir:
+
+- estrutura mínima obrigatória de toda Aula;
+- seções opcionais e condições de uso;
+- ordem editorial das seções;
+- tamanho recomendado;
+- critérios para dividir uma Aula;
+- uso de explicações, analogias e exemplos;
+- exercícios e verificações de aprendizagem;
+- tratamento de fontes e referências;
+- revisão factual e editorial;
+- datas de criação, revisão e atualização.
+
+### Regras herdadas
+
+A DEC-07 deverá respeitar:
+
+- a hierarquia Manual → Formação → Módulo → Aula aprovada na DEC-02;
+- os níveis de autonomia e autorizações da DEC-03;
+- o fluxo de aprovação, registro, conclusão e transição da DEC-04;
+- as fontes canônicas e responsabilidades documentais da DEC-05;
+- a separação entre conteúdo no GitHub e execução no Linear aprovada na DEC-06;
+- a proibição de iniciar conteúdo pedagógico real antes da etapa aplicável e da autorização exigida.
+
+Nenhuma escolha editorial da DEC-07 foi aprovada ainda.
 
 ## Mapa oficial da LEA-103
 
@@ -859,14 +893,14 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-109 — DEC-06: Estrutura operacional do Linear.
-- **Item em andamento:** nenhum.
-- **Próximo item:** LEA-110 — DEC-07, ainda no Backlog e não iniciada.
+- **Item em andamento:** LEA-110 — DEC-07: Padrão editorial das aulas.
+- **Próximo item:** LEA-111 — DEC-08, somente após a conclusão, o registro e a sincronização da DEC-07.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-07 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+A DEC-07 está em andamento. Nenhuma escolha editorial da DEC-07 foi aprovada até o momento.
 
-A conclusão da DEC-06 não inicia automaticamente a DEC-07. A transição exige `[INICIAR PRÓXIMA DECISÃO]` e nova autorização específica antes de alterar GitHub ou Linear.
+As decisões DEC-08 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
