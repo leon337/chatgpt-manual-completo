@@ -9,8 +9,8 @@
 - [x] DEC-05 — Estrutura do GitHub
 - [x] DEC-06 — Estrutura do Linear
 - [x] DEC-07 — Padrão editorial
-- [ ] DEC-08 — Catálogo de Skills — próxima decisão, ainda não iniciada
-- [ ] DEC-09 — Instrução definitiva do Projeto ChatGPT
+- [ ] DEC-08 — Catálogo de Skills — em andamento
+- [ ] DEC-09 — Instrução definitiva do Projeto ChatGPT — próxima após a conclusão da DEC-08
 - [ ] DEC-10 — Revisão e aprovação final
 
 ## Etapa posterior — Universo Didático
