@@ -2,6 +2,38 @@
 
 Todas as alterações permanentes relevantes do projeto devem ser registradas neste arquivo.
 
+## 2026-07-23
+
+### Adicionado
+
+- Registro oficial da aprovação da DEC-07 — Padrão editorial das aulas.
+- Núcleo editorial obrigatório de oito seções para toda Aula.
+- Catálogo controlado de seções opcionais e regras de inserção contextual.
+- Regras de tamanho flexível e critérios pedagógicos para dividir uma Aula.
+- Padrão de explicações progressivas, analogias limitadas e exemplos classificados.
+- Verificação obrigatória de aprendizagem alinhada ao objetivo, com gabarito, checklist ou rubrica.
+- Hierarquia de fontes, citações proporcionais e seção obrigatória `Fontes e atualização`.
+- Revisão obrigatória em camadas, classificação de achados e bloqueios para falhas críticas ou maiores.
+- Controle editorial com datas ISO 8601, versionamento `MAJOR.MINOR.PATCH`, periodicidade de revisão e gatilhos extraordinários.
+
+### Alterado
+
+- `docs/DECISOES.md` passou a registrar integralmente as escolhas 1A a 9A da DEC-07.
+- `PROJECT_STATE.md` passou a indicar a DEC-07 como aprovada e registrada, com conclusão formal pendente.
+- `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária do padrão editorial das Aulas.
+- A LEA-110 passou a registrar a aprovação e as evidências do padrão editorial, permanecendo em `In Progress`.
+
+### Preservado
+
+- A LEA-110 / DEC-07 permanece como único item estrutural em andamento até a conclusão formal.
+- A LEA-111 / DEC-08 permanece como próxima decisão e não foi iniciada.
+- Nenhum conteúdo pedagógico foi iniciado.
+- Nenhuma Formação, Módulo, Aula, Milestone pedagógica, Issue pedagógica ou Sub-issue pedagógica foi criada.
+- Os diretórios `curriculum/`, `content/`, `research/` e `assets/` permanecem apenas planejados e não foram criados.
+- Nenhum placeholder, arquivo vazio ou publicação externa foi criado.
+- A sequência DEC-01 a DEC-10 permanece inalterada.
+- A LEA-114 permanece no Backlog e bloqueada pela conclusão da LEA-103.
+
 ## 2026-07-22
 
 ### Adicionado
