@@ -19,12 +19,23 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 ### Alterado
 
 - `docs/DECISOES.md` passou a registrar integralmente as escolhas 1A a 9A e a conclusão da DEC-07.
-- `PROJECT_STATE.md` passou a indicar a LEA-110 / DEC-07 como último item concluído e nenhum item estrutural em andamento.
-- `ROADMAP.md` passou a marcar a DEC-07 como concluída e a DEC-08 como próxima decisão ainda não iniciada.
-- `README.md` passou a registrar as decisões DEC-01 a DEC-07 como concluídas e sincronizadas.
+- `PROJECT_STATE.md` passou a indicar a LEA-111 / DEC-08 como único item estrutural em andamento e a LEA-112 / DEC-09 como próxima decisão.
+- `ROADMAP.md` passou a marcar a DEC-08 como em andamento e a DEC-09 como próxima decisão.
+- `README.md` passou a registrar a DEC-08 como decisão em andamento e a preservar o catálogo de Skills como provisório.
+- `docs/SKILLS.md` passou a registrar o estado inicial da DEC-08 e a declarar explicitamente que nenhuma Skill foi aprovada pelo início da decisão.
 - `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária do padrão editorial das Aulas.
 - A LEA-110 passou a registrar a aprovação, as evidências, a sincronização e a conclusão formal da DEC-07.
-- A LEA-103 passou a indicar a DEC-07 como concluída e a DEC-08 como próxima decisão.
+- A LEA-103 passou a indicar a DEC-08 como única decisão estrutural em andamento e a DEC-09 como próxima.
+
+### Corrigido
+
+- Referências residuais que ainda tratavam o padrão editorial da DEC-07 como definição futura foram identificadas para alinhamento com o estado concluído da decisão.
+
+### Iniciado
+
+- LEA-111 — DEC-08: Projetar catálogo de Skills do projeto.
+- Sincronização do estado inicial da DEC-08 entre GitHub e Linear.
+- Definição inicial do escopo da DEC-08: conceito, limites, estrutura mínima, gatilhos, pré-condições, fontes, procedimentos, restrições, resultados e catálogo de Skills.
 
 ### Concluído
 
@@ -34,8 +45,9 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Preservado
 
-- Nenhum item estrutural permanece em andamento após a conclusão da DEC-07.
-- A LEA-111 / DEC-08 permanece no Backlog como próxima decisão e não foi iniciada.
+- A LEA-111 / DEC-08 é o único item estrutural em andamento.
+- A LEA-112 / DEC-09 permanece no Backlog como próxima decisão e não foi iniciada.
+- Nenhuma Skill foi aprovada durante a transição.
 - Nenhum conteúdo pedagógico foi iniciado.
 - Nenhuma Formação, Módulo, Aula, Milestone pedagógica, Issue pedagógica ou Sub-issue pedagógica foi criada.
 - Os diretórios `curriculum/`, `content/`, `research/` e `assets/` permanecem apenas planejados e não foram criados.
