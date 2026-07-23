@@ -1,6 +1,6 @@
 # Constituição do Projeto
 
-> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação e arquitetura documental aprovados. Padrão editorial e demais pontos continuarão sendo definidos pelas DEC-06 a DEC-10.
+> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear e padrão editorial aprovados. O catálogo de Skills está em desenvolvimento na DEC-08; os demais pontos permanecem nas DEC-09 e DEC-10.
 
 ## 1. Missão
 
@@ -42,7 +42,7 @@ Aula é a menor unidade pedagógica oficial da estrutura do Manual.
 
 Cada Aula pertence a um único Módulo e desenvolve um objetivo de aprendizagem específico ou um conjunto pequeno e coerente de objetivos relacionados.
 
-A Aula pode conter explicações, exemplos, demonstrações, atividades e verificações de aprendizagem. O padrão editorial detalhado será definido posteriormente na DEC-07.
+A Aula pode conter explicações, exemplos, demonstrações, atividades e verificações de aprendizagem. O padrão editorial detalhado foi aprovado na DEC-07 e está registrado em `docs/DECISOES.md`.
 
 A conclusão das Aulas contribui para o cumprimento dos objetivos do Módulo.
 
