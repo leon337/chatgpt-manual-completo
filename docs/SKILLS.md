@@ -1,14 +1,29 @@
 # Catálogo de Skills
 
-> **Status:** esqueleto inicial. As skills serão debatidas e aprovadas em DEC-08 / LEA-111. Os comandos operacionais da DEC-04 já estão aprovados.
+> **Status:** DEC-08 / LEA-111 em desenvolvimento. A estrutura e o catálogo abaixo permanecem propostas até aprovação e registro formal. Os comandos operacionais da DEC-04 já estão aprovados.
 
 ## Objetivo
 
-Padronizar procedimentos repetíveis do projeto. Skills não substituem memória nem decisões oficiais; elas definem como executar tipos específicos de trabalho.
+Padronizar procedimentos repetíveis do projeto. Skills não substituem memória, decisões oficiais, comandos ou ferramentas; elas definem como executar tipos específicos de trabalho de forma controlada e verificável.
 
-## Estrutura padrão de uma Skill
+## Estado inicial da DEC-08
 
-Cada skill deverá conter:
+A DEC-08 foi iniciada em 2026-07-23.
+
+O início da decisão:
+
+- não aprova nenhuma Skill;
+- não transforma propostas em procedimentos oficiais;
+- não altera os comandos já aprovados na DEC-04;
+- não trata este arquivo como memória da conversa;
+- não autoriza criação de conteúdo pedagógico;
+- não inicia a DEC-09.
+
+O primeiro objetivo decisório é definir o conceito oficial, os limites e a estrutura mínima de uma Skill. Somente depois será permitido revisar individualmente o catálogo proposto.
+
+## Estrutura padrão proposta de uma Skill
+
+Cada Skill poderá conter, conforme aprovação na DEC-08:
 
 1. identificador;
 2. nome;
@@ -20,6 +35,8 @@ Cada skill deverá conter:
 8. restrições;
 9. resultado esperado;
 10. comandos disponíveis ao usuário.
+
+Nenhum campo desta estrutura é considerado definitivo antes da aprovação da DEC-08.
 
 ## Catálogo inicial proposto
 
@@ -34,7 +51,7 @@ Cada skill deverá conter:
 - SKILL-009 — Fechar Módulo
 - SKILL-010 — Fechar Formação
 
-As skills acima continuam como propostas e somente poderão ser aprovadas na DEC-08.
+As Skills acima continuam como propostas. O início da LEA-111 não aprova, ativa, publica ou torna definitivo nenhum item do catálogo.
 
 ## Comandos operacionais aprovados
 
