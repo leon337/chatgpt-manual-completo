@@ -122,7 +122,7 @@ A versão canônica do conteúdo permanecerá em `content/`. Não será criado u
 - [`CHANGELOG.md`](CHANGELOG.md): histórico de alterações permanentes.
 - [`docs/CONSTITUICAO_DO_PROJETO.md`](docs/CONSTITUICAO_DO_PROJETO.md): regras superiores de governança.
 - [`docs/DECISOES.md`](docs/DECISOES.md): decisões aprovadas.
-- [`docs/SKILLS.md`](docs/SKILLS.md): procedimentos repetíveis aprovados.
+- [`docs/SKILLS.md`](docs/SKILLS.md): procedimentos repetíveis aprovados e propostas em desenvolvimento claramente identificadas.
 - [`docs/MANUAL_DO_PROJETO.md`](docs/MANUAL_DO_PROJETO.md): aplicação prática das regras.
 
 Cada tipo de informação possui uma única fonte canônica. Documentos secundários podem apresentar resumos e links, mas não versões completas concorrentes.
@@ -131,9 +131,11 @@ Cada tipo de informação possui uma única fonte canônica. Documentos secundá
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01 a DEC-07 foram aprovadas, registradas, concluídas e sincronizadas. Nenhum item estrutural está em andamento neste momento. A LEA-111 / DEC-08 permanece no Backlog como próxima decisão e somente poderá ser iniciada pelo fluxo oficial de transição.
+As decisões DEC-01 a DEC-07 foram aprovadas, registradas, concluídas e sincronizadas. A LEA-111 / DEC-08 — Catálogo de Skills é o único item estrutural em andamento. A LEA-112 / DEC-09 permanece no Backlog como próxima decisão.
 
-O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
+A DEC-08 começou sem aprovar qualquer Skill. O esqueleto e o catálogo inicial de `docs/SKILLS.md` continuam provisórios até decisão e registro formais.
+
+O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho ou proposta não representam decisões finais nem material publicado do curso.
 
 ## Fontes operacionais
 
