@@ -18,15 +18,24 @@ Todas as alterações permanentes relevantes do projeto devem ser registradas ne
 
 ### Alterado
 
-- `docs/DECISOES.md` passou a registrar integralmente as escolhas 1A a 9A da DEC-07.
-- `PROJECT_STATE.md` passou a indicar a DEC-07 como aprovada e registrada, com conclusão formal pendente.
+- `docs/DECISOES.md` passou a registrar integralmente as escolhas 1A a 9A e a conclusão da DEC-07.
+- `PROJECT_STATE.md` passou a indicar a LEA-110 / DEC-07 como último item concluído e nenhum item estrutural em andamento.
+- `ROADMAP.md` passou a marcar a DEC-07 como concluída e a DEC-08 como próxima decisão ainda não iniciada.
+- `README.md` passou a registrar as decisões DEC-01 a DEC-07 como concluídas e sincronizadas.
 - `docs/MANUAL_DO_PROJETO.md` passou a explicar a aplicação diária do padrão editorial das Aulas.
-- A LEA-110 passou a registrar a aprovação e as evidências do padrão editorial, permanecendo em `In Progress`.
+- A LEA-110 passou a registrar a aprovação, as evidências, a sincronização e a conclusão formal da DEC-07.
+- A LEA-103 passou a indicar a DEC-07 como concluída e a DEC-08 como próxima decisão.
+
+### Concluído
+
+- LEA-110 — DEC-07: Definir padrão editorial das aulas.
+- Validação formal da conclusão da DEC-07 por `[CONCLUIR ETAPA]`.
+- Sincronização final da DEC-07 entre GitHub e Linear.
 
 ### Preservado
 
-- A LEA-110 / DEC-07 permanece como único item estrutural em andamento até a conclusão formal.
-- A LEA-111 / DEC-08 permanece como próxima decisão e não foi iniciada.
+- Nenhum item estrutural permanece em andamento após a conclusão da DEC-07.
+- A LEA-111 / DEC-08 permanece no Backlog como próxima decisão e não foi iniciada.
 - Nenhum conteúdo pedagógico foi iniciado.
 - Nenhuma Formação, Módulo, Aula, Milestone pedagógica, Issue pedagógica ou Sub-issue pedagógica foi criada.
 - Os diretórios `curriculum/`, `content/`, `research/` e `assets/` permanecem apenas planejados e não foram criados.
