@@ -131,7 +131,7 @@ Cada tipo de informação possui uma única fonte canônica. Documentos secundá
 
 **Fase:** decisões estruturais da LEA-103.
 
-As decisões DEC-01 a DEC-06 foram aprovadas, registradas e sincronizadas. A LEA-109 / DEC-06 foi concluída. A LEA-110 / DEC-07 permanece no Backlog como próxima decisão obrigatória e ainda não foi iniciada.
+As decisões DEC-01 a DEC-06 foram aprovadas, registradas e sincronizadas. A LEA-110 / DEC-07 está em andamento como único item estrutural ativo para definir o padrão editorial das Aulas. A LEA-111 / DEC-08 permanece no Backlog como próxima decisão após a conclusão da DEC-07.
 
 O conteúdo didático ainda não foi iniciado. Documentos marcados como rascunho não representam decisões finais nem material publicado do curso.
 
