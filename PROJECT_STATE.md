@@ -7,7 +7,7 @@
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
 - **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental e estrutura operacional do Linear registrados
-- **Linear:** LEA-104, LEA-105, LEA-106, LEA-107, LEA-108 e LEA-109 concluídas
+- **Linear:** LEA-104, LEA-105, LEA-106, LEA-107, LEA-108 e LEA-109 concluídas; LEA-110 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -34,10 +34,10 @@ Aula = Sub-issue
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-109 — DEC-06: Definir estrutura operacional do Linear
-- **Item estrutural em andamento:** nenhum
-- **Status:** DEC-06 aprovada, registrada, sincronizada e concluída
-- **Próximo item permitido:** LEA-110 — DEC-07: Definir padrão editorial das aulas
-- **Estado da próxima decisão:** Backlog; ainda não iniciada
+- **Item estrutural em andamento:** LEA-110 — DEC-07: Definir padrão editorial das aulas
+- **Status:** em andamento
+- **Objetivo atual:** definir as seções obrigatórias e opcionais das Aulas, ordem editorial, tamanho recomendado, critérios de divisão, explicações, analogias, exemplos, exercícios, verificações de aprendizagem, fontes, revisão e datas de atualização
+- **Próximo item após a conclusão:** LEA-111 — DEC-08: Projetar catálogo de Skills do projeto
 
 ## Resultado da DEC-01
 
@@ -80,6 +80,25 @@ A estrutura operacional do Linear foi aprovada com as escolhas 1A a 9A:
 
 Nenhuma Milestone de Formação, Issue de Módulo, Sub-issue de Aula, label ou estado novo foi criada durante o registro da DEC-06.
 
+## Decisão atual
+
+**LEA-110 — DEC-07**, iniciada formalmente após `[INICIAR PRÓXIMA DECISÃO]` e autorização específica por `[AUTORIZAR REGISTRO OFICIAL]`.
+
+A decisão deve definir o padrão editorial oficial das Aulas, incluindo:
+
+- estrutura mínima obrigatória;
+- seções opcionais;
+- ordem das seções;
+- tamanho recomendado;
+- critérios para dividir uma Aula;
+- uso de explicações, analogias e exemplos;
+- exercícios e verificações de aprendizagem;
+- tratamento de fontes e referências;
+- revisão factual e editorial;
+- datas de criação, revisão e atualização.
+
+Nenhuma escolha editorial da DEC-07 foi aprovada ainda.
+
 ## Sequência obrigatória da LEA-103
 
 ```text
@@ -95,9 +114,9 @@ DEC-05 — concluída
     ↓
 DEC-06 — concluída
     ↓
-DEC-07 — próxima decisão, ainda não iniciada
+DEC-07 — em andamento
     ↓
-DEC-08
+DEC-08 — próxima após a conclusão da DEC-07
     ↓
 DEC-09
     ↓
@@ -111,16 +130,16 @@ Retomar LEA-114 — Universo Didático
 ## Bloqueios
 
 - **DEC-08 a DEC-10:** bloqueadas pela conclusão sequencial das decisões anteriores.
-- **DEC-07:** não está iniciada e somente poderá começar após o comando de transição e a autorização específica aplicável.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
+- **DEC-07:** sem bloqueio impeditivo registrado no início.
 
 ## Regra de avanço
 
-A conclusão da DEC-06 não inicia automaticamente a DEC-07. O próximo passo exige `[INICIAR PRÓXIMA DECISÃO]`, verificação do contexto e nova autorização por `[AUTORIZAR REGISTRO OFICIAL]` antes de qualquer alteração de estado.
+Nenhuma etapa pode avançar apenas com base na conversa. A DEC-07 deve ser discutida, aprovada, registrada nos documentos aplicáveis, atualizada no Linear e verificada como sincronizada antes do início da DEC-08.
 
 ## Última sincronização
 
 - **Data:** 2026-07-22
-- **GitHub:** DEC-06 aprovada, registrada e concluída nos documentos oficiais aplicáveis.
-- **Linear:** LEA-109 concluída; LEA-103 permanece em andamento; LEA-110 permanece no Backlog.
-- **Estado estrutural:** nenhuma decisão estrutural em andamento; DEC-07 confirmada como próxima decisão obrigatória e ainda não iniciada.
+- **GitHub:** DEC-07 registrada como decisão em andamento; nenhuma escolha editorial aprovada ainda.
+- **Linear:** LEA-110 iniciada como único item estrutural em andamento; LEA-103 permanece em andamento.
+- **Estado estrutural:** DEC-07 em andamento; DEC-08 ainda não iniciada.
