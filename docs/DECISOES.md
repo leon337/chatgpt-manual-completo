@@ -1170,12 +1170,15 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-110 — DEC-07: Padrão editorial das aulas.
-- **Item em andamento:** nenhum.
-- **Próximo item:** LEA-111 — DEC-08, ainda não iniciada e dependente do fluxo oficial de transição.
+- **Item em andamento:** LEA-111 — DEC-08: Catálogo de Skills do projeto.
+- **Estado da DEC-08:** em desenvolvimento, sem escolhas aprovadas.
+- **Próximo item:** LEA-112 — DEC-09, somente após a conclusão e a sincronização da DEC-08.
 
 ## Decisões ainda não concluídas
 
-As decisões DEC-08 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
+A DEC-08 está em desenvolvimento. Nenhuma Skill, estrutura definitiva ou escolha da DEC-08 foi aprovada pelo início da LEA-111.
+
+As decisões DEC-09 e DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
 ## Universo Didático
 
