@@ -841,37 +841,312 @@ Registros inadequados poderão ser corrigidos, vinculados, devolvidos ao Backlog
 
 ## DEC-07 — Padrão editorial das aulas
 
-- **Status:** em desenvolvimento
+- **Status:** aprovada e registrada; conclusão pendente
 - **Data de início:** 2026-07-22
+- **Data de aprovação:** 2026-07-23
+- **Data de registro:** 2026-07-23
 - **Linear:** LEA-110 — em andamento
+- **Escolhas aprovadas:** 1A, 2A, 3A, 4A, 5A, 6A, 7A, 8A e 9A
 
-### Escopo inicial
+### 1. Núcleo editorial obrigatório — escolha 1A
 
-A decisão deverá definir:
+Toda Aula deverá possuir oito seções obrigatórias:
 
-- estrutura mínima obrigatória de toda Aula;
-- seções opcionais e condições de uso;
-- ordem editorial das seções;
-- tamanho recomendado;
-- critérios para dividir uma Aula;
-- uso de explicações, analogias e exemplos;
-- exercícios e verificações de aprendizagem;
-- tratamento de fontes e referências;
-- revisão factual e editorial;
-- datas de criação, revisão e atualização.
+1. **Identificação da Aula**;
+2. **Objetivo de aprendizagem**;
+3. **Pré-requisitos**;
+4. **Introdução e contextualização**;
+5. **Desenvolvimento**;
+6. **Síntese**;
+7. **Verificação de aprendizagem**;
+8. **Fontes e atualização**.
 
-### Regras herdadas
+A identificação deverá registrar, conforme o estado da Aula, identificador, título, Formação, Módulo, versão, estado pedagógico e metadados editoriais aplicáveis.
 
-A DEC-07 deverá respeitar:
+O objetivo deverá declarar resultado observável e verificável, com verbo adequado à competência esperada. A Aula desenvolverá um objetivo específico ou um conjunto pequeno e coerente de objetivos relacionados.
 
-- a hierarquia Manual → Formação → Módulo → Aula aprovada na DEC-02;
-- os níveis de autonomia e autorizações da DEC-03;
-- o fluxo de aprovação, registro, conclusão e transição da DEC-04;
-- as fontes canônicas e responsabilidades documentais da DEC-05;
-- a separação entre conteúdo no GitHub e execução no Linear aprovada na DEC-06;
-- a proibição de iniciar conteúdo pedagógico real antes da etapa aplicável e da autorização exigida.
+Os pré-requisitos deverão ser informados de maneira explícita. Quando não houver pré-requisito, isso deverá ser declarado. Não serão cobrados conhecimentos ocultos.
 
-Nenhuma escolha editorial da DEC-07 foi aprovada ainda.
+A introdução deverá situar o tema, explicar sua utilidade e relacioná-lo à progressão da Formação, sem antecipar desnecessariamente conteúdos futuros.
+
+O desenvolvimento conterá a explicação principal, exemplos, procedimentos, limitações e demais recursos necessários para atingir o objetivo.
+
+A síntese consolidará os pontos essenciais sem substituir o desenvolvimento nem fornecer resposta pronta para todas as atividades.
+
+A verificação exigirá evidência observável de que o objetivo foi atingido.
+
+A seção “Fontes e atualização” manterá referências, contexto, datas de verificação, informações sujeitas a mudança, limitações e pontos de revisão.
+
+Nenhuma seção obrigatória poderá permanecer vazia, ser substituída apenas por marcador provisório ou ser removida sem nova decisão aplicável.
+
+### 2. Catálogo controlado de seções opcionais — escolha 2A
+
+Seções opcionais somente serão incluídas quando possuírem função pedagógica ou operacional identificável. Não serão usadas para preencher espaço, repetir conteúdo ou criar um modelo rígido maior que o necessário.
+
+O catálogo autorizado inclui, conforme o objetivo e o conteúdo:
+
+- visão geral ou mapa da Aula;
+- conceitos-chave;
+- glossário;
+- analogia identificada;
+- exemplo guiado;
+- demonstração;
+- cenário real, adaptado, simulado, hipotético ou fictício;
+- passo a passo;
+- checklist;
+- tabela comparativa;
+- diagrama ou recurso visual;
+- aviso, cuidado, limitação ou risco;
+- erro comum e correção;
+- prática orientada;
+- atividade complementar;
+- aprofundamento;
+- perguntas frequentes;
+- recursos complementares;
+- histórico resumido de alterações relevante ao estudante.
+
+A seção opcional deverá:
+
+- estar relacionada ao objetivo;
+- possuir título descritivo;
+- aparecer no ponto em que produza melhor compreensão;
+- informar contexto e limitações quando necessários;
+- ser removida quando não acrescentar valor verificável.
+
+Uma seção opcional não poderá substituir objetivo, pré-requisitos, síntese, verificação ou fontes. Também não poderá introduzir conteúdo que exija uma nova Aula sem aplicar os critérios de divisão.
+
+### 3. Ordem editorial — escolha 3A
+
+A ordem principal será:
+
+```text
+Identificação
+→ Objetivo de aprendizagem
+→ Pré-requisitos
+→ Introdução e contextualização
+→ Desenvolvimento
+→ Síntese
+→ Verificação de aprendizagem
+→ Fontes e atualização
+```
+
+Essa ordem preservará a previsibilidade do Manual. Seções opcionais poderão ser inseridas no ponto de maior utilidade, sem alterar a função das oito seções obrigatórias.
+
+Regras de inserção contextual:
+
+- conceitos-chave e glossário aparecerão antes ou junto do primeiro uso relevante;
+- analogias e exemplos aparecerão após a definição que ajudam a compreender;
+- demonstrações, passos e checklists ficarão próximos do procedimento correspondente;
+- avisos de risco ou pré-condições aparecerão antes da ação afetada;
+- erros comuns e correções aparecerão depois da explicação ou do procedimento relacionado;
+- aprofundamentos serão apresentados depois da compreensão básica;
+- perguntas frequentes e recursos complementares não interromperão a sequência principal;
+- o gabarito ou a rubrica ficará visualmente separado da atividade.
+
+Alterações excepcionais da ordem deverão ser justificadas pela necessidade pedagógica e verificadas na revisão.
+
+### 4. Tamanho e critérios de divisão — escolha 4A
+
+O tamanho será flexível e orientado pelo objetivo, pela complexidade e pela carga cognitiva. Não haverá limite universal de palavras, páginas ou minutos que, isoladamente, determine a qualidade ou a necessidade de divisão.
+
+Faixas de tamanho poderão ser usadas como referência editorial, nunca como obrigação automática. A Aula deverá ser tão curta quanto possível e tão completa quanto necessário para cumprir seu objetivo, seus exemplos, sua prática e sua verificação.
+
+Uma Aula deverá ser dividida quando ocorrer uma ou mais destas condições:
+
+- existência de objetivos independentes ou pouco coerentes entre si;
+- mudança relevante de tema, competência ou tipo de tarefa;
+- quantidade excessiva de conceitos novos;
+- necessidade de pré-requisito que ainda não foi desenvolvido;
+- procedimento extenso com etapas que formam competências autônomas;
+- impossibilidade de verificar adequadamente todo o objetivo em uma única Aula;
+- síntese excessivamente ampla ou incapaz de representar o conteúdo;
+- exemplos, práticas ou fontes com contextos e ciclos de atualização muito diferentes;
+- possibilidade de uma parte funcionar como unidade pedagógica independente;
+- dificuldade de consulta, manutenção, revisão ou atualização causada pelo volume.
+
+A divisão não deverá fragmentar artificialmente um procedimento curto, separar explicação de prática indispensável ou criar Aulas sem objetivo próprio.
+
+### 5. Explicações, analogias e exemplos — escolha 5A
+
+As explicações seguirão progressão em camadas:
+
+1. definição direta;
+2. desenvolvimento conceitual;
+3. aplicação.
+
+O texto deverá ser compreensível ao público definido na DEC-01, avançar do simples para o complexo, evitar pré-requisitos não declarados e preservar a precisão técnica.
+
+A linguagem será em português do Brasil, com palavras comuns e precisas. Termos técnicos, abreviações e expressões em inglês serão definidos na primeira ocorrência relevante. Termos oficiais ou de uso consolidado poderão ser preservados em inglês com explicação em português.
+
+Analogia será opcional. Quando utilizada, deverá ser identificada como comparação, preservar a relação essencial, declarar seus limites e ser seguida da explicação técnica. Não poderá substituir fatos, funcionar como prova, criar equivalência falsa, ocultar exceções, infantilizar o público ou confundir o conceito.
+
+Todo exemplo deverá possuir finalidade identificável e, conforme aplicável, informar conceito, contexto, dados, ação, resultado e limitações. Será classificado como:
+
+- real e verificável;
+- real adaptado;
+- simulado;
+- hipotético;
+- fictício.
+
+Exemplos simulados ou fictícios não serão apresentados como comportamento real do ChatGPT.
+
+Exemplos dependentes de plano, recurso, interface, região, dispositivo, modelo, limite, configuração, política ou comportamento atual deverão ser verificados em fonte oficial vigente. Variações relevantes deverão indicar contexto, data e possibilidade de mudança.
+
+Prompts serão identificados como demonstração, reutilizáveis ou completos. Não deverão prometer resultados determinísticos.
+
+Procedimentos deverão informar ponto de partida, pré-condições, passos numerados, resultado esperado, forma de verificação, variações, limitações e erros previsíveis. Não serão inventados botões, menus, mensagens, limites ou comportamentos.
+
+### 6. Verificação de aprendizagem — escolha 6A
+
+Toda Aula possuirá pelo menos um mecanismo de verificação alinhado ao objetivo declarado. Não bastará perguntar se o estudante entendeu; será exigida resposta, decisão, classificação, explicação, configuração, execução, avaliação ou produção observável.
+
+O formato acompanhará o verbo do objetivo. Poderão ser usadas perguntas objetivas ou abertas, análise de cenário, exercício de aplicação, atividade prática, produção de artefato e checklist de domínio.
+
+Toda verificação deverá possuir:
+
+- instrução clara;
+- cobertura suficiente do objetivo;
+- resposta esperada, gabarito, checklist ou rubrica;
+- critérios de conclusão;
+- feedback ou explicação da solução.
+
+Uma única pergunta somente será suficiente quando produzir evidência de todo o objetivo. Objetivos com vários componentes deverão ter todos os componentes verificados.
+
+Objetivos práticos, como configurar, criar, produzir, executar, testar, comparar resultados ou corrigir, exigirão evidência prática. Uma questão teórica isolada não comprovará competência prática.
+
+Questões objetivas terão alternativa correta e justificativa; alternativas incorretas representarão erros plausíveis. Questões abertas indicarão profundidade, conceitos obrigatórios e critérios. Cenários informarão contexto, problema, dados, restrições, solicitação e classificação do cenário. Atividades práticas informarão recursos, ponto de partida, resultado esperado, evidência e conferência.
+
+O gabarito ficará visualmente separado da atividade. O estudante poderá comparar, revisar, corrigir e repetir quando aplicável. Não haverá porcentagem universal obrigatória; o critério dependerá da natureza do objetivo.
+
+Avaliações auxiliadas por IA terão critérios explícitos, admitirão revisão e não tratarão a IA como infalível. A participação da IA será informada quando relevante.
+
+São proibidas pegadinhas, conteúdo não ensinado, ambiguidade, exposição da resposta na pergunta, avaliação apenas por quantidade de texto, exigência de ferramenta não informada, inferência de competência prática apenas por teoria e atividade sem gabarito, rubrica ou critério.
+
+### 7. Fontes, referências e rastreabilidade — escolha 7A
+
+Toda informação factual relevante deverá possuir origem identificável e verificável. A intensidade da citação será proporcional à possibilidade de mudança, importância, risco, impacto de erro, divergência, necessidade de auditoria e sensibilidade.
+
+A hierarquia será:
+
+1. fontes canônicas do projeto;
+2. fontes oficiais da OpenAI;
+3. fontes primárias externas;
+4. fontes secundárias qualificadas;
+5. fontes comunitárias e relatos, apenas como apoio e não como prova oficial isolada.
+
+Afirmações críticas, variáveis ou controversas terão referência próxima e data de verificação. Conceitos estáveis poderão usar referência por parágrafo, subseção ou conjunto coerente, desde que a relação permaneça clara.
+
+A produção distinguirá informação estável, variável, incerta e contextual. Quando o comportamento variar, serão registrados, conforme aplicável, plano, região, dispositivo, sistema operacional, versão, modelo, tipo de conta, configuração e data.
+
+A Aula utilizará notas ou referências em Markdown próximas das afirmações relevantes e manterá registro completo na seção “Fontes e atualização”, incluindo autor ou organização, título, endereço ou identificador, datas, versão, seção relevante, idioma e contexto.
+
+Procedimentos serão fundamentados em documentação oficial, teste controlado identificado ou combinação dos dois. Testes registrarão data, ambiente, plano, dispositivo, versão, configuração, resultado e limitações, sem generalização automática.
+
+Conflitos entre fontes serão declarados. Deverão ser comparados data, escopo, versão e contexto, priorizando a fonte primária mais específica e atual sem ocultar incerteza.
+
+Uma resposta de IA não será fonte primária nem prova factual. Citações respeitarão direitos autorais, licenças e limites de reprodução. Código, prompts e exemplos externos indicarão reprodução ou adaptação, fonte, licença e modificações.
+
+A seção “Fontes e atualização” apresentará referências utilizadas, data da última verificação factual, informações sujeitas a mudança, contexto, limitações, divergências e pontos de revisão futura. Não será apenas uma lista de links.
+
+É proibido inventar referência, citar fonte não consultada, atribuir à fonte afirmação inexistente, ocultar conflito, usar fonte comunitária como prova oficial, tratar IA como comprovação, preencher bibliografia artificialmente ou conservar informação variável como permanentemente válida sem nova verificação.
+
+### 8. Revisão em camadas — escolha 8A
+
+Nenhuma Aula será considerada pronta apenas porque o texto foi concluído. A revisão será obrigatória e proporcional ao risco, à variabilidade, à complexidade e ao impacto do conteúdo.
+
+As camadas serão:
+
+1. revisão de autoria;
+2. revisão pedagógica;
+3. revisão factual;
+4. revisão técnica e funcional;
+5. revisão editorial e linguística;
+6. revisão de acessibilidade e apresentação;
+7. revisão de segurança, privacidade e conformidade;
+8. revisão final de integridade.
+
+A revisão de autoria verificará seções obrigatórias, objetivo, pré-requisitos, conclusão do texto e ausência de marcadores provisórios.
+
+A revisão pedagógica verificará alinhamento entre objetivo, explicação e atividade, progressão, adequação ao público, carga cognitiva, necessidade de divisão, exemplos, práticas, gabaritos e pré-requisitos.
+
+A revisão factual confirmará fidelidade e atualidade das fontes, datas, versões, planos, regiões, modelos, limites, políticas, nomes de recursos, exemplos reais e distinção entre fato, observação e inferência.
+
+A revisão técnica será obrigatória para procedimentos, configurações, código, comandos, prompts, ferramentas, integrações e interfaces. Testes registrarão ambiente e limitações.
+
+A revisão editorial verificará português do Brasil, clareza, consistência terminológica, títulos, parágrafos, abreviações, termos técnicos, nomes oficiais e separação entre definição, regra, exemplo e exceção.
+
+A revisão de acessibilidade verificará títulos, listas, tabelas, texto alternativo, descrição de diagramas, contraste, ordem de leitura e copiabilidade de código e prompts.
+
+A revisão de segurança, privacidade e conformidade será proporcional e observará dados, credenciais, permissões, ações irreversíveis, saúde, finanças, aspectos jurídicos, direitos autorais, menores e conteúdos perigosos.
+
+Achados serão classificados como:
+
+- **crítico:** bloqueia aprovação e publicação;
+- **maior:** bloqueia aprovação até correção;
+- **menor:** deverá ser corrigido ou justificadamente registrado;
+- **sugestão:** melhoria não bloqueante.
+
+Cada achado informará seção, descrição, classificação, evidência, correção esperada, resultado da nova verificação e situação final.
+
+A Aula somente seguirá para aprovação sem achado crítico ou maior aberto, com fatos atuais, procedimentos validados, objetivo coberto, verificação utilizável, fontes completas e evidências registradas.
+
+Quando possível, haverá revisão independente, especialmente em conteúdo de alto risco ou tecnicamente complexo. A IA poderá auxiliar, mas não inventará evidência, declarará teste não executado ou substituirá aprovação humana.
+
+Alterações posteriores receberão nova revisão proporcional: editorial localizada, factual, pedagógica, técnica ou completa, conforme o impacto. Não será publicada versão materialmente diferente da revisada.
+
+### 9. Datas, versionamento e atualização — escolha 9A
+
+Toda Aula aprovada deverá permitir identificar criação, aprovação, publicação, alterações, verificações, versão, próxima revisão e mudanças entre versões.
+
+As datas editoriais usarão ISO 8601 no formato `AAAA-MM-DD`. Evidências que exigirem horário usarão data e hora com fuso ou UTC.
+
+Serão registrados, conforme aplicável:
+
+- data de criação;
+- data de aprovação;
+- data de primeira publicação;
+- data da última publicação;
+- data da última alteração de conteúdo;
+- data da última verificação factual;
+- data da última revisão pedagógica;
+- data da última revisão editorial;
+- data da última validação técnica;
+- próxima revisão prevista.
+
+Uma data somente será atualizada quando a atividade correspondente tiver sido executada. Correção editorial não atualizará a verificação factual; validação técnica não será registrada sem teste.
+
+Toda Aula aprovada possuirá versão `MAJOR.MINOR.PATCH`:
+
+- **MAJOR:** mudança incompatível ou estrutural, como objetivo, escopo, procedimento ou competência essencial;
+- **MINOR:** expansão substancial compatível com o objetivo existente;
+- **PATCH:** correção localizada factual, editorial, de referência, exemplo, formatação ou acessibilidade.
+
+Rascunhos poderão usar versões `0.x.x`. A primeira versão aprovada será normalmente `1.0.0`. Nem todo commit exigirá nova versão pedagógica; vários commits poderão compor uma única versão.
+
+A periodicidade máxima será:
+
+- até 30 dias para conteúdo altamente variável ou de risco elevado;
+- até 90 dias para conteúdo variável, ferramentas, interfaces, APIs, SDKs e configurações;
+- até 180 dias para conteúdo relativamente estável;
+- até 365 dias para fundamentos e conteúdo estável.
+
+O prazo poderá ser reduzido por risco, fonte instável, mudança anunciada ou histórico de correções.
+
+Haverá revisão extraordinária diante de anúncio relevante, lançamento ou remoção, mudança de preço, plano, limite, interface, política, versão, erro factual, link essencial removido, procedimento quebrado, mudança em pré-requisito, risco, divergência ou atualização estrutural.
+
+Conteúdo com revisão vencida será marcado para revisão; não será automaticamente considerado falso. Informações variáveis terão prioridade, nova publicação exigirá conferência e conteúdo de alto risco poderá ser bloqueado.
+
+Cada versão aprovada manterá versão anterior, nova versão, data, tipo de incremento, resumo, motivo, partes afetadas, impacto, responsável ou processo e evidência de aprovação. O Git será o histórico técnico; a versão da Aula será a identificação pedagógica; o Linear controlará execução e prazos.
+
+Não serão usadas datas fictícias, números de versão reutilizados ou reduzidos, versão publicada diferente da aprovada, PATCH para mudanças incompatíveis, commit como única identificação pública ou prazo de revisão como garantia de correção.
+
+### 10. Resultado do registro
+
+- As escolhas 1A a 9A foram aprovadas pelo usuário e registradas como padrão editorial da DEC-07.
+- A LEA-110 permanece em andamento até validação dos critérios de aceitação, sincronização e conclusão formal.
+- A LEA-111 permanece como próxima decisão e não foi iniciada.
+- Nenhuma Aula, Formação, Módulo, Milestone pedagógica, Issue pedagógica, Sub-issue pedagógica, diretório futuro ou placeholder foi criado.
+- Nenhuma publicação externa foi realizada.
 
 ## Mapa oficial da LEA-103
 
@@ -893,12 +1168,12 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 ## Estado estrutural atual
 
 - **Último item concluído:** LEA-109 — DEC-06: Estrutura operacional do Linear.
-- **Item em andamento:** LEA-110 — DEC-07: Padrão editorial das aulas.
-- **Próximo item:** LEA-111 — DEC-08, somente após a conclusão, o registro e a sincronização da DEC-07.
+- **Item em andamento:** LEA-110 — DEC-07: Padrão editorial das aulas, aprovada e registrada, aguardando conclusão formal.
+- **Próximo item:** LEA-111 — DEC-08, somente após a conclusão e a sincronização da DEC-07.
 
 ## Decisões ainda não concluídas
 
-A DEC-07 está em andamento. Nenhuma escolha editorial da DEC-07 foi aprovada até o momento.
+A DEC-07 foi aprovada e registrada, mas a LEA-110 permanece em andamento até a validação final e a conclusão formal.
 
 As decisões DEC-08 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
