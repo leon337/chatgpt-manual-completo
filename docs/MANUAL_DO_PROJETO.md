@@ -1,6 +1,6 @@
 # Manual do Projeto
 
-> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental e estrutura operacional do Linear aprovados. Os demais padrões serão complementados pelas DEC-07 a DEC-10.
+> **Status:** Modelo Operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear e padrão editorial das Aulas aprovados. Os demais padrões serão complementados pelas DEC-08 a DEC-10.
 
 ## 1. Finalidade
 
@@ -710,3 +710,117 @@ Corrigir sem exclusão silenciosa e preservar o histórico.
 ### 13.14 Regra operacional final
 
 GitHub registra o que o projeto é e o conteúdo que permanece. Linear controla o trabalho necessário para produzir, revisar, aprovar e concluir esse conteúdo. A conversa prepara e discute, mas não substitui nenhuma das duas fontes.
+
+## 14. Aplicação diária do padrão editorial das Aulas da DEC-07
+
+### 14.1 Estrutura obrigatória
+
+Toda Aula deverá manter, nesta ordem principal:
+
+```text
+Identificação
+Objetivo de aprendizagem
+Pré-requisitos
+Introdução e contextualização
+Desenvolvimento
+Síntese
+Verificação de aprendizagem
+Fontes e atualização
+```
+
+Nenhuma dessas seções poderá ficar vazia. Quando um campo ainda não for aplicável, o estado deverá ser declarado sem inventar informação.
+
+### 14.2 Usar seções opcionais
+
+Incluir seção opcional somente quando ela ajudar o estudante a atingir o objetivo, executar um procedimento, compreender uma limitação ou verificar o resultado.
+
+Exemplos de seções opcionais: conceitos-chave, glossário, analogia, exemplo guiado, demonstração, passo a passo, checklist, tabela, diagrama, aviso, erro comum, prática orientada, aprofundamento, perguntas frequentes e recursos complementares.
+
+Posicionar o recurso junto do conteúdo que ele explica. Avisos devem aparecer antes da ação afetada; gabaritos devem ficar separados da atividade; aprofundamentos devem vir depois da explicação básica.
+
+### 14.3 Controlar tamanho e divisão
+
+Não usar contagem fixa de palavras ou páginas como critério isolado. Dividir quando houver objetivos independentes, mudança relevante de competência, excesso de conceitos novos, pré-requisitos não atendidos, procedimento autônomo, verificação inviável ou manutenção prejudicada pelo volume.
+
+Não fragmentar uma sequência curta nem separar uma prática indispensável da explicação que a sustenta.
+
+### 14.4 Produzir explicações e exemplos
+
+Aplicar três camadas:
+
+1. definição direta;
+2. desenvolvimento conceitual;
+3. aplicação.
+
+Definir termos técnicos e abreviações. Identificar analogias como comparações e declarar seus limites. Classificar exemplos como reais, adaptados, simulados, hipotéticos ou fictícios. Verificar em fonte oficial tudo que depender de plano, interface, região, modelo, dispositivo, limite, configuração ou política atual.
+
+### 14.5 Criar a verificação de aprendizagem
+
+Escolher atividade compatível com o verbo do objetivo. Exigir evidência observável. Incluir instrução, resposta esperada ou rubrica, critérios de conclusão e feedback.
+
+Competência prática exige prática. Uma questão teórica isolada não demonstra configuração, execução, produção, teste ou correção.
+
+### 14.6 Tratar fontes
+
+Usar a hierarquia:
+
+1. fontes canônicas do projeto;
+2. fontes oficiais da OpenAI;
+3. fontes primárias externas;
+4. fontes secundárias qualificadas;
+5. fontes comunitárias apenas como apoio.
+
+Relacionar citações críticas ou variáveis às afirmações correspondentes. Registrar na seção “Fontes e atualização” as referências, data factual, contexto, limitações, divergências e pontos sujeitos a revisão.
+
+Não usar resposta de IA como prova factual.
+
+### 14.7 Revisar a Aula
+
+Aplicar as camadas necessárias:
+
+- autoria;
+- pedagógica;
+- factual;
+- técnica e funcional;
+- editorial e linguística;
+- acessibilidade;
+- segurança, privacidade e conformidade;
+- integridade final.
+
+Achado crítico ou maior bloqueia aprovação. Alteração factual exige nova verificação; mudança de objetivo exige nova revisão pedagógica; mudança de procedimento exige novo teste.
+
+### 14.8 Controlar datas e versões
+
+Usar datas ISO 8601. Registrar separadamente criação, aprovação, publicação, alteração, verificações e próxima revisão.
+
+Usar `MAJOR.MINOR.PATCH` para versões aprovadas e `0.x.x` durante rascunhos. Não mudar datas sem executar a revisão correspondente. Não usar commit como substituto da versão pedagógica.
+
+Definir revisão máxima em 30, 90, 180 ou 365 dias conforme risco e variabilidade. Antecipar a revisão diante de mudança relevante, erro, procedimento quebrado, conflito de fontes ou risco.
+
+### 14.9 Fluxo operacional de uma Aula
+
+```text
+Planejar objetivo e pré-requisitos
+        ↓
+Produzir as seções obrigatórias
+        ↓
+Inserir somente recursos opcionais necessários
+        ↓
+Verificar fatos, fontes e procedimentos
+        ↓
+Aplicar revisão em camadas
+        ↓
+Corrigir achados
+        ↓
+Submeter a versão identificada à aprovação
+        ↓
+Registrar conteúdo e evidências
+        ↓
+Publicar somente com autorização aplicável
+        ↓
+Monitorar prazo e gatilhos de atualização
+```
+
+### 14.10 Regra operacional final
+
+Uma Aula somente estará pronta para aprovação quando seu objetivo estiver coberto, sua verificação puder demonstrar aprendizagem, suas fontes forem rastreáveis, seus procedimentos tiverem sido validados quando aplicável e não houver achado crítico ou maior aberto.
