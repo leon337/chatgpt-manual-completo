@@ -7,7 +7,7 @@
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
 - **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear e padrão editorial das Aulas registrados
-- **Linear:** LEA-104, LEA-105, LEA-106, LEA-107, LEA-108, LEA-109 e LEA-110 concluídas
+- **Linear:** LEA-104 a LEA-110 concluídas; LEA-111 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -34,10 +34,10 @@ Aula = Sub-issue
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-110 — DEC-07: Definir padrão editorial das aulas
-- **Item estrutural em andamento:** nenhum
-- **Status:** DEC-07 concluída e sincronizada; transição para a DEC-08 ainda não iniciada
-- **Objetivo atual:** preservar o estado concluído e aguardar o fluxo oficial de transição
-- **Próximo item:** LEA-111 — DEC-08: Projetar catálogo de Skills do projeto
+- **Item estrutural em andamento:** LEA-111 — DEC-08: Projetar catálogo de Skills do projeto
+- **Status:** DEC-08 iniciada e sincronizada; nenhuma escolha de Skill aprovada
+- **Objetivo atual:** definir o conceito oficial, os limites, a estrutura mínima, os gatilhos, as pré-condições, as fontes, os procedimentos, as restrições e os resultados esperados das Skills do projeto
+- **Próximo item após a conclusão:** LEA-112 — DEC-09: Redigir instrução definitiva do Projeto ChatGPT
 
 ## Resultado da DEC-01
 
@@ -96,18 +96,30 @@ A DEC-07 foi aprovada, registrada, concluída e sincronizada com as escolhas 1A 
 
 A conclusão da DEC-07 não significa publicação e não inicia automaticamente a DEC-08.
 
+## DEC-08 em desenvolvimento
+
+A LEA-111 foi iniciada em 2026-07-23 como único item estrutural em andamento.
+
+A DEC-08 deverá definir:
+
+- conceito oficial de Skill;
+- diferenças entre Skill, decisão, memória, comando e ferramenta;
+- estrutura mínima obrigatória;
+- gatilhos e pré-condições;
+- fontes obrigatórias;
+- procedimento e restrições;
+- resultado esperado;
+- comandos disponíveis ao usuário;
+- critérios de criação, aprovação, revisão, atualização e descontinuação;
+- catálogo oficial de Skills do projeto.
+
+O esqueleto e as dez Skills já listadas em `docs/SKILLS.md` permanecem propostas. Nenhuma Skill foi aprovada pelo início da decisão.
+
 ## Decisão atual
 
-Não existe item estrutural em andamento neste momento.
+**LEA-111 — DEC-08** é o único item estrutural em andamento.
 
-A LEA-110 / DEC-07 foi concluída após:
-
-- aprovação das escolhas 1A a 9A;
-- registro integral em `docs/DECISOES.md`;
-- atualização de `PROJECT_STATE.md`, `ROADMAP.md`, `README.md`, `CHANGELOG.md` e `docs/MANUAL_DO_PROJETO.md`;
-- atualização e conclusão da LEA-110 no Linear;
-- verificação de sincronização entre GitHub e Linear;
-- confirmação da LEA-111 como próxima decisão, sem iniciá-la.
+O trabalho inicial deve definir primeiro o conceito, os limites e a estrutura mínima de uma Skill. Somente depois será permitido avaliar individualmente as Skills propostas.
 
 ## Sequência obrigatória da LEA-103
 
@@ -126,9 +138,9 @@ DEC-06 — concluída
     ↓
 DEC-07 — concluída
     ↓
-DEC-08 — próxima, ainda não iniciada
+DEC-08 — em andamento
     ↓
-DEC-09
+DEC-09 — próxima após a conclusão da DEC-08
     ↓
 DEC-10
     ↓
@@ -139,18 +151,18 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-08 a DEC-10:** dependem da execução sequencial e da transição oficial entre as decisões.
+- **DEC-09 e DEC-10:** bloqueadas pela execução sequencial das decisões anteriores.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
-- **DEC-07:** concluída, sem bloqueios pendentes.
+- **DEC-08:** sem bloqueio impeditivo conhecido.
 
 ## Regra de avanço
 
-A DEC-08 somente poderá ser iniciada depois do comando `[INICIAR PRÓXIMA DECISÃO]`, da reconstrução do contexto, da confirmação da sincronização e de nova autorização específica para alterar GitHub e Linear.
+A DEC-09 não poderá ser iniciada apenas porque a DEC-08 começou ou teve escolhas discutidas. A LEA-111 deverá ser aprovada, registrada, sincronizada e formalmente concluída antes da transição.
 
 ## Última sincronização
 
 - **Data:** 2026-07-23
-- **GitHub:** DEC-07 registrada como aprovada, concluída e sincronizada; nenhum item estrutural marcado como em andamento.
-- **Linear:** LEA-110 em `Done`; LEA-103 permanece em andamento; LEA-111 permanece em `Backlog`.
-- **Estado estrutural:** DEC-07 concluída; DEC-08 próxima e ainda não iniciada.
-- **Integridade:** nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado.
+- **GitHub:** DEC-08 registrada como decisão em desenvolvimento; `docs/SKILLS.md` mantém todas as Skills como propostas.
+- **Linear:** LEA-111 em `In Progress`; LEA-103 permanece em andamento; LEA-112 permanece em `Backlog`.
+- **Estado estrutural:** DEC-08 é o único item em andamento; DEC-09 é a próxima decisão.
+- **Integridade:** nenhuma Skill foi aprovada; nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado.
