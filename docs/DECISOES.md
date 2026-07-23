@@ -841,11 +841,12 @@ Registros inadequados poderão ser corrigidos, vinculados, devolvidos ao Backlog
 
 ## DEC-07 — Padrão editorial das aulas
 
-- **Status:** aprovada e registrada; conclusão pendente
+- **Status:** aprovada, registrada e concluída
 - **Data de início:** 2026-07-22
 - **Data de aprovação:** 2026-07-23
 - **Data de registro:** 2026-07-23
-- **Linear:** LEA-110 — em andamento
+- **Data de conclusão:** 2026-07-23
+- **Linear:** LEA-110 — concluída
 - **Escolhas aprovadas:** 1A, 2A, 3A, 4A, 5A, 6A, 7A, 8A e 9A
 
 ### 1. Núcleo editorial obrigatório — escolha 1A
@@ -1140,10 +1141,11 @@ Cada versão aprovada manterá versão anterior, nova versão, data, tipo de inc
 
 Não serão usadas datas fictícias, números de versão reutilizados ou reduzidos, versão publicada diferente da aprovada, PATCH para mudanças incompatíveis, commit como única identificação pública ou prazo de revisão como garantia de correção.
 
-### 10. Resultado do registro
+### 10. Resultado da conclusão
 
 - As escolhas 1A a 9A foram aprovadas pelo usuário e registradas como padrão editorial da DEC-07.
-- A LEA-110 permanece em andamento até validação dos critérios de aceitação, sincronização e conclusão formal.
+- Todos os critérios de aceitação da LEA-110 foram validados.
+- A LEA-110 foi concluída no Linear após a sincronização final entre GitHub e Linear.
 - A LEA-111 permanece como próxima decisão e não foi iniciada.
 - Nenhuma Aula, Formação, Módulo, Milestone pedagógica, Issue pedagógica, Sub-issue pedagógica, diretório futuro ou placeholder foi criado.
 - Nenhuma publicação externa foi realizada.
@@ -1167,13 +1169,11 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 
 ## Estado estrutural atual
 
-- **Último item concluído:** LEA-109 — DEC-06: Estrutura operacional do Linear.
-- **Item em andamento:** LEA-110 — DEC-07: Padrão editorial das aulas, aprovada e registrada, aguardando conclusão formal.
-- **Próximo item:** LEA-111 — DEC-08, somente após a conclusão e a sincronização da DEC-07.
+- **Último item concluído:** LEA-110 — DEC-07: Padrão editorial das aulas.
+- **Item em andamento:** nenhum.
+- **Próximo item:** LEA-111 — DEC-08, ainda não iniciada e dependente do fluxo oficial de transição.
 
 ## Decisões ainda não concluídas
-
-A DEC-07 foi aprovada e registrada, mas a LEA-110 permanece em andamento até a validação final e a conclusão formal.
 
 As decisões DEC-08 a DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
