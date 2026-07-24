@@ -1150,6 +1150,275 @@ Não serão usadas datas fictícias, números de versão reutilizados ou reduzid
 - Nenhuma Aula, Formação, Módulo, Milestone pedagógica, Issue pedagógica, Sub-issue pedagógica, diretório futuro ou placeholder foi criado.
 - Nenhuma publicação externa foi realizada.
 
+## DEC-08 — Catálogo de Skills do projeto
+
+- **Status:** aprovada e registrada
+- **Data de início:** 2026-07-23
+- **Data de aprovação:** 2026-07-24
+- **Data de registro:** 2026-07-24
+- **Linear:** LEA-111 — em andamento durante a validação final
+- **Escolhas aprovadas:** 1A a 27A
+
+### 1. Conceito oficial de Skill
+
+Uma Skill é um procedimento operacional aprovado e reutilizável que transforma um gatilho reconhecido em um resultado verificável, mediante finalidade, escopo, pré-condições, fontes, etapas, restrições e critérios de validação declarados.
+
+Uma Skill:
+
+- não substitui decisões oficiais;
+- não funciona como memória da conversa;
+- não é um comando;
+- não é uma ferramenta;
+- não cria autorização;
+- pode coordenar ferramentas somente dentro dos níveis de autonomia e das autorizações aplicáveis;
+- não pode prevalecer sobre regras superiores do projeto.
+
+### 2. Autoridade e limites
+
+A autoridade de toda Skill permanece subordinada:
+
+1. à Constituição do Projeto;
+2. às decisões aprovadas;
+3. aos níveis de autonomia da DEC-03;
+4. ao fluxo e aos comandos da DEC-04;
+5. às fontes canônicas e ao estado oficial sincronizado;
+6. às autorizações específicas aplicáveis.
+
+Uma Skill pode executar consultas de Nível 1, preparar materiais de Nível 2, coordenar ferramentas autorizadas e executar ações de Nível 3 somente após a autorização exigida.
+
+Uma Skill não pode:
+
+- criar ou modificar regras superiores;
+- aprovar o próprio resultado;
+- conceder autorização a si mesma;
+- transformar aprovação em publicação;
+- modificar o estado oficial sem autorização;
+- concluir, cancelar ou excluir tarefas por inferência;
+- alterar roadmap;
+- iniciar decisão posterior;
+- contornar bloqueios ou a sequência obrigatória.
+
+### 3. Estrutura obrigatória
+
+Toda Skill deve possuir:
+
+1. identificador;
+2. nome;
+3. status e versão;
+4. finalidade;
+5. escopo e exclusões;
+6. gatilhos de ativação;
+7. pré-condições;
+8. entradas obrigatórias;
+9. fontes obrigatórias;
+10. procedimento;
+11. limites de autoridade e restrições;
+12. resultado esperado;
+13. método de validação;
+14. condições de interrupção.
+
+Quando aplicável, deverá também declarar ferramentas, permissões, autorizações, riscos, tratamento de erros, evidências, reversibilidade, comandos, periodicidade de revisão e histórico de alterações.
+
+### 4. Identificação e nomenclatura
+
+O padrão oficial será:
+
+```text
+SKILL-001 — Planejar Formação
+```
+
+Regras:
+
+- prefixo fixo `SKILL`;
+- numeração global sequencial com três dígitos;
+- identificador único;
+- nome em português do Brasil;
+- nome preferencialmente iniciado por verbo no infinitivo;
+- título curto, específico e orientado ao resultado;
+- identificadores provisórios podem ser reorganizados antes da aprovação inicial;
+- depois do registro, o identificador torna-se permanente;
+- identificadores descontinuados não são reutilizados;
+- alteração de nome não altera o identificador;
+- versão, categoria, ferramenta e status não são codificados no identificador.
+
+### 5. Ativação e pré-condições
+
+A ativação será híbrida e poderá ocorrer por comando canônico específico, solicitação em linguagem natural clara e inequívoca ou reconhecimento automático de correspondência exata entre o pedido e a finalidade da Skill.
+
+Antes da execução, o ChatGPT deverá identificar a Skill aplicável, confirmar o escopo, verificar entradas e pré-condições, consultar fontes obrigatórias, verificar bloqueios, permissões e autorizações e interromper ou solicitar esclarecimento diante de ambiguidade.
+
+A presença isolada de palavra-chave não ativa uma Skill. Múltiplas Skills não podem ser executadas silenciosamente em conjunto.
+
+### 6. Fontes obrigatórias
+
+Toda Skill deve respeitar a hierarquia geral do projeto e declarar suas fontes específicas:
+
+1. `docs/CONSTITUICAO_DO_PROJETO.md`;
+2. `PROJECT_STATE.md`;
+3. `docs/DECISOES.md`;
+4. `docs/SKILLS.md`;
+5. `ROADMAP.md`;
+6. Linear;
+7. conversa atual.
+
+Fontes superiores não podem ser ignoradas. Fontes complementares não substituem fontes canônicas. Divergências interrompem o avanço. Informações variáveis exigem nova verificação. Ausência de fonte obrigatória bloqueia a etapa dependente. Inferências devem ser identificadas e lacunas não podem ser preenchidas com dados inventados.
+
+### 7. Procedimento, validação e evidências
+
+O procedimento de uma Skill deve ser sequencial, numerado e verificável, com condições, desvios, pontos de parada, tratamento de erros e chamadas explícitas a outras Skills quando aplicável.
+
+Cada Skill deve definir previamente:
+
+- resultado esperado;
+- critérios objetivos de sucesso;
+- método de verificação;
+- evidências exigidas;
+- condições que impedem a conclusão;
+- tratamento de resultados parciais ou inconclusivos.
+
+A validação ocorre depois da execução e antes da declaração de sucesso. Uma afirmação do ChatGPT não comprova execução externa. Alterações em GitHub e Linear exigem verificação de sincronização. Concluir uma Skill não equivale a aprovar, publicar ou concluir uma etapa estrutural.
+
+### 8. Erros, interrupções e retomadas
+
+Estados possíveis:
+
+- concluída;
+- concluída parcialmente;
+- interrompida;
+- bloqueada;
+- aguardando informação;
+- aguardando autorização;
+- falha não recuperável.
+
+Quando houver falha, a Skill deverá informar a etapa em que parou, ações realizadas e não realizadas, evidências preservadas, erro ou bloqueio, risco de continuar, requisito de retomada e próxima ação segura.
+
+Antes da retomada, contexto e pré-condições deverão ser verificados novamente. Autorizações consumidas não podem ser reutilizadas.
+
+### 9. Ciclo de vida e versionamento
+
+Estados oficiais:
+
+1. Proposta;
+2. Em elaboração;
+3. Em revisão;
+4. Aprovada;
+5. Ativa;
+6. Em atualização;
+7. Suspensa;
+8. Descontinuada;
+9. Substituída.
+
+Aprovação não significa registro ou ativação. A ativação exige aprovação, registro oficial e sincronização. As versões seguem `MAJOR.MINOR.PATCH`.
+
+Mudanças estruturais, de autoridade ou de procedimento exigem nova aprovação. Suspensão, descontinuação e substituição preservam identificador, versão, histórico, motivo e substituição quando houver.
+
+### 10. Skill, comando, ferramenta e autorização
+
+- **Skill:** procedimento reutilizável;
+- **Comando:** expressão de intenção ou autorização do usuário;
+- **Ferramenta:** capacidade técnica utilizada na execução;
+- **Autorização:** permissão específica, delimitada e consumível.
+
+A existência da ferramenta não autoriza seu uso. A aprovação da Skill não cria autorização permanente.
+
+As Skills reutilizam os comandos gerais da DEC-04. Comandos específicos somente poderão ser criados quando houver necessidade operacional não coberta pelos comandos gerais.
+
+### 11. Critérios para criação e revisão de Skills
+
+Uma nova Skill somente poderá ser criada quando existir trabalho recorrente e reutilizável, gatilho reconhecível, resultado verificável, procedimento padronizável, fontes e restrições identificáveis, ausência de Skill equivalente e benefício concreto de consistência, segurança ou eficiência.
+
+Antes da criação será obrigatório pesquisar duplicidade, comparar Skills existentes, avaliar expansão de Skill já existente, analisar risco e autoridade, identificar ferramentas e fontes e definir responsável pela revisão.
+
+Solicitação pontual, preferência de estilo, decisão, ferramenta, comando isolado, informação armazenada ou tentativa de contornar autorização não justificam nova Skill.
+
+Cada proposta será revisada individualmente e poderá ser aprovada, aprovada com ajustes, fundida ou removida.
+
+### 12. Catálogo inicial aprovado
+
+```text
+SKILL-001 — Planejar Formação
+SKILL-002 — Planejar Módulo
+SKILL-003 — Produzir Aula
+SKILL-004 — Revisar Aula
+SKILL-005 — Publicar no GitHub
+SKILL-006 — Atualizar Linear
+SKILL-007 — Verificar Informações da OpenAI
+SKILL-008 — Validar Conclusão de Módulo
+SKILL-009 — Validar Conclusão de Formação
+```
+
+#### SKILL-001 — Planejar Formação
+
+Produz rascunho completo de planejamento de uma Formação autorizada, com objetivos, público, pré-requisitos, sequência inicial de Módulos, critérios de conclusão, fontes e dependências.
+
+Não produz Aulas, não aprova, não publica e não cria registros externos sem autorização.
+
+#### SKILL-002 — Planejar Módulo
+
+Produz rascunho de planejamento de um Módulo dentro de Formação aprovada ou autorizada, traduzindo seu objetivo em sequência coerente de Aulas, resultados de aprendizagem, pré-requisitos, fontes e critérios de conclusão.
+
+Não produz Aulas completas nem altera objetivos superiores.
+
+#### SKILL-003 — Produzir Aula
+
+Produz o rascunho completo de Aula previamente planejada e autorizada, conforme objetivo, escopo, fontes e padrão editorial da DEC-07.
+
+Não cria Aula fora do planejamento, não aprova, não publica e não substitui revisão independente.
+
+#### SKILL-004 — Revisar Aula
+
+Executa revisão crítica independente de uma Aula, verificando precisão, completude, coerência pedagógica, padrão editorial, rastreabilidade, acessibilidade e qualidade da aprendizagem.
+
+Classifica achados como críticos, maiores, menores ou sugestões e emite parecer verificável. Não aprova oficialmente nem altera silenciosamente o conteúdo.
+
+#### SKILL-005 — Publicar no GitHub
+
+Executa publicação controlada de versão previamente aprovada e expressamente autorizada, limitada aos arquivos e ao alcance descritos no resumo operacional válido.
+
+Exige verificação de repositório, branch, arquivos, conflitos, commit e conteúdo resultante. Aprovação de conteúdo não autoriza publicação.
+
+#### SKILL-006 — Atualizar Linear
+
+Atualiza o Linear de forma controlada para registrar estado, evidências, decisões, progresso, bloqueios e próximos passos confirmados pelas fontes oficiais e autorizações aplicáveis.
+
+Não conclui, cancela, exclui ou cria estruturas por inferência.
+
+#### SKILL-007 — Verificar Informações da OpenAI
+
+Pesquisa, confere e documenta informações variáveis ou tecnicamente relevantes sobre produtos, serviços, políticas, interfaces, APIs e documentação da OpenAI, priorizando fontes oficiais.
+
+Registra fonte, data, produto, plano, versão, contexto, fatos confirmados, inferências, incertezas e impacto sobre o Manual.
+
+#### SKILL-008 — Validar Conclusão de Módulo
+
+Verifica se um Módulo atende aos critérios pedagógicos, editoriais, documentais e operacionais necessários para submissão à decisão humana de conclusão.
+
+Pode recomendar a conclusão, mas não conclui o Módulo nem inicia o próximo automaticamente.
+
+#### SKILL-009 — Validar Conclusão de Formação
+
+Verifica se uma Formação atende aos critérios pedagógicos, editoriais, documentais e operacionais necessários para submissão à decisão humana de conclusão.
+
+Pode recomendar a conclusão, mas não conclui a Formação, não inicia outra Formação e não declara o Manual concluído.
+
+### 13. Proposta removida
+
+A proposta `Aprovar Conteúdo` foi removida do catálogo.
+
+A aprovação permanece decisão humana expressa pelos comandos oficiais. Uma revisão pode recomendar aprovação, mas recomendação não equivale a aprovação. A aprovação fixa a versão aceita e não autoriza registro, publicação ou conclusão.
+
+### 14. Resultado do registro
+
+- As escolhas 1A a 27A foram aprovadas e registradas.
+- O catálogo inicial contém nove Skills.
+- A proposta `Aprovar Conteúdo` foi removida antes da atribuição de identificador permanente.
+- `docs/SKILLS.md` permanece como fonte dos procedimentos detalhados.
+- A aprovação e o registro não ativam automaticamente as Skills.
+- A LEA-111 permanece em andamento até a validação final dos critérios e da sincronização.
+- A LEA-112 / DEC-09 não foi iniciada.
+- Nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado.
+- Nenhuma publicação externa foi realizada.
+
 ## Mapa oficial da LEA-103
 
 | Ordem | Decisão | Issue |
@@ -1171,12 +1440,12 @@ A LEA-115 permanece como tarefa corretiva concluída e não faz parte da numera�
 
 - **Último item concluído:** LEA-110 — DEC-07: Padrão editorial das aulas.
 - **Item em andamento:** LEA-111 — DEC-08: Catálogo de Skills do projeto.
-- **Estado da DEC-08:** em desenvolvimento, sem escolhas aprovadas.
-- **Próximo item:** LEA-112 — DEC-09, somente após a conclusão e a sincronização da DEC-08.
+- **Estado da DEC-08:** aprovada e registrada; validação final e sincronização em andamento.
+- **Próximo item:** LEA-112 — DEC-09, somente após a conclusão formal e a sincronização da DEC-08.
 
 ## Decisões ainda não concluídas
 
-A DEC-08 está em desenvolvimento. Nenhuma Skill, estrutura definitiva ou escolha da DEC-08 foi aprovada pelo início da LEA-111.
+A DEC-08 foi aprovada e registrada, mas a LEA-111 permanece em andamento até a validação final dos critérios de aceitação e da sincronização entre GitHub e Linear.
 
 As decisões DEC-09 e DEC-10 permanecem pendentes e devem ser executadas sequencialmente.
 
