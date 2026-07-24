@@ -6,8 +6,8 @@
 - **Fase:** decisões estruturais da LEA-103
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
-- **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear, padrão editorial das Aulas e catálogo oficial de Skills registrados parcialmente
-- **Linear:** LEA-104 a LEA-110 concluídas; LEA-111 em andamento
+- **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear, padrão editorial das Aulas e catálogo oficial de Skills registrados
+- **Linear:** LEA-104 a LEA-111 concluídas; LEA-112 permanece no Backlog
 
 ## Estrutura pedagógica aprovada
 
@@ -33,11 +33,11 @@ Aula = Sub-issue
 
 ## Estado estrutural oficial
 
-- **Último item concluído:** LEA-110 — DEC-07: Definir padrão editorial das aulas
-- **Item estrutural em andamento:** LEA-111 — DEC-08: Projetar catálogo de Skills do projeto
-- **Status:** DEC-08 aprovada pelo usuário; registro oficial e sincronização em andamento
-- **Objetivo atual:** concluir o registro da decisão, atualizar o Linear, verificar evidências e confirmar sincronização
-- **Próximo item após a conclusão:** LEA-112 — DEC-09: Redigir instrução definitiva do Projeto ChatGPT
+- **Último item concluído:** LEA-111 — DEC-08: Projetar catálogo de Skills do projeto
+- **Item estrutural em andamento:** nenhum
+- **Status:** DEC-08 aprovada, registrada, validada e sincronizada
+- **Objetivo atual:** preservar o estado concluído e aguardar autorização específica para iniciar a DEC-09
+- **Próximo item:** LEA-112 — DEC-09: Redigir instrução definitiva do Projeto ChatGPT
 
 ## Resultado da DEC-01
 
@@ -94,9 +94,9 @@ A DEC-07 foi aprovada, registrada, concluída e sincronizada com as escolhas 1A 
 - revisão obrigatória em camadas, com achados críticos, maiores, menores e sugestões;
 - datas ISO 8601, versionamento `MAJOR.MINOR.PATCH`, revisões periódicas de 30, 90, 180 ou 365 dias e gatilhos extraordinários.
 
-## Resultado aprovado da DEC-08
+## Resultado concluído da DEC-08
 
-A DEC-08 foi aprovada pelo usuário em 2026-07-24 com as escolhas 1A a 27A.
+A DEC-08 foi aprovada pelo usuário em 2026-07-24 com as escolhas 1A a 27A, registrada em `docs/DECISOES.md`, detalhada em `docs/SKILLS.md` e sincronizada com o Linear.
 
 A decisão definiu:
 
@@ -131,13 +131,15 @@ SKILL-009 — Validar Conclusão de Formação
 
 A antiga proposta `Aprovar Conteúdo` foi removida porque aprovação permanece decisão humana expressa pelos comandos oficiais.
 
-A aprovação da DEC-08 não ativa automaticamente as Skills, não conclui a LEA-111 e não inicia a DEC-09.
+A conclusão da DEC-08 não ativa automaticamente as Skills e não inicia a DEC-09.
 
 ## Decisão atual
 
-**LEA-111 — DEC-08** continua como único item estrutural em andamento durante o registro oficial.
+Nenhuma decisão estrutural está em andamento.
 
-O registro já atualizou `docs/SKILLS.md` e este arquivo. Permanecem pendentes a consolidação integral em `docs/DECISOES.md`, a atualização do Linear com evidências e a verificação final da sincronização.
+A LEA-111 / DEC-08 foi concluída após aprovação, registro, validação dos critérios de aceitação e sincronização entre GitHub e Linear.
+
+A LEA-112 / DEC-09 permanece no Backlog e somente poderá ser iniciada mediante o fluxo oficial de transição e nova autorização aplicável.
 
 ## Sequência obrigatória da LEA-103
 
@@ -156,9 +158,9 @@ DEC-06 — concluída
     ↓
 DEC-07 — concluída
     ↓
-DEC-08 — aprovada; registro em andamento
+DEC-08 — concluída
     ↓
-DEC-09 — próxima após a conclusão da DEC-08
+DEC-09 — próxima, ainda não iniciada
     ↓
 DEC-10
     ↓
@@ -169,18 +171,18 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-09 e DEC-10:** bloqueadas pela execução sequencial das decisões anteriores.
+- **DEC-09:** não possui bloqueio impeditivo conhecido, mas permanece não iniciada até autorização de transição.
+- **DEC-10:** depende da conclusão da DEC-09.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
-- **DEC-08:** sem bloqueio de conteúdo; conclusão bloqueada enquanto o registro e a sincronização não forem integralmente confirmados.
 
 ## Regra de avanço
 
-A DEC-09 não poderá ser iniciada apenas porque a DEC-08 foi aprovada. A LEA-111 deverá ser integralmente registrada, sincronizada e formalmente concluída antes da transição.
+A conclusão da DEC-08 não inicia automaticamente a DEC-09. A transição para a LEA-112 exige `[INICIAR PRÓXIMA DECISÃO]`, validação do estado oficial e nova autorização para alterações externas.
 
 ## Última sincronização
 
 - **Data:** 2026-07-24
-- **GitHub:** `docs/SKILLS.md` e `PROJECT_STATE.md` atualizados com o resultado aprovado da DEC-08; registro complementar ainda em andamento.
-- **Linear:** LEA-111 permanece em `In Progress`; atualização de evidências pendente nesta execução.
-- **Estado estrutural:** DEC-08 é o único item em andamento; DEC-09 continua como próxima decisão.
-- **Integridade:** nove Skills aprovadas como catálogo inicial, ainda não ativadas; nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado.
+- **GitHub:** `docs/DECISOES.md`, `docs/SKILLS.md`, `PROJECT_STATE.md` e `CHANGELOG.md` registram o resultado aprovado da DEC-08.
+- **Linear:** LEA-111 concluída após atualização dos critérios e evidências; LEA-112 permanece no Backlog.
+- **Estado estrutural:** nenhum item estrutural em andamento; DEC-09 confirmada como próxima decisão.
+- **Integridade:** nove Skills aprovadas como catálogo inicial, sem ativação automática; nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado.
