@@ -1,6 +1,6 @@
 # Constituição do Projeto
 
-> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear, padrão editorial e catálogo de Skills aprovados. A DEC-09 é a próxima decisão e ainda não foi iniciada; a DEC-10 permanece pendente.
+> **Status:** base operacional, identidade, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear, padrão editorial e catálogo de Skills aprovados. A DEC-09 está em andamento; a DEC-10 permanece pendente.
 
 ## 1. Missão
 
