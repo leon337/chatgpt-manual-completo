@@ -1,6 +1,6 @@
 # Catálogo de Skills
 
-> **Status:** DEC-08 / LEA-111 aprovada pelo usuário e em registro oficial. As definições e o catálogo abaixo constituem a versão aceita da decisão. A ativação operacional depende da conclusão do registro e da sincronização entre GitHub e Linear.
+> **Status:** DEC-08 / LEA-111 aprovada, registrada, validada e sincronizada. As definições e o catálogo abaixo constituem a versão oficial concluída. A aprovação não ativa automaticamente as Skills.
 
 ## 1. Conceito oficial
 
@@ -332,13 +332,8 @@ Verifica Aulas, revisões, aprovações, resultados de aprendizagem, fontes, ver
 
 Verifica todos os Módulos, objetivos gerais, progressão pedagógica, fontes, versões, acessibilidade, índices e sincronização. Pode recomendar conclusão, mas não concluir a Formação.
 
-## 16. Regra de ativação inicial
+## 16. Estado após a conclusão da DEC-08
 
-As nove Skills somente se tornam ativas após:
+As nove Skills foram aprovadas e registradas no catálogo oficial, mas não são ativadas automaticamente por esse fato. Cada utilização continua dependente de correspondência de escopo, pré-condições, fontes, bloqueios e autorizações aplicáveis.
 
-1. registro integral da DEC-08 nos documentos aplicáveis;
-2. atualização do Linear com evidências;
-3. confirmação de sincronização entre GitHub e Linear;
-4. conclusão formal da LEA-111.
-
-A aprovação e o registro da DEC-08 não iniciam a DEC-09 automaticamente.
+A conclusão formal da LEA-111 não inicia a DEC-09 automaticamente.
