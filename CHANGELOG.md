@@ -2,6 +2,40 @@
 
 Todas as alterações permanentes relevantes do projeto devem ser registradas neste arquivo.
 
+## 2026-07-24
+
+### Adicionado
+
+- Aprovação integral da DEC-08 — Catálogo de Skills do projeto, com escolhas 1A a 27A.
+- Conceito oficial de Skill, limites de autoridade, estrutura obrigatória, ativação, fontes, procedimento, validação, ciclo de vida e critérios de criação.
+- Catálogo inicial aprovado com nove Skills.
+- Separação formal entre Skill, decisão, memória, comando, ferramenta e autorização.
+- Regras de identificação global no padrão `SKILL-001`, versionamento `MAJOR.MINOR.PATCH`, suspensão, descontinuação e substituição.
+- Regras de falha controlada, preservação de evidências e retomada segura.
+
+### Alterado
+
+- `docs/SKILLS.md` passou a registrar a definição oficial e o catálogo aprovado da DEC-08.
+- `PROJECT_STATE.md` passou a indicar a DEC-08 como aprovada pelo usuário, com registro oficial e sincronização ainda em andamento.
+- A proposta `Aprovar Conteúdo` foi removida do catálogo por representar decisão humana e comando, não autoridade autônoma de Skill.
+- As propostas `Revisar Informações da OpenAI`, `Fechar Módulo` e `Fechar Formação` foram renomeadas para `Verificar Informações da OpenAI`, `Validar Conclusão de Módulo` e `Validar Conclusão de Formação`.
+- O catálogo foi renumerado antes do registro definitivo, resultando em nove identificadores contínuos.
+
+### Em andamento
+
+- Registro integral da DEC-08 em `docs/DECISOES.md`.
+- Atualização da LEA-111 com decisões, critérios e evidências.
+- Verificação final da sincronização entre GitHub e Linear.
+
+### Preservado
+
+- A LEA-111 / DEC-08 permanece como único item estrutural em andamento.
+- A LEA-112 / DEC-09 permanece no Backlog e não foi iniciada.
+- As Skills aprovadas ainda não estão ativas até a conclusão do registro e da sincronização.
+- Nenhum conteúdo pedagógico foi iniciado.
+- Nenhuma Formação, Módulo, Aula, Milestone pedagógica, Issue pedagógica ou Sub-issue pedagógica foi criada.
+- Nenhuma publicação externa de conteúdo pedagógico foi realizada.
+
 ## 2026-07-23
 
 ### Adicionado
