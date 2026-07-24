@@ -7,7 +7,7 @@
 - **Status geral:** em produção
 - **Conteúdo didático:** ainda não iniciado
 - **Repositório:** identidade, licenciamento, estrutura pedagógica, níveis de autonomia, fluxo de aprovação, arquitetura documental, estrutura operacional do Linear, padrão editorial das Aulas e catálogo oficial de Skills registrados
-- **Linear:** LEA-104 a LEA-111 concluídas; LEA-112 permanece no Backlog
+- **Linear:** LEA-104 a LEA-111 concluídas; LEA-112 em andamento
 
 ## Estrutura pedagógica aprovada
 
@@ -34,10 +34,10 @@ Aula = Sub-issue
 ## Estado estrutural oficial
 
 - **Último item concluído:** LEA-111 — DEC-08: Projetar catálogo de Skills do projeto
-- **Item estrutural em andamento:** nenhum
-- **Status:** DEC-08 aprovada, registrada, validada e sincronizada
-- **Objetivo atual:** preservar o estado concluído e aguardar autorização específica para iniciar a DEC-09
-- **Próximo item:** LEA-112 — DEC-09: Redigir instrução definitiva do Projeto ChatGPT
+- **Item estrutural em andamento:** LEA-112 — DEC-09: Redigir instrução definitiva do Projeto ChatGPT
+- **Status:** In Progress
+- **Objetivo atual:** definir, redigir, revisar e aprovar a instrução definitiva do Projeto ChatGPT, consolidando as decisões estruturais já aprovadas sem conflitos
+- **Próximo item após a conclusão:** LEA-113 — DEC-10: Revisar e aprovar a governança inicial
 
 ## Resultado da DEC-01
 
@@ -131,15 +131,31 @@ SKILL-009 — Validar Conclusão de Formação
 
 A antiga proposta `Aprovar Conteúdo` foi removida porque aprovação permanece decisão humana expressa pelos comandos oficiais.
 
-A conclusão da DEC-08 não ativa automaticamente as Skills e não inicia a DEC-09.
+A conclusão da DEC-08 não ativa automaticamente as Skills.
 
-## Decisão atual
+## Decisão atual — DEC-09
 
-Nenhuma decisão estrutural está em andamento.
+A LEA-112 / DEC-09 é o único item estrutural em andamento.
 
-A LEA-111 / DEC-08 foi concluída após aprovação, registro, validação dos critérios de aceitação e sincronização entre GitHub e Linear.
+### Objetivo
 
-A LEA-112 / DEC-09 permanece no Backlog e somente poderá ser iniciada mediante o fluxo oficial de transição e nova autorização aplicável.
+Redigir e aprovar a instrução definitiva do Projeto ChatGPT, consolidando as decisões aprovadas em uma instrução curta, objetiva, aplicável e sem conflitos.
+
+### Primeiro objetivo decisório
+
+Definir a finalidade, o alcance e os requisitos obrigatórios da instrução definitiva antes de redigir sua versão consolidada.
+
+### Fontes obrigatórias
+
+1. `docs/CONSTITUICAO_DO_PROJETO.md`;
+2. `PROJECT_STATE.md`;
+3. `docs/DECISOES.md`;
+4. `docs/SKILLS.md`;
+5. `ROADMAP.md`;
+6. LEA-112 e registros relacionados no Linear;
+7. conversa atual.
+
+Nenhuma escolha da DEC-09 foi aprovada pelo início da issue.
 
 ## Sequência obrigatória da LEA-103
 
@@ -160,9 +176,9 @@ DEC-07 — concluída
     ↓
 DEC-08 — concluída
     ↓
-DEC-09 — próxima, ainda não iniciada
+DEC-09 — em andamento
     ↓
-DEC-10
+DEC-10 — próxima após a conclusão da DEC-09
     ↓
 Concluir LEA-103
     ↓
@@ -171,18 +187,18 @@ Retomar LEA-114 — Universo Didático
 
 ## Bloqueios
 
-- **DEC-09:** não possui bloqueio impeditivo conhecido, mas permanece não iniciada até autorização de transição.
+- **DEC-09:** sem bloqueio impeditivo conhecido.
 - **DEC-10:** depende da conclusão da DEC-09.
 - **LEA-114 / Universo Didático:** bloqueada pela conclusão da LEA-103.
 
 ## Regra de avanço
 
-A conclusão da DEC-08 não inicia automaticamente a DEC-09. A transição para a LEA-112 exige `[INICIAR PRÓXIMA DECISÃO]`, validação do estado oficial e nova autorização para alterações externas.
+A DEC-10 não poderá ser iniciada apenas porque um texto da DEC-09 foi produzido ou aprovado na conversa. A LEA-112 deverá ser aprovada, registrada, sincronizada e formalmente concluída antes da transição.
 
 ## Última sincronização
 
 - **Data:** 2026-07-24
-- **GitHub:** `docs/DECISOES.md`, `docs/SKILLS.md`, `PROJECT_STATE.md` e `CHANGELOG.md` registram o resultado aprovado da DEC-08.
-- **Linear:** LEA-111 concluída após atualização dos critérios e evidências; LEA-112 permanece no Backlog.
-- **Estado estrutural:** nenhum item estrutural em andamento; DEC-09 confirmada como próxima decisão.
-- **Integridade:** nove Skills aprovadas como catálogo inicial, sem ativação automática; nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado.
+- **GitHub:** Constituição, `PROJECT_STATE.md` e `ROADMAP.md` atualizados para o início da DEC-09.
+- **Linear:** LEA-112 em `In Progress`; LEA-111 permanece concluída; LEA-113 permanece no Backlog.
+- **Estado estrutural:** DEC-09 é o único item estrutural em andamento.
+- **Integridade:** nenhum conteúdo pedagógico, diretório futuro, placeholder, Milestone, Issue pedagógica ou Sub-issue pedagógica foi criado; nenhuma publicação externa foi realizada.
